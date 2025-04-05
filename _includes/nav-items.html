@@ -1,0 +1,8 @@
+<div class="nav-items">
+  {% if page.lang == "pt" or page.lang == nil %}
+    <a class="nav-item" href="{{ '/sobre/' | relative_url }}">Sobre</a>
+  {% endif %}
+  {% if page.lang == "en" %}
+    <a class="nav-item" href="{{ '/about/' | relative_url }}">About</a>
+  {% endif %}
+</div>

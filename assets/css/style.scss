@@ -1,0 +1,119 @@
+@import "minima";
+@import "custom/custom";
+/* Estilos para o tema escuro */
+
+body {
+  background-color: #121212; /* Preto bem escuro */
+  color: #F0F0F0; /* Branco acinzentado */
+}
+
+a {
+  color: #BB86FC; /* Roxo claro (cor de destaque) */
+}
+
+a:hover {
+  color: #D1A3FF; /* Roxo mais claro ao passar o mouse */
+}
+
+.site-header {
+  background-color: #1E1E1E; /* Cinza escuro para o cabeçalho */
+  border-bottom: 1px solid #333;
+}
+
+.site-title {
+  color: #F0F0F0;
+}
+
+.site-nav .page-link {
+  color: #F0F0F0;
+}
+
+.site-nav .page-link:hover {
+  color: #BB86FC;
+}
+
+.post-header {
+  h1.post-title {
+    color: #F0F0F0;
+  }
+}
+
+.post-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #F0F0F0;
+  }
+
+  p, li {
+    color: #E0E0E0;
+  }
+
+  blockquote {
+    color: #D0D0D0;
+    border-left-color: #555;
+  }
+
+  pre {
+    background-color: #2E2E2E;
+    color: #CCC;
+    border: 1px solid #444;
+  }
+
+  code {
+    background-color: #2E2E2E;
+    color: #CCC;
+  }
+}
+
+.pagination {
+  .prev-page, .next-page {
+    a {
+      color: #BB86FC;
+    }
+  }
+}
+
+.site-footer {
+  background-color: #1E1E1E;
+  color: #A0A0A0;
+  border-top: 1px solid #333;
+}
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap; /* Evita que os links quebrem para a próxima linha */
+  align-items: center; /* Alinha verticalmente os itens */
+}
+
+.site-nav a {
+  display: inline-block;
+  margin-left: 10px; /* Adiciona um pequeno espaço entre os links */
+}
+
+#nav-trigger{
+  display: none;
+}
+
+.site-footer .wrapper .footer-col-wrapper {
+  display: flex; /* Habilita o flexbox para os filhos */
+  flex-direction: row; /* Garante que os itens fiquem em linha horizontal */
+  align-items: flex-start; /* Alinha verticalmente os itens ao topo */
+  justify-content: space-between; /* Opcional: Espalha os itens ao longo da linha */
+}
+
+.site-footer .wrapper .social-links {
+  order: 2;
+  text-align: left;
+  vertical-align: top;
+}
+
+.site-footer .wrapper .footer-col-3 {
+  order: 3;
+  text-align: left;
+  vertical-align: top;
+}
+
+.site-footer .wrapper .footer-col-1 {
+  order: 1;
+  text-align: left;
+  vertical-align: top;
+}

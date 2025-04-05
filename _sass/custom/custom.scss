@@ -1,0 +1,24 @@
+.language-selector {
+    margin-left: auto; /* Mantemos isso para tentar empurrar o máximo para a direita */
+    /* Adicione mais margem à esquerda para dar mais espaço */
+    margin-left: 20px; /* Experimente este valor, ajuste se necessário */
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    /* Adicione padding para espaço interno */
+    padding: 5px 10px; /* 5px de padding em cima e embaixo, 10px nas laterais */
+    /* Opcional: adicione uma borda para visualizar a caixa */
+    /* border: 1px solid #555; */
+  }
+  
+  .language-selector p {
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 0.9em;
+  }
+  
+  .language-selector a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+  }

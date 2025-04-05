@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {{ site.title }}
+        <ul class="contact-list">
+          {% if site.author %}
+            <li>{{ site.author | escape }}</li>
+          {% endif %}
+          {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <div class="social-links">
+        {% include social.html %}
+      </div>
+      <div class="footer-col footer-col-3">
+        {% if page.lang == 'en' %}
+          {% assign about_page = site.pages | where: "path", "en/about.md" | first %}
+          {% if about_page %}
+            {{ about_page.content | split: "</p>" | first | strip_html | truncatewords: 30 }}...
+          {% endif %}
+        {% else %}
+          {% assign about_page = site.pages | where: "path", "about.md" | first %}
+          {% if about_page %}
+            {{ about_page.content | split: "</p>" | first | strip_html | truncatewords: 30 }}...
+          {% endif %}
+        {% endif %}
+      </div>
+  
+    </div>
+  </footer>
