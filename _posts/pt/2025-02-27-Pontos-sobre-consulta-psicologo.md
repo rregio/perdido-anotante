@@ -10,9 +10,9 @@ Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotaç�
 
 E nesse dia em específico falavamos sobre dificuldades e me perguntei se poderia ter algum problema psicológico como autismo, e ele pediu para anotar coisas que lembrasse que tive dificuldades quando criança... Não lembrei de muitas, mas segue o que anotei:
 
-* andar de bicicleta (consegui andar acima de 15 anos)
-* amarrar cadarço (não lembro ao certo com quantos anos, mas demorei)
-* algumas manias ainda não larguei como comer minhas próprias caquinhas como até hoje coçar machucados a fim de tirar a casquinha Essas foram as que lembrei e faço até hoje
-* demorei para parar de fazer xixi na cama (parei acima dos 20 anos)
+_ andar de bicicleta (consegui andar acima de 15 anos)
+_ amarrar cadarço (não lembro ao certo com quantos anos, mas demorei)
+_ algumas manias ainda não larguei como comer minhas próprias caquinhas como até hoje coçar machucados a fim de tirar a casquinha Essas foram as que lembrei e faço até hoje
+_ demorei para parar de fazer xixi na cama (parei acima dos 20 anos)
 
 Enfim, tudo isso são as coisas que lembrei e contei a ele... Ele falou que pode ser sentimentos para chamar atenção... Será??
