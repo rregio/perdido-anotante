@@ -118,6 +118,8 @@ a:hover {
   vertical-align: top;
 }
 
+.hamburger-menu{display: none;}
+
 /* Estilos para telas menores (celulares) */
 @media screen and (max-width: 600px) {
   .site-nav{ // é onde está escrito menu
@@ -167,5 +169,11 @@ a:hover {
     padding: 10px 20px; /* Exemplo de espaçamento */
     color: #F0F0F0;
     text-decoration: none;
+  }
+  .social-links{
+    display: none;
+  }
+  .footer-col-3{
+    display: flex;
   }
 }
