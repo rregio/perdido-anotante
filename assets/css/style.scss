@@ -90,7 +90,7 @@ a:hover {
 }
 
 #nav-trigger{
-  display: none;
+  display: none; /* Esconde o checkbox por padrão em telas maiores */
 }
 
 .site-footer .wrapper .footer-col-wrapper {
@@ -116,4 +116,56 @@ a:hover {
   order: 1;
   text-align: left;
   vertical-align: top;
+}
+
+/* Estilos para telas menores (celulares) */
+@media screen and (max-width: 600px) {
+  .site-nav{ // é onde está escrito menu
+    display: none;
+    background-color: #1E1E1E;
+  }
+  .hamburger-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px; /* Ajustei a altura para melhor visualização */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101; /* Para ficar acima do menu */
+  }
+  
+  .hamburger-menu .line {
+    width: 100%;
+    height: 2px;
+    background-color: #F0F0F0; /* Cor das linhas */
+    transition: all 0.3s ease-in-out;
+  }
+  .js-site-nav {
+    display: none; /* Oculta o menu por padrão */
+  }
+  
+  .js-site-nav.open {
+    display: flex; /* Ou o display que você preferir: block, flex, grid, etc. */
+    flex-direction: column; /* Para os itens ficarem em coluna */
+    width: 100%; /* Ocupar a largura toda */
+    position: absolute; /* Para cobrir o conteúdo abaixo */
+    top: 60px; /* Ajuste para não sobrepor o cabeçalho (se necessário) */
+    left: 0;
+    background-color: #1E1E1E; /* Garante a cor de fundo */
+    z-index: 100; /* Para ficar acima de outros elementos */
+    align-items: flex-start; /* Alinhar os itens à esquerda */
+    padding-top: 20px; /* Espaçamento no topo do menu */
+  }
+  
+  .js-site-nav.open .site-nav-item { /* Estilo para os itens do menu quando aberto, se precisar */
+    padding: 10px 20px; /* Exemplo de espaçamento */
+    color: #F0F0F0;
+    text-decoration: none;
+  }
 }
