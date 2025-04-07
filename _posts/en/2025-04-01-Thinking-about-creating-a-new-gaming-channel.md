@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking about creating a new Youtube gaming channel
-date: 
+date: 2025-04-01 13:02:00 
 categories: ["gaming","youtube","channel","community","thoughts"]
 ---
 
