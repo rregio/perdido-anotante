@@ -2,11 +2,11 @@
 layout: post
 title: Pensando em criar um novo canal de games 
 date: 2025-04-01 13:02:00
-categories: [game,youtube,canal,comunidade,pensando]
+categories: [game]
 lang: pt
 ---
 
-Como falei em algum dos posts anteriores acho que o [Mais sobre mim](./2025-04-04-mais-sobre-mim.md) recentemente apaguei um canal de games do Youtube que tinha pouco mais de 1000 inscritos (cerca de 1025) esse texto abaixo era de um momento bem recente depois que apaguei.
+Como falei em algum dos posts anteriores acho que o [Mais sobre mim]({{ site.baseurl }}/sobre/2025/04/04/Mais-sobre-mim.html) recentemente apaguei um canal de games do Youtube que tinha pouco mais de 1000 inscritos (cerca de 1025) esse texto abaixo era de um momento bem recente depois que apaguei.
 
 E depois fiquei pensando se criava outro e abaixo uma breve descrição de como estava pensando em criar o novo canal. E estava pensando em "quadros" para uma semana.
 
