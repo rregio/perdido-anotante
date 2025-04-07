@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading and thoughts on the book Steal like an artist
-date: 2025-04-04 23:01:00
+date: 2025-02-28 23:01:00
 categories: [readings]
 lang: en
 ---
