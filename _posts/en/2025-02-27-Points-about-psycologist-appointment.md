@@ -16,3 +16,5 @@ And on that specific day, we were talking about difficulties and I wondered if I
 * It took me a while to stop wetting the bed (I stopped when I was over 20)
 
 Anyway, these are all the things I remembered and told him... He said it could be feelings to get attention... Really??
+
+Back to the posts [here]({{ site.baseurl }}/en/index.html)

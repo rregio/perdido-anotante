@@ -41,3 +41,5 @@ And in my note I wrote a "IS THAT EXPLAINED?" very big... and I continue saying:
 In short, whoever does something colossal wrong and shows remorse seems to have total support from society and whoever has a personal defect seems to have no support at all.
 
 And so we end this note.
+
+Back to the posts [here]({{ site.baseurl }}/en/index.html)
