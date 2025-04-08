@@ -2,7 +2,7 @@
 layout: post
 title: Fazendo coisas diferentes 
 date: 2025-04-03 10:41:00
-categories: [psicólogo]
+categories: [psicologo]
 lang: pt
 ---
 E essa anotação foi uma recomendação do psicólogo, onde ele pediu para eu fazer coisas que normalmente não faço... Como cozinhar, e ele me deu algumas recomendações.
