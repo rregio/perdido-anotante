@@ -21,5 +21,3 @@ Then, my professor decided to give me a boost and hired me as a Junior programme
 I finished college and went to another one, this time in Computer Engineering, in 2020. I passed the entrance exam and shortly after I got another job, closer to home... It took me less than an hour to get there, but, to my dismay, I still had trouble sleeping, I didn't fit in at work and I was fired (I was already kind of crazy because I couldn't get it right, I felt useless).
 
 After that, a short time later, I dropped out of college to study Engineering... Recently, a while ago (on 12/25/2023), I created a YouTube channel for gameplays. It was focused on Fortnite (by choice of the guys). I tried to bring some different games, but I only got criticism. Result: I deleted the channel. I already had over 1000 subscribers, almost monetizing... But, damn, mentally I was in a hole and gave up on everything. Now I'm here, a little lost, wanting to find myself again... So, do you guys want to follow me on this?
-
-Back to the posts [here]({{ site.baseurl }}/en/index.html)

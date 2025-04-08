@@ -17,5 +17,3 @@ And there I said that he was always treated differently, and even my father conf
 And in my notebook after writing this, I had a crying fit and what I wanted to say here is that there may be something related to this, but if there is, it could be from something very old.
 
 And that's today's note, thanks and I'm off.
-
-Back to the posts [here]({{ site.baseurl }}/en/index.html)

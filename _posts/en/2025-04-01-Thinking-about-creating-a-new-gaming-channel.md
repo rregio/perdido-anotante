@@ -26,5 +26,3 @@ This gaming community is strange, very addicted and competitive, and to have a f
 And personally, I prefer to play more in my own corner, quietly, enjoying, testing, watching other games (while the community just waits for a game).
 
 Anyway, these were the reasons I decided not to make a gaming channel... for now at least.
-
-Back to the posts [here]({{ site.baseurl }}/en/index.html)

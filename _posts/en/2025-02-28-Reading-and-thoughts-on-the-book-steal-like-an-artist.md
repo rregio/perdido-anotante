@@ -25,5 +25,3 @@ Do I give up on things easily?? I don't think that's true, but could it be??
 And what about the shyness to share these works (even if they're good)??
 
 Anyway, I enjoyed the book and I'm currently looking to read and take notes...
-
-Back to the posts [here]({{ site.baseurl }}/en/index.html)

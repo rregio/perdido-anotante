@@ -13,6 +13,9 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
+        {% if page.lang == 'en' %}
+  <p>Back to the posts <a href="{{ site.baseurl }}/en/">here</a></p>
+{% endif %}<!-- Colocar aqui um código para saber se a url tem site.baseurl/en/ -->
       </div>
     </main>
 
