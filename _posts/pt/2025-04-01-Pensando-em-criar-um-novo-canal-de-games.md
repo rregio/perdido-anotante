@@ -8,6 +8,8 @@ lang: pt
 
 Como falei em algum dos posts anteriores acho que o [Mais sobre mim]({{ site.baseurl }}/sobre/2025/04/04/Mais-sobre-mim.html) recentemente apaguei um canal de games do Youtube que tinha pouco mais de 1000 inscritos (cerca de 1025) esse texto abaixo era de um momento bem recente depois que apaguei.
 
+![Estive pensando em criar um canal de games](/assets/imagens/pensando-em-criar-canal-de-games.jpeg)
+
 E depois fiquei pensando se criava outro e abaixo uma breve descrição de como estava pensando em criar o novo canal. E estava pensando em "quadros" para uma semana.
 
 E segue algumas descrições de como seriam esses quadros:

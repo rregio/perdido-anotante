@@ -7,6 +7,8 @@ lang: en
 ---
 And this note was a recommendation from the psychologist, where he asked me to do things that I don't normally do... Like cooking, and he gave me some recommendations.
 
+![Doing different things](/assets/imagens/fazendo-coisas-diferentes.jpeg)
+
 And yesterday, April 2nd, I did some things that I had never done before... and they were in the kitchen... Very simple things, and it's amazing how simple things motivate us...
 
 I couldn't do exactly as he suggested, he asked me to do things completely without outside help and if possible without anyone at home, which unfortunately I couldn't do because my mother refused to leave the house, so I just asked for advice on how to do it the way she normally does.

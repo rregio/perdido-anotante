@@ -8,6 +8,8 @@ lang: pt
 
 E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
 
+![Mais sobre mim](/assets/imagens/mais-sobre-mim.png)
+
 Antes de mais nada, queria explicar que esse blog vai ser tipo um caderno de anotações meu, sabe? Peguei um caderninho pra anotar de tudo, e aqui vou passar essas anotações a limpo.
 
 Mas antes de começar a anotar qualquer coisa, queria compartilhar um pouco mais sobre mim... Pra vocês entenderem a parada toda:

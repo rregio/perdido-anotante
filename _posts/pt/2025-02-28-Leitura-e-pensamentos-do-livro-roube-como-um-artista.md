@@ -8,6 +8,8 @@ lang: pt
 
 Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que achei do livro.
 
+![Roubando como um artista](/assets/imagens/li-o-livro-roube-como-um-artista.jpeg)
+
 O livro é bom e nos incentiva a melhorar nossas habilidades e que devemos imitar algo para poder produzir algo... Quando começamos a por exemplo programar, vamos fazendo e tentando imitar o código dos melhores, sempre lendo e se atualizando. Como dizem "Nada se cria, tudo se copia" e isso faz sentido.
 
 Ele nos incentiva ainda a fazer o que gostamos para que a tarefa que queremos imitar não torne chata... Como uma fan fiction para os escritores. Enquanto lia isso me fez pensar que não tenho nenhum gosto em particular além de games e poucas músicas. Ou seja pouca coisa pra se inspirar.

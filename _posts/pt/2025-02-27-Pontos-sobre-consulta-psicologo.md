@@ -8,6 +8,8 @@ lang: pt
 
 Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que decidi anotar tudo.
 
+![Dificuldades quando criança](/assets/imagens/dificuldades-da-infancia.jpeg)
+
 E nesse dia em específico falavamos sobre dificuldades e me perguntei se poderia ter algum problema psicológico como autismo, e ele pediu para anotar coisas que lembrasse que tive dificuldades quando criança... Não lembrei de muitas, mas segue o que anotei:
 
 * andar de bicicleta (consegui andar acima de 15 anos)

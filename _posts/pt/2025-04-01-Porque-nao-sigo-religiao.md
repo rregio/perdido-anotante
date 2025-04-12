@@ -8,13 +8,9 @@ lang: pt
 
 E esse é um post falando o porque eu não sigo religião... Na verdade essa anotação foi feita após discutir com minha mãe sobre religião. E eu disse (e acho que realmente foi) quando minha madrinha disse algo parecido com isso "O reino dos céus não aceitam pessoas tímidas" e aí eu fiquei confabulando isto:
 
-Deus resolve acabar com o mundo agora e eu com todos vamos ao purgatório. Quando um dos anjos dos portões dos céus pergunta á algumas pessoas próximas a mim:
+![Porquê não sigo religião?](/assets/imagens/porque-nao-sigo-religioes.jpeg)
 
-<p>
-  <img src="https://blogs.correiobraziliense.com.br/aricunha/wp-content/uploads/sites/13/2022/10/Capturar-550x315.png" alt="misturando poder com religião">
-  <br>
-  <small>Imagem retirada da internet, mais precisamente do blog do Correio Braziliense.</small>
-</p>
+Deus resolve acabar com o mundo agora e eu com todos vamos ao purgatório. Quando um dos anjos dos portões dos céus pergunta á algumas pessoas próximas a mim:
 
 _ O que você fez na vida?
 

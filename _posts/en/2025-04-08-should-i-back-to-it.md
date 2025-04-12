@@ -8,6 +8,8 @@ lang: en
 
 These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And it starts like this:
 
+![Should I go back to IT??](/assets/imagens/sera-que-volto-pra-ti.jpeg)
+
 Yesterday, April 3rd, I thought about going back and trying to get a job in IT again, and I spent the whole afternoon watching videos related to programming.
 
 (I'm writing this section now, it's being vomited directly from my head right now as I transcribe my post for the blog)

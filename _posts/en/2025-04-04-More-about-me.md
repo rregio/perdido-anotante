@@ -8,6 +8,8 @@ lang: en
 
 Hey guys! To start off, this is my first post here at "Perdido Anotante".
 
+![More about me](/assets/imagens/mais-sobre-mim.png)
+
 First of all, I wanted to explain that this blog will be like my notebook, you know? I got a little notebook to write down everything, and here I'm going to write down those notes.
 
 But before I start writing anything down, I wanted to share a little bit more about myself... So you can understand the whole thing:

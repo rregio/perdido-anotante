@@ -8,6 +8,8 @@ lang: en
 
 A while ago I read the book Steal Like an Artist and here are some points of what I thought of the book.
 
+![Stealing like an artist](/assets/imagens/li-o-livro-roube-como-um-artista.jpeg)
+
 The book is good and encourages us to improve our skills and that we should imitate something in order to produce something... When we start programming, for example, we do and try to imitate the code of the best, always reading and updating ourselves. As they say, "Nothing is created, everything is copied" and that makes sense.
 
 It also encourages us to do what we like so that the task we want to imitate doesn't become boring... Like fan fiction for writers. While I was reading it, it made me think that I don't have any particular tastes other than games and a few songs. In other words, there is little to inspire me.

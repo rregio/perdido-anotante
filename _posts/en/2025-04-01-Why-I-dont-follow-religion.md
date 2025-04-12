@@ -10,11 +10,7 @@ And this is a post talking about why I don't follow religion... Actually, this n
 
 God decides to end the world now and I and everyone else will go to purgatory. When one of the angels at the gates of heaven asks some people close to me:
 
-<p>
-<img src="https://blogs.correiobraziliense.com.br/aricunha/wp-content/uploads/sites/13/2022/10/Capturar-550x315.png" alt="mixing power with religion">
-<br>
-<small>Image taken from the internet, more precisely from the Correio Braziliense blog. And on pictures one of the angels says to the other that we are mixing power with religion.</small>
-</p>
+![Porquê não sigo religião?](/assets/imagens/porque-nao-sigo-religioes.jpeg)
 
 _What have you done in life?
 

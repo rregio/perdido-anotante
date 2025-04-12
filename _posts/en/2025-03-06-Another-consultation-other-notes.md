@@ -8,6 +8,8 @@ lang: en
 
 I was thinking about whether to post about this consultation and the note because it is something very personal... But here goes...
 
+![Another consultation, other notes](/assets/imagens/outra-consulta-outras-anotacoes.jpeg)
+
 About this consultation, the doctor mentioned my relationship with my brother and he said something about jealousy or envy of him.
 
 In the consultation, he had said that my brother is more "free"... I don't know if I'll be able to explain it here... And there I said that I don't remember having been jealous or envy of him...

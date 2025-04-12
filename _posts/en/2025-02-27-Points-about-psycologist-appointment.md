@@ -8,6 +8,8 @@ lang: en
 
 As I said, I'll post everything here... and this was one of my first notes since I decided to write everything down.
 
+![Dificulties as a child](/assets/imagens/dificuldades-da-infancia.jpeg)
+
 And on that specific day, we were talking about difficulties and I wondered if I could have some psychological problem like autism, and he asked me to write down things that I remembered that I had difficulties with as a child... I didn't remember many, but here's what I wrote down:
 
 * riding a bike (I was able to ride when I was over 15)

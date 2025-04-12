@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Outra consulta outras anotações
+title: Outra consulta, outras anotações
 date: 2025-03-06 23:01:00
 categories: [psicologo]
 lang: pt
 ---
 
 Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito pessoal... Mas vamos lá...
+
+![Outra consulta, outras anotações](/assets/imagens/outra-consulta-outras-anotacoes.jpeg)
 
 Sobre essa consulta o Dr citou sobre meu relacionamento com meu irmão e ele falou algo sobre ciumes ou inveja dele.
 

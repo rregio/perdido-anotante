@@ -7,6 +7,8 @@ lang: pt
 ---
 E essa anotação foi uma recomendação do psicólogo, onde ele pediu para eu fazer coisas que normalmente não faço... Como cozinhar, e ele me deu algumas recomendações.
 
+![Fazendo coisas diferentes, na cozinha](/assets/imagens/fazendo-coisas-diferentes.jpeg)
+
 E Ontem dia 02 de Abril fiz algumas coisas que nunca havia feito... e foram na cozinha... Coisas muito simples, e é impressionante como coisas simples nos motivam...
 
 Não consegui fazer exatamente como ele me sugeriu, ele pediu para eu fazer coisas totalmente sem ajudas exteriores e se possível sem ninguém em casa o que infelizmente não consegui fazer pois minha mãe se recusou a sair de casa, então eu só pedia conselhos de como fazer da forma que ela faz normalmente.
