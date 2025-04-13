@@ -20,7 +20,7 @@ Mu Online - Acho que esse foi um dos primeiros MMORPGs com que tive contato, e e
 
 CS (Counter-Strike) - Ah, esse é o jogo que ajudou a criar muitas lan houses, noites de corujão com a galera, mapa do Rio de Janeiro (acho que era a versão 1.6) com músicas clássicas como "Meu vizinho jogou..." Nem sei se era esse o nome real da música do Bezerra da Silva... Gostava de jogar com bots, por ser ruim, kkkk.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lfkdny98UsE?si=YT1UudySO2x8n2_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe src="https://www.youtube.com/embed/Lfkdny98UsE?si=YT1UudySO2x8n2_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 <br><br>
 The Sims - E agora o que acho que é o mais famoso dessa lista (ao menos, o que com certeza é o que passei mais tempo jogando), embora eu tenha jogado pouco a sua primeira versão.Mas a partir da segunda já passei muito tempo jogando... A segunda versão é a melhor, e da terceira também gostei muito (das mais atualizadas). E sua versão mais  recente (a 4) eu gosto e jogo muito quando jogo, mas não tanto quanto a segunda e terceira versões. Entre a 3 e a 4, com certeza prefiro a 4 por termos uma maior liberdade para andar pela cidade, o que as versões 1, 2 e 4 não nos permitem muito. A terceira versão parece não ter caído muito no gosto do pessoal, mas é a melhor versão na minha opinião.
 

@@ -181,13 +181,22 @@ a:hover {
   .footer-col-3 {
     display: flex;
   }
+  iframe {
+    max-width: 350px; /* Define uma largura máxima para telas menores (ajuste este valor) */
+    height: auto; /* A altura se ajusta automaticamente mantendo a proporção */
+    margin-left: auto; /* Centraliza o iframe horizontalmente em telas menores */
+    margin-right: auto;
+  }
 }
 
-iframe{
+iframe {
   display: block;
+  width: 500px;
+  height: 315px;
   margin-left: auto;
   margin-right: auto;
 }
+
 img{
   display: block;
   width: 50%;
