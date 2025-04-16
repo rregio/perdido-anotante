@@ -24,7 +24,7 @@ lang: en
   <div class="post-grid">
     {% assign english_posts = site.posts | where: "lang", "en" %}
     {% for post in english_posts %}
-      <div class="post-block">
+      <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
         {% if post.header_image %}
           <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}">
         {% endif %}
