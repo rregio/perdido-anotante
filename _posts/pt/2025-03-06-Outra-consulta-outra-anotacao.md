@@ -4,6 +4,8 @@ title: Outra consulta, outras anotações
 date: 2025-03-06 23:01:00
 categories: [psicologo]
 lang: pt
+header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg
+excerpt: Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito p...
 ---
 
 Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito pessoal... Mas vamos lá...

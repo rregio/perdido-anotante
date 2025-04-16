@@ -4,6 +4,8 @@ title: Reading and thoughts on the book Steal like an artist
 date: 2025-02-28 23:01:00
 categories: [readings]
 lang: en
+header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
+excerpt: A while ago I read the book Steal Like an Artist and here are some points of what I thought of th...
 ---
 
 A while ago I read the book Steal Like an Artist and here are some points of what I thought of the book.

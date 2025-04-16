@@ -9,7 +9,8 @@ lang: en
 <div class="category-list-container">
   <strong>Categories:</strong>
   <div class="category-list">
-    <a href="#" data-category="all" class="active">All</a>, {% for category in site.categories %}
+    <a href="#" data-category="all" class="active">All</a>,
+    {% for category in site.categories %}
       {% assign posts_in_en = category.last | where: "lang", "en" %}
       {% if posts_in_en.size > 0 and category.first != nil %}
         {% unless forloop.first %}, {% endunless %}
@@ -20,19 +21,22 @@ lang: en
 </div>
 
 <ul class="post-list">
-  {% for post in site.posts %}
-    {% if post.lang == 'en' %}
-      <li data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
-        <span class="post-meta">{{ post.date | date: "%Y %b %-d" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {% if post.excerpt %}
-          {{ post.excerpt }}
+  <div class="post-grid">
+    {% assign english_posts = site.posts | where: "lang", "en" %}
+    {% for post in english_posts %}
+      <div class="post-block">
+        {% if post.header_image %}
+          <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}">
         {% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
+        <h3 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+        <a class="post-link" href="{{ post.url | relative_url }}">Leia mais</a>
+      </div>
+    {% endfor %}
+  </div>
 </ul>

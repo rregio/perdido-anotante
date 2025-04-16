@@ -4,6 +4,8 @@ title: Porque eu não sigo religião?
 date: 2025-04-01 13:03:00
 categories: [religiao]
 lang: pt
+header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg
+excerpt: E esse é um post falando o porque eu não sigo religião... Na verdade essa anotação foi feita apó...
 ---
 
 E esse é um post falando o porque eu não sigo religião... Na verdade essa anotação foi feita após discutir com minha mãe sobre religião. E eu disse (e acho que realmente foi) quando minha madrinha disse algo parecido com isso "O reino dos céus não aceitam pessoas tímidas" e aí eu fiquei confabulando isto:

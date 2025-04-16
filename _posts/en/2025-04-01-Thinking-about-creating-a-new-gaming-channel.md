@@ -4,9 +4,11 @@ title: Thinking about creating a new gaming channel
 date: 2025-04-01 13:02:00 
 categories: ["gaming"]
 lang: en
+header_image: /assets/imagens/pensando-em-criar-canal-de-games.jpeg
+excerpt: As I mentioned in some of the previous posts, I think in More about me, I recently dele...
 ---
 
-As I mentioned in some of the previous posts, I think [More about me]({{ site.baseurl }}/about/2025/04/04/More-about-me.html), I recently deleted a gaming channel that had a little over 1000 subscribers (around 1025). These notes below were from a very recent moment after I deleted it.
+As I mentioned in some of the previous posts, I think in [More about me]({{ site.baseurl }}/about/2025/04/04/More-about-me.html), I recently deleted a gaming channel that had a little over 1000 subscribers (around 1025). These notes below were from a very recent moment after I deleted it.
 
 ![Estive pensando em criar um canal de games](/assets/imagens/pensando-em-criar-canal-de-games.jpeg)
 

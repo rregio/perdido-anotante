@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Pontos sobre uma consulta de psicólogo
+title: Dificuldades quando criança em consulta com psicólogo
 date: 2025-02-27 23:01:00
 categories: [psicologo]
 lang: pt
+header_image: /assets/imagens/dificuldades-da-infancia.jpeg
+excerpt: Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que deci..
 ---
 
 Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que decidi anotar tudo.

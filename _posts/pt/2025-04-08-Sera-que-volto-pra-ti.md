@@ -4,6 +4,8 @@ title: Será que volto pra TI??
 date: 2025-04-08 17:24:00
 categories: [profissional]
 lang: pt
+header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
+excerpt: Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou...
 ---
 
 Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou no dia 08 de Abril. E começa assim:

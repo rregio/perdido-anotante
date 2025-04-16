@@ -4,6 +4,8 @@ title: Doing different things
 date: 2025-04-03 10:41:00
 categories: [mental]
 lang: en
+header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
+excerpt: And this note was a recommendation from the psychologist, where he asked me to do things that I...
 ---
 And this note was a recommendation from the psychologist, where he asked me to do things that I don't normally do... Like cooking, and he gave me some recommendations.
 

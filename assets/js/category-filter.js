@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const categoryLinks = document.querySelectorAll('.category-list a');
-    const postListItems = document.querySelectorAll('.post-list li');
+    const postListItems = document.querySelectorAll('.post-block');
   
     categoryLinks.forEach(link => {
       link.addEventListener('click', function(event) {

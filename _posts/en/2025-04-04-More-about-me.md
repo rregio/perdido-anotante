@@ -4,6 +4,8 @@ title: More about me
 date: 2025-04-04 23:01:00
 categories: [about]
 lang: en
+header_image: /assets/imagens/mais-sobre-mim.png
+excerpt: Hey guys! To start off, this is my first post here at "Perdido Anotante".
 ---
 
 Hey guys! To start off, this is my first post here at "Perdido Anotante".

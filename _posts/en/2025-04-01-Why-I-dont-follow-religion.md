@@ -4,6 +4,8 @@ title: Why I don't follow religion?
 date: 2025-04-01 13:03:00
 categories: [religion]
 lang: en
+header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg
+excerpt: And this is a post talking about why I don't follow religion... Actually, this note was made afte
 ---
 
 And this is a post talking about why I don't follow religion... Actually, this note was made after arguing with my mother about religion. And I said (and I think it really was) when my godmother said something like this "The kingdom of heaven does not accept shy people" and then I started to think this:

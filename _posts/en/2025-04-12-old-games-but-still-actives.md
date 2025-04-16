@@ -4,6 +4,8 @@ title: Old games but still actives
 date: 2025-04-12 16:17:00
 categories: ["gaming", "old"]
 lang: en
+header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
+excerpt: I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note...
 ---
 
 I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note:

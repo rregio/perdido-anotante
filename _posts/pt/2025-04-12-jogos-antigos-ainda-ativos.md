@@ -4,6 +4,8 @@ title: Jogos antigos mas ainda ativos
 date: 2025-04-12 16:17:00
 categories: [game,antigos]
 lang: pt
+header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
+excerpt: Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação...
 ---
 
 Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação:

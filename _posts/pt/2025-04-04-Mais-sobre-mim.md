@@ -4,6 +4,8 @@ title: Mais sobre mim
 date: 2025-04-04 23:01:00
 categories: [sobre]
 lang: pt
+header_image: /assets/imagens/mais-sobre-mim.png
+excerpt: E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
 ---
 
 E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".

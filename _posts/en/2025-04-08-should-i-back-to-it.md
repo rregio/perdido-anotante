@@ -4,6 +4,8 @@ title: Should I go back to IT??
 date: 2025-04-08 17:24:00
 categories: [professional]
 lang: en
+header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
+excerpt: These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And
 ---
 
 These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And it starts like this:

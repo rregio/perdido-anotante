@@ -122,7 +122,107 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+iframe {
+  display: block;
+  width: 500px;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Estilos para o container da grade */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Cria colunas responsivas com largura mínima de 350px (ajuste conforme necessário) */
+  gap: 30px; /* Espaçamento entre os blocos (ajuste conforme necessário) */
+  margin-top: 30px; /* Margem superior para separar da seção anterior (ajuste conforme necessário) */
+}
+
+/* Estilos para cada bloco de post */
+.post-block {
+  background-color: #2c2c2c; /* Fundo branco, como no Beecrowd */
+  border-radius: 8px; /* Bordas arredondadas, similar ao Beecrowd */
+  overflow: hidden; /* Para garantir que a imagem não ultrapasse as bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil, similar ao Beecrowd */
+  padding: 5px;
+  max-width: 350px; /* Adicione esta linha */
+}
+
+/* Estilos para a imagem do post (se você estiver usando a header_image) */
+.post-block img {
+  display: block;
+  width: 100%;
+  height: 100px; /* Mantém a proporção da imagem */
+  object-fit: cover;
+  /*"max-width: auto; height: 100px;"*/
+  border-top-left-radius: 8px; /* Arredonda o canto superior esquerdo */
+  border-top-right-radius: 8px; /* Arredonda o canto superior direito */
+  margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos para o conteúdo dentro do bloco */
+.post-block-content {
+  padding: 20px; /* Espaçamento interno do conteúdo */
+}
+
+/* Estilos para o título do post */
+/* Estilos para o título do post */
+.post-block .post-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em !important; /* Experimente este valor (ou o tamanho desejado) */
+  color: #55a !important; /* Cor do título */
+}
+
+.post-block .post-title a {
+  color: inherit; /* Herda a cor do elemento pai */
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+.post-block .post-title a:hover {
+  text-decoration: underline !important; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos para a meta informação do post (data) */
+.post-block-content .post-meta {
+  display: block;
+  color: #777; /* Cor da data (similar ao Beecrowd) */
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+/* Estilos para o resumo do post */
+.post-block-content .post-excerpt {
+  color: #555; /* Cor do resumo (similar ao Beecrowd) */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o link "Leia mais" */
+.post-block-content .post-link {
+  display: inline-block;
+  background-color: #353535; /* Cor de fundo do link (similar ao Beecrowd) */
+  color: #333; /* Cor do texto do link (similar ao Beecrowd) */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave para o hover */
+}
+
+.post-block-content .post-link:hover {
+  background-color: #ddd; /* Cor de fundo do link ao passar o mouse (similar ao Beecrowd) */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
   .site-nav {
     display: none;
     background-color: #1E1E1E;
@@ -187,20 +287,7 @@ a:hover {
     margin-left: auto; /* Centraliza o iframe horizontalmente em telas menores */
     margin-right: auto;
   }
-}
-
-iframe {
-  display: block;
-  width: 500px;
-  height: 315px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img{
-  display: block;
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  .post-grid {
+    grid-template-columns: 1fr; /* Em telas menores, mostra uma coluna */
+  }
 }

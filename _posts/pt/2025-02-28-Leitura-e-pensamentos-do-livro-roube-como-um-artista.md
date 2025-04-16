@@ -4,6 +4,8 @@ title: Li o livro "Roube como um artista"
 date: 2025-02-27 23:01:00
 categories: [leituras]
 lang: pt
+header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
+excerpt: Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que...
 ---
 
 Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que achei do livro.
