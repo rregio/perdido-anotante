@@ -2,6 +2,8 @@
 @import "custom/custom";
 
 body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
   background-color: #121212;
   color: #F0F0F0;
 }
@@ -38,7 +40,9 @@ a:hover {
 }
 
 .post-content {
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, .post-title {
+    font-family: 'Railway', sans-serif;
+    font-weight: 700;
     color: #F0F0F0;
   }
 
