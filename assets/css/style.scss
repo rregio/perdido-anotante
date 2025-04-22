@@ -65,6 +65,25 @@ a:hover {
     background-color: #2E2E2E;
     color: #CCC;
   }
+
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.post-content p{
+  margin-bottom: 20px;
+}
+
+.post-content h2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.post-content h3{
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 .pagination {
@@ -316,4 +335,30 @@ img{
   .post-grid {
     grid-template-columns: 1fr; /* Em telas menores, mostra uma coluna */
   }
+  .intro-section { /* Mude de .intro-text para .intro-section */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+/* Estilos para a imagem do logo dentro da introdução */
+.intro-logo-image {
+  width: 180px; /* Ajuste a largura da imagem conforme o desejado na introdução */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 150px; /* Adiciona bordas arredondadas à imagem (ajuste o raio) */
+  flex-shrink: 0; /* Impede que a imagem diminua em espaços apertados */
+  object-fit: cover; /* Garante que a imagem cubra a área definida sem distorcer (útil se a proporção não for exata) */
+}
+
+/* Estilos para o contêiner do texto da introdução */
+.intro-text-content {
+  flex-grow: 1; /* Permite que este bloco ocupe o espaço restante */
+}
+/* Estilos para a seção de Introdução com imagem e texto lado a lado */
+.intro-section { /* Mude de .intro-text para .intro-section */
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
 }
