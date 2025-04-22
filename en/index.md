@@ -4,6 +4,12 @@ title: Home Page
 lang: en
 ---
 
+Welcome to **PerdidoAnotante**!
+
+My name is **Rodrigo**, I'm over 40 years old, and honestly, I feel a bit lost. But I've decided to document this journey, writing down everything that happens in my notebooks and sharing it here.
+
+In this space, you'll find a bit of everything: from reflections on games, my search for better mental well-being, to everyday experiences and various thoughts, and my thoughts on the books I've been reading.
+
 <h1 class="page-heading">Recently added posts</h1>
 
 <div class="category-list-container">
@@ -35,7 +41,6 @@ lang: en
         {% if post.excerpt %}
           <p class="post-excerpt">{{ post.excerpt }}</p>
         {% endif %}
-        <a class="post-link" href="{{ post.url | relative_url }}">Leia mais</a>
       </div>
     {% endfor %}
   </div>

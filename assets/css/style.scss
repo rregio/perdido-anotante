@@ -1,5 +1,5 @@
-@import "minima";
-@import "custom/custom";
+@use "minima";
+@use "custom/custom";
 
 body {
   font-family: 'Lato', sans-serif;
@@ -157,6 +157,12 @@ img{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil, similar ao Beecrowd */
   padding: 5px;
   max-width: 350px; /* Adicione esta linha */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-block:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
 }
 
 /* Estilos para a imagem do post (se você estiver usando a header_image) */
@@ -223,6 +229,22 @@ img{
 
 .post-block-content .post-link:hover {
   background-color: #ddd; /* Cor de fundo do link ao passar o mouse (similar ao Beecrowd) */
+}
+
+.post-categories {
+  margin-bottom: 10px; /* Espaço abaixo da lista de categorias e acima do resumo */
+}
+
+/* Estilos para cada categoria individual (as "tags") */
+.post-category {
+  display: inline-block; /* Para que as tags fiquem lado a lado */
+  background-color: #555; /* Cor de fundo das tags (ajuste para combinar com seu tema) */
+  color: #fff; /* Cor do texto das tags (ajuste para combinar com seu tema) */
+  padding: 3px 8px; /* Espaçamento interno das tags */
+  border-radius: 3px; /* Bordas levemente arredondadas para as tags */
+  font-size: 0.8em; /* Tamanho da fonte menor para as tags */
+  margin-right: 5px; /* Espaço entre as tags */
+  margin-bottom: 5px; /* Espaço entre as linhas de tags (se houver várias) */
 }
 
 /* Responsividade para telas menores */
