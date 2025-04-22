@@ -1,364 +1,65 @@
 @use "minima";
 @use "custom/custom";
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  background-color: #121212;
-  color: #F0F0F0;
-}
-
-a {
-  color: #BB86FC;
-}
-
-a:hover {
-  color: #D1A3FF;
-}
-
-.site-header {
-  background-color: #1E1E1E;
-  border-bottom: 1px solid #333;
-}
-
-.site-title {
-  color: white !important;
-}
-
-.site-nav .page-link {
-  color: #F0F0F0;
-}
-
-.site-nav .page-link:hover {
-  color: #BB86FC;
-}
-
-.post-header {
-  h1.post-title {
-    color: #F0F0F0;
-  }
-}
-
-.post-content {
-  h1, h2, h3, h4, h5, h6, .post-title {
-    font-family: 'Railway', sans-serif;
-    font-weight: 700;
-    color: #F0F0F0;
-  }
-
-  p, li {
-    color: #E0E0E0;
-  }
-
-  blockquote {
-    color: #D0D0D0;
-    border-left-color: #555;
-  }
-
-  pre {
-    background-color: #2E2E2E;
-    color: #CCC;
-    border: 1px solid #444;
-  }
-
-  code {
-    background-color: #2E2E2E;
-    color: #CCC;
-  }
-
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-}
-
-.post-content p{
-  margin-bottom: 20px;
-}
-
-.post-content h2{
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.post-content h3{
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.pagination {
-  .prev-page, .next-page {
-    a {
-      color: #BB86FC;
-    }
-  }
-}
-
-.site-footer {
-  background-color: #1E1E1E;
-  color: #A0A0A0;
-  border-top: 1px solid #333;
-}
-
-.site-nav {
-  display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  align-items: center;
-}
-
-.site-nav a {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-#nav-trigger {
-  display: none;
-}
-
-.site-footer .wrapper .footer-col-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.site-footer .wrapper .social-links {
-  order: 2;
-  text-align: left;
-  vertical-align: top;
-}
-
-.site-footer .wrapper .footer-col-3 {
-  order: 3;
-  text-align: left;
-  vertical-align: top;
-}
-
-.site-footer .wrapper .footer-col-1 {
-  order: 1;
-  text-align: left;
-  vertical-align: top;
-}
-
-.hamburger-menu {
-  display: none;
-}
-
-iframe {
-  display: block;
-  width: 500px;
-  height: 315px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img{
-  display: block;
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* Estilos para o container da grade */
-.post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Cria colunas responsivas com largura mínima de 350px (ajuste conforme necessário) */
-  gap: 30px; /* Espaçamento entre os blocos (ajuste conforme necessário) */
-  margin-top: 30px; /* Margem superior para separar da seção anterior (ajuste conforme necessário) */
-}
-
-/* Estilos para cada bloco de post */
-.post-block {
-  background-color: #2c2c2c; /* Fundo branco, como no Beecrowd */
-  border-radius: 8px; /* Bordas arredondadas, similar ao Beecrowd */
-  overflow: hidden; /* Para garantir que a imagem não ultrapasse as bordas arredondadas */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil, similar ao Beecrowd */
-  padding: 5px;
-  max-width: 350px; /* Adicione esta linha */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.post-block:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
-}
-
-/* Estilos para a imagem do post (se você estiver usando a header_image) */
-.post-block img {
-  display: block;
-  width: 100%;
-  height: 100px; /* Mantém a proporção da imagem */
-  object-fit: cover;
-  /*"max-width: auto; height: 100px;"*/
-  border-top-left-radius: 8px; /* Arredonda o canto superior esquerdo */
-  border-top-right-radius: 8px; /* Arredonda o canto superior direito */
-  margin-bottom: 15px; /* Espaço abaixo da imagem */
-}
-
-/* Estilos para o conteúdo dentro do bloco */
-.post-block-content {
-  padding: 20px; /* Espaçamento interno do conteúdo */
-}
-
-/* Estilos para o título do post */
-/* Estilos para o título do post */
-.post-block .post-title {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.5em !important; /* Experimente este valor (ou o tamanho desejado) */
-  color: #55a !important; /* Cor do título */
-}
-
-.post-block .post-title a {
-  color: inherit; /* Herda a cor do elemento pai */
-  text-decoration: none; /* Remove o sublinhado padrão do link */
-}
-
-.post-block .post-title a:hover {
-  text-decoration: underline !important; /* Adiciona sublinhado ao passar o mouse */
-}
-
-/* Estilos para a meta informação do post (data) */
-.post-block-content .post-meta {
-  display: block;
-  color: #777; /* Cor da data (similar ao Beecrowd) */
-  font-size: 0.9em;
-  margin-bottom: 15px;
-}
-
-/* Estilos para o resumo do post */
-.post-block-content .post-excerpt {
-  color: #555; /* Cor do resumo (similar ao Beecrowd) */
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-/* Estilos para o link "Leia mais" */
-.post-block-content .post-link {
-  display: inline-block;
-  background-color: #353535; /* Cor de fundo do link (similar ao Beecrowd) */
-  color: #333; /* Cor do texto do link (similar ao Beecrowd) */
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 0.95em;
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave para o hover */
-}
-
-.post-block-content .post-link:hover {
-  background-color: #ddd; /* Cor de fundo do link ao passar o mouse (similar ao Beecrowd) */
-}
-
-.post-categories {
-  margin-bottom: 10px; /* Espaço abaixo da lista de categorias e acima do resumo */
-}
-
-/* Estilos para cada categoria individual (as "tags") */
-.post-category {
-  display: inline-block; /* Para que as tags fiquem lado a lado */
-  background-color: #555; /* Cor de fundo das tags (ajuste para combinar com seu tema) */
-  color: #fff; /* Cor do texto das tags (ajuste para combinar com seu tema) */
-  padding: 3px 8px; /* Espaçamento interno das tags */
-  border-radius: 3px; /* Bordas levemente arredondadas para as tags */
-  font-size: 0.8em; /* Tamanho da fonte menor para as tags */
-  margin-right: 5px; /* Espaço entre as tags */
-  margin-bottom: 5px; /* Espaço entre as linhas de tags (se houver várias) */
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-  .site-nav {
-    display: none;
-    background-color: #1E1E1E;
-  }
-
-  .hamburger-menu {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 22px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    z-index: 101;
-  }
-
-  .hamburger-menu .line {
-    width: 100%;
-    height: 2px;
-    background-color: #F0F0F0;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .js-site-nav {
-    display: none;
-  }
-
-  .js-site-nav.open {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #1E1E1E;
-    z-index: 100;
-    align-items: flex-start;
-    padding-top: 20px;
-  }
-
-  .js-site-nav.open .site-nav-item {
-    padding: 10px 20px;
-    color: #F0F0F0;
-    text-decoration: none;
-  }
-
-  .social-links {
-    display: none;
-  }
-
-  .footer-col-3 {
-    display: flex;
-  }
-  iframe {
-    max-width: 350px; /* Define uma largura máxima para telas menores (ajuste este valor) */
-    height: auto; /* A altura se ajusta automaticamente mantendo a proporção */
-    margin-left: auto; /* Centraliza o iframe horizontalmente em telas menores */
-    margin-right: auto;
-  }
-  .post-grid {
-    grid-template-columns: 1fr; /* Em telas menores, mostra uma coluna */
-  }
-  .intro-section { /* Mude de .intro-text para .intro-section */
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-}
-
-/* Estilos para a imagem do logo dentro da introdução */
-.intro-logo-image {
-  width: 180px; /* Ajuste a largura da imagem conforme o desejado na introdução */
-  height: auto; /* Mantém a proporção da imagem */
-  border-radius: 150px; /* Adiciona bordas arredondadas à imagem (ajuste o raio) */
-  flex-shrink: 0; /* Impede que a imagem diminua em espaços apertados */
-  object-fit: cover; /* Garante que a imagem cubra a área definida sem distorcer (útil se a proporção não for exata) */
-}
-
-/* Estilos para o contêiner do texto da introdução */
-.intro-text-content {
-  flex-grow: 1; /* Permite que este bloco ocupe o espaço restante */
-}
-/* Estilos para a seção de Introdução com imagem e texto lado a lado */
-.intro-section { /* Mude de .intro-text para .intro-section */
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  margin-bottom: 40px;
+body{font-family:'Lato',sans-serif;font-size:1rem;background-color:#121212;color:#F0F0F0}
+a{color: #888888 !important;}
+a:hover{color: #EEEEEE !important;}
+.site-header{background-color:#1E1E1E;border-bottom:1px solid #333}
+.site-title{color:#fff!important}
+.site-nav .page-link{color:#F0F0F0}
+.site-nav .page-link:hover{color:#BB86FC}
+.post-header h1.post-title{color:#F0F0F0}
+.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6,.post-content .post-title{font-family:'Railway',sans-serif;font-weight:700;color:#F0F0F0}
+.post-content p,.post-content li{color:#E0E0E0}
+.post-content blockquote{color:#D0D0D0;border-left-color:#555}
+.post-content pre{background-color:#2E2E2E;color:#CCC;border:1px solid #444}
+.post-content code{background-color:#2E2E2E;color:#CCC}
+.post-content{max-width:700px;margin-left:auto;margin-right:auto;padding:0 20px}
+.post-content p{margin-bottom:20px}
+.post-content h2{margin-top:30px;margin-bottom:20px}
+.post-content h3{margin-top:25px;margin-bottom:15px}
+.post-content blockquote{color: #d0d0d0;border-left: 4px solid #BB86FC;padding-left: 20px;font-style: italic;margin-left: 0;margin-right: 0;}
+.post-content pre{background-color: #2E2E2E;color: #CCC;border: 1px solid #444;padding: 15px;overflow-x: auto;white-space: pre-wrap;word-wrap: break-word;}
+.post-content code {background-color: #2E2E2E;color: #CCC;padding: 2px 5px;border-radius: 4px;font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;font-size: 0.9em;}
+.pagination .prev-page a,.pagination .next-page a{color:#BB86FC}
+.site-footer{background-color:#1E1E1E;color:#A0A0A0;border-top:1px solid #333}
+.site-nav{display:flex;flex-direction:row;white-space:nowrap;align-items:center}
+.site-nav a{display:inline-block;margin-left:10px}
+#nav-trigger{display:none}
+.site-footer .wrapper .footer-col-wrapper{display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}
+.site-footer .wrapper .social-links{order:2;text-align:left;vertical-align:top}
+.site-footer .wrapper .footer-col-3{order:3;text-align:left;vertical-align:top}
+.site-footer .wrapper .footer-col-1{order:1;text-align:left;vertical-align:top}
+.hamburger-menu{display:none}
+iframe{display:block;width:500px;height:315px;margin-left:auto;margin-right:auto}
+img{display:block;width:50%;height:auto;margin-left:auto;margin-right:auto}
+.post-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:30px;margin-top:30px}
+.post-block{background-color:#2c2c2c;border-radius:8px;overflow:hidden;box-shadow:0 2px 5px rgba(0,0,0,.1);padding:5px;max-width:350px;transition:transform .3s ease,box-shadow .3s ease}
+.post-block:hover{transform:translateY(-10px);box-shadow:0 5px 15px rgba(255,255,255,.5)}
+.post-block img{display:block;width:100%;height:100px;object-fit:cover;border-top-left-radius:8px;border-top-right-radius:8px;margin-bottom:15px}
+.post-block-content{padding:20px}
+.post-block .post-title{margin-top:0;margin-bottom:10px;font-size:1.5em!important;color:#55a!important}
+.post-block .post-title a{color:inherit;text-decoration:none}
+.post-block .post-title a:hover{text-decoration:underline!important}
+.post-block-content .post-meta{display:block;color:#777;font-size:.9em;margin-bottom:15px}
+.post-block-content .post-excerpt{color:#555;line-height:1.6;margin-bottom:20px}
+.post-block-content .post-link{display:inline-block;background-color:#353535;color:#333;padding:10px 20px;border-radius:5px;text-decoration:none;font-size:.95em;transition:background-color .3s ease}
+.post-block-content .post-link:hover{background-color:#ddd}
+.post-categories{margin-bottom:10px}
+.post-category{display:inline-block;background-color:#555;color:#fff;padding:3px 8px;border-radius:3px;font-size:.8em;margin-right:5px;margin-bottom:5px}
+.intro-section{display:flex;align-items:flex-start;gap:30px;margin-bottom:40px}
+.intro-logo-image{width:180px;height:auto;border-radius:150px;flex-shrink:0;object-fit:cover}
+.intro-text-content{flex-grow:1}
+@media (max-width:768px){
+.site-nav{display:none;background-color:#1E1E1E}
+.hamburger-menu{position:absolute;top:15px;right:15px;display:flex;flex-direction:column;justify-content:space-between;width:30px;height:22px;background:transparent;border:none;cursor:pointer;padding:0;z-index:101}
+.hamburger-menu .line{width:100%;height:2px;background-color:#F0F0F0;transition:all .3s ease-in-out}
+.js-site-nav{display:none}
+.js-site-nav.open{display:flex;flex-direction:column;width:100%;position:absolute;top:60px;left:0;background-color:#1E1E1E;z-index:100;align-items:flex-start;padding-top:20px}
+.js-site-nav.open .site-nav-item{padding:10px 20px;color:#F0F0F0;text-decoration:none}
+.social-links{display:none}
+.footer-col-3{display:flex}
+iframe{max-width:350px;height:auto;margin-left:auto;margin-right:auto}
+.post-grid{grid-template-columns:1fr}
+.intro-section{flex-direction:column;align-items:center;gap:20px}
+.intro-logo-image{width:50%;max-width:150px;margin-bottom:0}
 }
