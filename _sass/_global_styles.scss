@@ -45,7 +45,7 @@ img{display:block;width:50%;height:auto;margin-left:auto;margin-right:auto}
 .post-categories{margin-bottom:10px}
 .post-category{display:inline-block;background-color:#555;color:#fff;padding:3px 8px;border-radius:3px;font-size:.8em;margin-right:5px;margin-bottom:5px}
 .intro-section{display:flex;align-items:flex-start;gap:30px;margin-bottom:40px}
-.intro-logo-image{width:180px;height:auto;border-radius:150px;flex-shrink:0;object-fit:cover}
+.intro-logo-image{width:180px;height:auto;border-radius:150px;flex-shrink:0;object-fit:cover;aspect-ratio: 1/1;}
 .intro-text-content{flex-grow:1}
 @media (max-width:768px){
 .site-nav{display:none;background-color:#1E1E1E}
