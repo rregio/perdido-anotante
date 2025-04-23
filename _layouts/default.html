@@ -4,6 +4,80 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6005667592743973" crossorigin="anonymous"></script>
   <meta name="google-site-verification" content="f6uU2cbCrjsnQWgv0eyB9sa3ouIsMaNzd7RlZPB7xqU" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Regras essenciais para o Body */
+    body {
+      font-family:'Lato',sans-serif; /* Importante para a fonte do texto LCP */
+      font-size:1rem;
+      background-color:#121212; /* Fundo */
+      color:#F0F0F0; /* Cor do texto global */
+      margin: 0; /* Garante que não há margem padrão no body */
+      /* Outras propriedades do body que afetem o layout inicial */
+    }
+
+    /* Regras para a tag principal de conteúdo (do tema Minima) */
+    main {
+      display: block;
+      flex: 1; /* Se main for um item flex */
+    }
+
+    /* Regras para o contêiner .wrapper (do tema Minima, ajuste conforme o seu) */
+    .wrapper {
+      max-width: 800px; /* Largura máxima do conteúdo */
+      margin-left: auto; /* Centraliza */
+      margin-right: auto; /* Centraliza */
+      padding-right: 30px; /* Padding nas laterais */
+      padding-left: 30px; /* Padding nas laterais */
+      /* Outras propriedades do wrapper */
+    }
+
+    /* Regras para a seção de introdução */
+    .intro-section {
+      display:flex; /* Layout flex */
+      align-items:flex-start;
+      gap:30px; /* Espaçamento entre itens flex */
+      margin-bottom:40px;
+      /* Outras propriedades do intro-section */
+    }
+
+    /* Regras para o contêiner de texto da introdução */
+    .intro-text-content {
+      flex-grow:1; /* Permite que ocupe espaço flexível */
+      /* Outras propriedades do intro-text-content */
+    }
+
+    /* Regras para parágrafos (p) - aplique apenas as essenciais para o visual do texto LCP */
+    p {
+      margin-bottom: 15px; /* Margem padrão abaixo do parágrafo */
+      line-height: 1.6; /* Exemplo, ajuste conforme o seu line-height desejado */
+      color:#E0E0E0; /* Cor do texto (se não herdar do body) */
+      /* Outras propriedades de texto como font-weight, etc. */
+    }
+
+    /* Media Query para o layout responsivo da seção de introdução */
+    @media (max-width:768px){
+      .intro-section{
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        /* Outras propriedades responsivas do intro-section */
+      }
+      /* Se a imagem do logo estiver acima do texto LCP no mobile e causar layout, adicione as regras dela aqui */
+       .intro-logo-image{
+         width:50%; max-width:150px; margin-bottom:0; aspect-ratio: 1/1;
+       }
+    }
+
+     /* Media Query para o wrapper responsivo, se houver */
+     @media screen and (max-width: 800px) {
+      .wrapper {
+        max-width: calc(100% - 30px);
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    }
+
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
