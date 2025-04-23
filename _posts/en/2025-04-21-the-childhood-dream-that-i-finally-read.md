@@ -5,12 +5,13 @@ date: 2025-04-21 10:15
 categories: ['readings', 'summary']
 lang: en
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
+header_image_size: 2048
 excerpt: I recently fulfilled a small childhood dream; I read "Journey to the Center of the Earth", the cl...
 ---
 
 I recently ticked off a big item on my childhood dream list: reading "Journey to the Center of the Earth", Jules Verne's classic! Growing up, I'd see it advertised on TV Cultura, and it always seemed like something **untouchable (unimaginable, unattainable)** almost out of reach back then.
 
-![My childhood Dream Book](/assets/imagens/viagem-ao-centro-da-terra.jpeg)
+<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="My childhood Dream Book" width="2048" height="2048">
 
 Spoiler Alert: This post summarizes the plot, so it contains spoilers! Skip the summary if you plan to read the book soon!
 

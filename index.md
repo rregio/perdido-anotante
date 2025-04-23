@@ -4,7 +4,7 @@ title: Página Inicial
 lang: pt
 ---
 <div class="intro-section">
-  <img src="/assets/imagens/logo_site.jpg" alt="Perdido Anotante Logo na Introdução" class="intro-logo-image">
+  <img src="/assets/imagens/logo_site.jpg" alt="Perdido Anotante Logo na Introdução" class="intro-logo-image" width="200" height="200">
   <div class="intro-text-content">
     <p>Sejam bem-vindos ao <b>PerdidoAnotante</b>!</p>
     <p>Meu nome é <u><b>Rodrigo</b></u>, tenho mais de 40 anos e, honestamente, me sinto um pouco perdido. Mas decidi documentar essa jornada, anotando tudo o que acontece nos meus cadernos e compartilhando por aqui.</p>
@@ -34,7 +34,7 @@ lang: pt
     {% for post in portuguese_posts %}
       <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
         {% if post.header_image %}
-          <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}">
+          <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}" width="{{ post.header_image_size }}" height="{{ post.header_image_size }}">
         {% endif %}
         <h3 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

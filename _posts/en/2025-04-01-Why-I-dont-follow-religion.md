@@ -5,6 +5,7 @@ date: 2025-04-01 13:03:00
 categories: [religion]
 lang: en
 header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg
+header_image_size: 2048
 excerpt: And this is a post talking about why I don't follow religion... Actually, this note was made afte
 ---
 
@@ -12,7 +13,7 @@ And this is a post talking about why I don't follow religion... Actually, this n
 
 God decides to end the world now and I and everyone else will go to purgatory. When one of the angels at the gates of heaven asks some people close to me:
 
-![Porquê não sigo religião?](/assets/imagens/porque-nao-sigo-religioes.jpeg)
+<img alt="Why i dont follow religions?" src="/assets/imagens/porque-nao-sigo-religioes.jpeg" width="2048" height="2048">
 
 _What have you done in life?
 

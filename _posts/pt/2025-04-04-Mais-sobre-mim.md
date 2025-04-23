@@ -5,12 +5,13 @@ date: 2025-04-04 23:01:00
 categories: [sobre]
 lang: pt
 header_image: /assets/imagens/mais-sobre-mim.png
+header_image_size: 1024
 excerpt: E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
 ---
 
 E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
 
-![Mais sobre mim](/assets/imagens/mais-sobre-mim.png)
+<img alt="Mais sobre mim" src="/assets/imagens/mais-sobre-mim.png" width="1024" height="1024">
 
 Antes de mais nada, queria explicar que esse blog vai ser tipo um caderno de anotações meu, sabe? Peguei um caderninho pra anotar de tudo, e aqui vou passar essas anotações a limpo.
 

@@ -5,12 +5,13 @@ date: 2025-04-08 17:24:00
 categories: [profissional]
 lang: pt
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
+header_image_size: 2048
 excerpt: Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou...
 ---
 
 Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou no dia 08 de Abril. E começa assim:
 
-![Indeciso se volto pra TI](/assets/imagens/sera-que-volto-pra-ti.jpeg)
+<img alt="Indeciso se volto pra TI" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="2048" height="2048">
 
 Ontem dia 03 de Abril pensei em novamente voltar e tentar recolocação na área de TI e passei a tarde toda vendo vídeos relacionados á programação.
 

@@ -5,12 +5,13 @@ date: 2025-04-21 10:15
 categories: ['leituras', 'resumo']
 lang: pt
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
+header_image_size: 2048
 excerpt: Recentemente, realizei um pequeno grande sonho de infância; li "Viagem ao Centro da Terra", o clá...
 ---
 
 Recentemente, realizei um pequeno grande sonho de infância: li "Viagem ao Centro da Terra", o clássico de Júlio Verne que eu via ser anunciado na TV Cultura e que, para mim enquanto crescia, parecia algo **intocável (inimaginável, inalcançável)** quando eu era criança.
 
-![O sonho de infância que finalmente li](/assets/imagens/viagem-ao-centro-da-terra.jpeg)
+<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="O sonho de infância que finalmente li" width="2048" height="2048">
 
 Aviso: Este resumo contém spoilers da história! Se ainda não leu e pretende ler, pule a parte do resumo!
 

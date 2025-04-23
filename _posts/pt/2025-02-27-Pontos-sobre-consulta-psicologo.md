@@ -5,12 +5,13 @@ date: 2025-02-27 23:01:00
 categories: [psicologo]
 lang: pt
 header_image: /assets/imagens/dificuldades-da-infancia.jpeg
+header_image_size: 2048
 excerpt: Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que deci..
 ---
 
 Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que decidi anotar tudo.
 
-![Dificuldades quando criança](/assets/imagens/dificuldades-da-infancia.jpeg)
+<img alt="Dificuldades quando criança" src="/assets/imagens/dificuldades-da-infancia.jpeg" width="2048" height="2048">
 
 E nesse dia em específico falavamos sobre dificuldades e me perguntei se poderia ter algum problema psicológico como autismo, e ele pediu para anotar coisas que lembrasse que tive dificuldades quando criança... Não lembrei de muitas, mas segue o que anotei:
 

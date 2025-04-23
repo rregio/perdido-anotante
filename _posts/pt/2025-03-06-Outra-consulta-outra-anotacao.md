@@ -5,12 +5,13 @@ date: 2025-03-06 23:01:00
 categories: [psicologo]
 lang: pt
 header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg
+header_image_size: 2048
 excerpt: Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito p...
 ---
 
 Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito pessoal... Mas vamos lá...
 
-![Outra consulta, outras anotações](/assets/imagens/outra-consulta-outras-anotacoes.jpeg)
+<img alt="Outra consulta, outras anotações" src="/assets/imagens/outra-consulta-outras-anotacoes.jpeg" width="2048" height="2048">
 
 Sobre essa consulta o Dr citou sobre meu relacionamento com meu irmão e ele falou algo sobre ciumes ou inveja dele.
 
