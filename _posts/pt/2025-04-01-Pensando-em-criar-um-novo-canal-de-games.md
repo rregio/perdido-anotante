@@ -5,12 +5,13 @@ date: 2025-04-01 13:02:00
 categories: [game]
 lang: pt
 header_image: /assets/imagens/pensando-em-criar-canal-de-games.jpeg
+header_image_size: 2048
 excerpt: Como falei em algum dos posts anteriores acho que o Mais sobre mim recentemente apaguei um cana...
 ---
 
 Como falei em algum dos posts anteriores acho que o [Mais sobre mim]({{ site.baseurl }}/sobre/2025/04/04/Mais-sobre-mim.html) recentemente apaguei um canal de games do Youtube que tinha pouco mais de 1000 inscritos (cerca de 1025) esse texto abaixo era de um momento bem recente depois que apaguei.
 
-![Estive pensando em criar um canal de games](/assets/imagens/pensando-em-criar-canal-de-games.jpeg)
+<img alt="Estive pensando em criar um canal de games" src="/assets/imagens/pensando-em-criar-canal-de-games.jpeg" width="2048" height="2048">
 
 E depois fiquei pensando se criava outro e abaixo uma breve descrição de como estava pensando em criar o novo canal. E estava pensando em "quadros" para uma semana.
 

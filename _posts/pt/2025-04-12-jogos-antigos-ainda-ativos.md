@@ -5,12 +5,13 @@ date: 2025-04-12 16:17:00
 categories: [game,antigos]
 lang: pt
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
+header_image_size: 2048
 excerpt: Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação...
 ---
 
 Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação:
 
-![Jogos antigos ainda ativos](/assets/imagens/jogos-antigos-ainda-ativos.jpeg)
+<img alt="Jogos antigos ainda ativos" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="2048" height="2048">
 
 Ah, Tibia... tanto sucesso que eu nem imagino o porquê... pois o jogo não me parece tão legal. Nem sequer sei a história dele, então não entendo seu sucesso.
 

@@ -5,12 +5,13 @@ date: 2025-04-12 16:17:00
 categories: ["gaming", "old"]
 lang: en
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
+header_image_size: 2048
 excerpt: I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note...
 ---
 
 I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note:
 
-![Old games still active](/assets/imagens/jogos-antigos-ainda-ativos.jpeg)
+<img alt="Old games still actives" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="2048" height="2048">
 
 Ah, Tibia... it's so successful that I can't even imagine why... because the game doesn't seem that cool to me. I don't even know its history, so I don't understand its success.
 

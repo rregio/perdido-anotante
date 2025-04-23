@@ -5,12 +5,13 @@ date: 2025-04-04 23:01:00
 categories: [about]
 lang: en
 header_image: /assets/imagens/mais-sobre-mim.png
+header_image_size: 2048
 excerpt: Hey guys! To start off, this is my first post here at "Perdido Anotante".
 ---
 
 Hey guys! To start off, this is my first post here at "Perdido Anotante".
 
-![More about me](/assets/imagens/mais-sobre-mim.png)
+<img alt="More about me" src="/assets/imagens/mais-sobre-mim.png" width="1024" height="1024">
 
 First of all, I wanted to explain that this blog will be like my notebook, you know? I got a little notebook to write down everything, and here I'm going to write down those notes.
 

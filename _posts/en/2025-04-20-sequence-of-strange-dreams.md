@@ -5,12 +5,13 @@ date: 2025-04-20 09:33
 categories: ['mental', 'dream']
 lang: en
 header_image: /assets/imagens/sonho-estranho.jpeg
+header_image_size: 2048
 excerpt: Last night I had a dream that I've actually had a few times recently, and it starts like this...
 ---
 
 Last night, I had a dream – one that's been visiting me quite often lately. It always begins similarly:
 
-![Image like in my dream](/assets/imagens/sonho-estranho.jpeg)
+<img src="/assets/imagens/sonho-estranho.jpeg" alt="Image like in my dream" width="2048" height="2048">
 
 I was walking peacefully under the midday sun in a very familiar place. Feeling a bit weary, and seeking refuge from the strong sun, I ducked into a bar (it seemed to be the only place open).
 

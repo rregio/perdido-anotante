@@ -5,12 +5,13 @@ date: 2025-02-27 23:01:00
 categories: [leituras]
 lang: pt
 header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
+header_image_size: 2048
 excerpt: Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que...
 ---
 
 Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que achei do livro.
 
-![Roubando como um artista](/assets/imagens/li-o-livro-roube-como-um-artista.jpeg)
+<img alt="Roubando como um artista" src="/assets/imagens/li-o-livro-roube-como-um-artista.jpeg" width="2048" height="2048">
 
 O livro é bom e nos incentiva a melhorar nossas habilidades e que devemos imitar algo para poder produzir algo... Quando começamos a por exemplo programar, vamos fazendo e tentando imitar o código dos melhores, sempre lendo e se atualizando. Como dizem "Nada se cria, tudo se copia" e isso faz sentido.
 

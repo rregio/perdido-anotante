@@ -5,12 +5,13 @@ date: 2025-04-08 17:24:00
 categories: [professional]
 lang: en
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
+header_image_size: 2048
 excerpt: These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And
 ---
 
 These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And it starts like this:
 
-![Should I go back to IT??](/assets/imagens/sera-que-volto-pra-ti.jpeg)
+<img alt="Should I go back to IT??" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="2048" height="2048">
 
 Yesterday, April 3rd, I thought about going back and trying to get a job in IT again, and I spent the whole afternoon watching videos related to programming.
 

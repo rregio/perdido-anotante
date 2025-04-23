@@ -5,11 +5,12 @@ date: 2025-04-03 10:41:00
 categories: [mental]
 lang: en
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
+header_image_size: 2048
 excerpt: And this note was a recommendation from the psychologist, where he asked me to do things that I...
 ---
 And this note was a recommendation from the psychologist, where he asked me to do things that I don't normally do... Like cooking, and he gave me some recommendations.
 
-![Doing different things](/assets/imagens/fazendo-coisas-diferentes.jpeg)
+<img alt="Doing different things" src="/assets/imagens/fazendo-coisas-diferentes.jpeg" width="2048" height="2048">
 
 And yesterday, April 2nd, I did some things that I had never done before... and they were in the kitchen... Very simple things, and it's amazing how simple things motivate us...
 
