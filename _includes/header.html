@@ -5,7 +5,7 @@
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
-    <button class="hamburger-menu" name="menu">
+    <button class="hamburger-menu" name="menu" aria-label="Menu de navegação | Navigation menu">
       <span class="line"></span>
       <span class="line"></span>
       <span class="line"></span>
