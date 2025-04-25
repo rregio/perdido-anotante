@@ -1,6 +1,7 @@
 ---
 layout: post
-title: O sonho de infância que finalmente li
+title: O livro que é um sonho de infância e que finalmente li
+description: Post onde falo de um livro que sempre quis ler, mas nunca tive oportunidade.
 date: 2025-04-21 10:15
 categories: ['leituras', 'resumo']
 lang: pt

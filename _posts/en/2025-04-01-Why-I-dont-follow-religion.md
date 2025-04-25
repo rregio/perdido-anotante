@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I don't follow religion?
+description: Post where I talk about why I don't follow any religion.
 date: 2025-04-01 13:03:00
 categories: [religion]
 lang: en

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Doing different things
+description: Post where I say that I make a recommendation from my psychologist.
 date: 2025-04-03 10:41:00
 categories: [mental]
 lang: en

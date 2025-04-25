@@ -2,6 +2,7 @@
 lang: en
 permalink: /about/
 title: About
+description: about page of the blog
 layout: page
 ---
 

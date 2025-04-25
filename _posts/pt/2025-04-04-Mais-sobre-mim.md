@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mais sobre mim
+description: Post onde dou um contexto maior sobre mim e meus ultimos passos antes de criar o blog.
 date: 2025-04-04 23:01:00
 categories: [sobre]
 lang: pt

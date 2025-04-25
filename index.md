@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Página Inicial
+description: página inicial do blog perdido anotante.
 lang: pt
 ---
 <div class="intro-section">

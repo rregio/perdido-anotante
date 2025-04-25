@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Pensando em criar um novo canal de games 
+title: Pensando em criar um novo canal de games
+description: Post onde falo que estava pensando em criar um novo canal de games no Youtube.
 date: 2025-04-01 13:02:00
 categories: [game]
 lang: pt

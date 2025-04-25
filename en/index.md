@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home Page
+description: homepage of the blog
 lang: en
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jogos antigos mas ainda ativos
+description: Post onde falo sobre alguns games online antigos mas que ainda estão ativos.
 date: 2025-04-12 16:17:00
 categories: [game,antigos]
 lang: pt

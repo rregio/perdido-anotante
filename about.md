@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre
+description: página sobre o blog e o autor do blog.
 permalink: /sobre/
 lang: pt
 ---
