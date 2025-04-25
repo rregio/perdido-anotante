@@ -11,7 +11,7 @@ excerpt: Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que m
 
 Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação:
 
-<img alt="Jogos antigos ainda ativos" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="2048" height="2048">
+<img alt="Jogos antigos ainda ativos" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="400" height="400">
 
 Ah, Tibia... tanto sucesso que eu nem imagino o porquê... pois o jogo não me parece tão legal. Nem sequer sei a história dele, então não entendo seu sucesso.
 

@@ -11,7 +11,7 @@ excerpt: As I mentioned in some of the previous posts, I think in More about me,
 
 As I mentioned in some of the previous posts, I think in [More about me]({{ site.baseurl }}/about/2025/04/04/More-about-me.html), I recently deleted a gaming channel that had a little over 1000 subscribers (around 1025). These notes below were from a very recent moment after I deleted it.
 
-<img alt="Estive pensando em criar um canal de games" src="/assets/imagens/pensando-em-criar-canal-de-games.jpeg" width="2048" height="2048">
+<img alt="Estive pensando em criar um canal de games" src="/assets/imagens/pensando-em-criar-canal-de-games.jpeg" width="400" height="400">
 
 And then I started thinking about creating another one and below is a brief description of what it would be like. And I was thinking about segments or attractions, I don't know how to express this in English but in Portuguese they are called frames. And I was thinking about adjusting these frames in a week.
 

@@ -11,7 +11,7 @@ excerpt: Last night I had a dream that I've actually had a few times recently, a
 
 Last night, I had a dream – one that's been visiting me quite often lately. It always begins similarly:
 
-<img src="/assets/imagens/sonho-estranho.jpeg" alt="Image like in my dream" width="2048" height="2048">
+<img src="/assets/imagens/sonho-estranho.jpeg" alt="Image like in my dream" width="400" height="400">
 
 I was walking peacefully under the midday sun in a very familiar place. Feeling a bit weary, and seeking refuge from the strong sun, I ducked into a bar (it seemed to be the only place open).
 

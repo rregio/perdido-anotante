@@ -11,7 +11,7 @@ excerpt: I was thinking about whether to post about this consultation and the no
 
 I was thinking about whether to post about this consultation and the note because it is something very personal... But here goes...
 
-<img alt="Another consultation, other notes" src="/assets/imagens/outra-consulta-outras-anotacoes.jpeg" width="2048" height="2048">
+<img alt="Another consultation, other notes" src="/assets/imagens/outra-consulta-outras-anotacoes.jpeg" width="400" height="400">
 
 About this consultation, the doctor mentioned my relationship with my brother and he said something about jealousy or envy of him.
 

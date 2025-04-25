@@ -11,7 +11,7 @@ excerpt: As I said, I'll post everything here... and this was one of my first no
 
 As I said, I'll post everything here... and this was one of my first notes since I decided to write everything down.
 
-<img alt="Dificulties when as a child" src="/assets/imagens/dificuldades-da-infancia.jpeg" width="2048" height="2048" >
+<img alt="Dificulties when as a child" src="/assets/imagens/dificuldades-da-infancia.jpeg" width="400" height="400" >
 
 And on that specific day, we were talking about difficulties and I wondered if I could have some psychological problem like autism, and he asked me to write down things that I remembered that I had difficulties with as a child... I didn't remember many, but here's what I wrote down:
 

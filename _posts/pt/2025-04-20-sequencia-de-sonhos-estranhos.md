@@ -11,7 +11,7 @@ excerpt: Essa noite tive um sonho que na verdade recentemente já sonhei algumas
 
 Essa noite tive um sonho que na verdade recentemente já sonhei algumas vezes com isso e ele começa assim:
 
-<img src="/assets/imagens/sonho-estranho.jpeg" alt="Um sonho estranho que tive esta noite" width="2048" height="2048">
+<img src="/assets/imagens/sonho-estranho.jpeg" alt="Um sonho estranho que tive esta noite" width="400" height="400">
 
 Estava andando tranquilamente pela rua por volta do meio dia, esse lugar me era muito familiar mas um pouco cansado e devido ao sol forte entro em um bar (parecia ter somente este estabelecimento aberto).<br>
 O interior do bar estava meio escuro por estar um sol muito forte do lado de fora o bar estava bem vazio, então pra me refrescar sento em um canto e peço um refrigerante de laranja.<br>

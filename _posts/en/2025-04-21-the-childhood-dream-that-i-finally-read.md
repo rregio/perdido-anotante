@@ -11,7 +11,7 @@ excerpt: I recently fulfilled a small childhood dream; I read "Journey to the Ce
 
 I recently ticked off a big item on my childhood dream list: reading "Journey to the Center of the Earth", Jules Verne's classic! Growing up, I'd see it advertised on TV Cultura, and it always seemed like something **untouchable (unimaginable, unattainable)** almost out of reach back then.
 
-<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="My childhood Dream Book" width="2048" height="2048">
+<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="My childhood Dream Book" width="400" height="400">
 
 Spoiler Alert: This post summarizes the plot, so it contains spoilers! Skip the summary if you plan to read the book soon!
 

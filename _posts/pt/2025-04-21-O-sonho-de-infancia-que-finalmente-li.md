@@ -11,7 +11,7 @@ excerpt: Recentemente, realizei um pequeno grande sonho de infância; li "Viagem
 
 Recentemente, realizei um pequeno grande sonho de infância: li "Viagem ao Centro da Terra", o clássico de Júlio Verne que eu via ser anunciado na TV Cultura e que, para mim enquanto crescia, parecia algo **intocável (inimaginável, inalcançável)** quando eu era criança.
 
-<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="O sonho de infância que finalmente li" width="2048" height="2048">
+<img src="/assets/imagens/viagem-ao-centro-da-terra.jpeg" alt="O sonho de infância que finalmente li" width="400" height="400">
 
 Aviso: Este resumo contém spoilers da história! Se ainda não leu e pretende ler, pule a parte do resumo!
 

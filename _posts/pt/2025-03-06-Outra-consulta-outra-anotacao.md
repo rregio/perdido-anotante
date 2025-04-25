@@ -11,7 +11,7 @@ excerpt: Sobre essa consulta estava pensando se postava sobre ela e a anotação
 
 Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito pessoal... Mas vamos lá...
 
-<img alt="Outra consulta, outras anotações" src="/assets/imagens/outra-consulta-outras-anotacoes.jpeg" width="2048" height="2048">
+<img alt="Outra consulta, outras anotações" src="/assets/imagens/outra-consulta-outras-anotacoes.jpeg" width="400" height="400">
 
 Sobre essa consulta o Dr citou sobre meu relacionamento com meu irmão e ele falou algo sobre ciumes ou inveja dele.
 
