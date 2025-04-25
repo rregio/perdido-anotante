@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Fazendo coisas diferentes 
+title: Fazendo coisas diferentes
+description: Post onde falo que faço uma recomendação do meu psicólogo.
 date: 2025-04-03 10:41:00
 categories: [psicologo]
 lang: pt

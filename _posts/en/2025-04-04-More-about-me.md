@@ -1,6 +1,7 @@
 ---
 layout: post
 title: More about me
+description: Post where I give more context about myself and my last steps before creating the blog.
 date: 2025-04-04 23:01:00
 categories: [about]
 lang: en

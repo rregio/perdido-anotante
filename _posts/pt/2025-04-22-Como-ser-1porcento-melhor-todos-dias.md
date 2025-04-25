@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Como ser 1% melhor todos os dias??
+description: Post onde falo de um vídeo que vi e tentei fazer igual.
 date: 2025-04-22 04:46:00
-categories: ['mental','ia','melhorar']
+categories: ['mental','ia']
 lang: pt
 header_image: /assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg
 header_image_size: 1120

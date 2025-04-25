@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Uma sequencia de sonhos estranhos
+description: Post onde falo sobre alguns sonhos que estou tendo recentemente.
 date: 2025-04-20 09:33
 categories: ['psicologo', 'sonho']
 lang: pt

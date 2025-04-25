@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
   <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page_description | strip_html | strip_newlines | escape }}">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6005667592743973" crossorigin="anonymous"></script>
   <meta name="google-site-verification" content="f6uU2cbCrjsnQWgv0eyB9sa3ouIsMaNzd7RlZPB7xqU" />
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Li o livro "Roube como um artista"
+description: Post onde falo o que achei do livro que li, livro "Roube como um artista"
 date: 2025-02-27 23:01:00
 categories: [leituras]
 lang: pt

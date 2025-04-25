@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Old games but still actives
+description: Post where I talk about some old online games that are still active.
 date: 2025-04-12 16:17:00
 categories: ["gaming", "old"]
 lang: en

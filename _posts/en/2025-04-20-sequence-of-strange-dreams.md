@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Recurring Dream of Being Naked in Public (Again)
+description: Post where I talk about some dreams I've been having recently.
 date: 2025-04-20 09:33
 categories: ['mental', 'dream']
 lang: en

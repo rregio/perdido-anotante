@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Porque eu não sigo religião?
+description: Post onde falo o porque não sigo nenhuma religião.
 date: 2025-04-01 13:03:00
 categories: [religiao]
 lang: pt
