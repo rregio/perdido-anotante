@@ -1,7 +1,6 @@
 // netlify/functions/receber-comentario.js
 exports.handler = async function(event, context) {
   console.log("Função receber-comentario acionada!");
-
   // Verificar se a requisição é um POST
   if (event.httpMethod !== "POST") {
     return {
@@ -9,7 +8,6 @@ exports.handler = async function(event, context) {
       body: "Método não permitido"
     };
   }
-
   // --- Código CORRIGIDO para parsear dados form-urlencoded ---
   const body = event.body; // O corpo da requisição (string URL-encoded)
   const params = new URLSearchParams(body); // Cria um objeto URLSearchParams a partir da string
