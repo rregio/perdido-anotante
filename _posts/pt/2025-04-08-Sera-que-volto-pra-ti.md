@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Será que volto pra TI??
 description: Post onde me pergunto se deveria voltar pra TI.
 date: 2025-04-08 17:24:00

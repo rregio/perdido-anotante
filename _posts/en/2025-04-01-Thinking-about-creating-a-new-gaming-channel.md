@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Thinking about creating a new gaming channel
 description: Post where I say that I was thinking about creating a new gaming channel on YouTube.
 date: 2025-04-01 13:02:00 

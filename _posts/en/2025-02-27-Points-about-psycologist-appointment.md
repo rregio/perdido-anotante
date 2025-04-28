@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Dificulties when as a child in a psychologist consulation
 description: Post about my difficulties as a child in consultation with a psychologist
 date: 2025-02-27 23:01:00

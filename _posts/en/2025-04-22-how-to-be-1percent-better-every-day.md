@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: How to be 1% better every days
 description: Post where I talk about a video I saw and tried to do the same.
 date: 2025-04-22 04:46:00

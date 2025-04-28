@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Pensamentos matutinos - Dia bom, apesar de tudo
 description: Post onde falo meus pensamentos pela manhã após fazer algumas tarefas.
 date: 2025-04-26 04:46:00

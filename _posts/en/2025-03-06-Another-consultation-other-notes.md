@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Another consultation, other notes
 description: Post where I talk about another consultation with a psychologist. I wanted to know about jealousy with my brother.
 date: 2025-03-06 23:01:00
