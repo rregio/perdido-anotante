@@ -20,8 +20,6 @@ exports.handler = async function(event, context) {
     data[key] = value;
   }
   // --- Fim do Código CORRIGIDO ---
-
-
   console.log("Dados recebidos do formulário:", data);
 
   // Resposta simples de sucesso por enquanto
