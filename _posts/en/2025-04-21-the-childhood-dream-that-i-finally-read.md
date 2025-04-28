@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: My Childhood Dream Book
 description: Post where I talk about a book I always wanted to read, but never had the chance.
 date: 2025-04-21 10:15

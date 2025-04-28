@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Dificuldades quando criança em consulta com psicólogo
 description: Post sobre minhas dificuldades quando criança em consulta com psicólogo
 date: 2025-02-27 23:01:00

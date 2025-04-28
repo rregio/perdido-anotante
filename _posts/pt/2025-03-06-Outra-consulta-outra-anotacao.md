@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Outra consulta, outras anotações
 description: Post onde falo sobre outra consulta ao psicólogo. Quis saber sobre ciumes com meu irmão.
 date: 2025-03-06 23:01:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Should I go back to IT??
 description: Post where I wonder if I should go back to IT.
 date: 2025-04-08 17:24:00

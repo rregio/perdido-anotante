@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Reading and thoughts on the book Steal like an artist
 description: Post where I talk about what I thought of the book I read, the book "Steal Like an Artist"
 date: 2025-02-28 23:01:00

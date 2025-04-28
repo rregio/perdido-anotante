@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Como ser 1% melhor todos os dias??
 description: Post onde falo de um vídeo que vi e tentei fazer igual.
 date: 2025-04-22 04:46:00

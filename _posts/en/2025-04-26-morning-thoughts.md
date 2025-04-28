@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Morning thoughts - A good day despite everything
 description: Post where I talk about my thoughts in the morning after doing some tasks.
 date: 2025-04-22 04:46:00
