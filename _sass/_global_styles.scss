@@ -25,8 +25,8 @@ a:hover{color: #EEEEEE !important;}
 #nav-trigger{display:none}
 .site-footer .wrapper .footer-col-wrapper{display:flex;flex-direction:row;align-items:flex-start;justify-content:space-between}
 .site-footer .wrapper .social-links{order:2;text-align:left;vertical-align:top}
-.site-footer .wrapper .footer-col-3{order:3;text-align:left;vertical-align:top}
-.site-footer .wrapper .footer-col-1{order:1;text-align:left;vertical-align:top}
+.site-footer .wrapper .footer-col-3{order:3;text-align:left;vertical-align:top; color: white;}
+.site-footer .wrapper .footer-col-1{order:1;text-align:left;vertical-align:top; color: white;}
 .hamburger-menu{display:none}
 iframe{display:block;width:500px;height:315px;margin-left:auto;margin-right:auto}
 img{display:block;margin-left:auto;margin-right:auto}
@@ -55,7 +55,7 @@ img{display:block;margin-left:auto;margin-right:auto}
 .js-site-nav.open{display:flex;flex-direction:column;width:100%;position:absolute;top:60px;left:0;background-color:#1E1E1E;z-index:100;align-items:flex-start;padding-top:20px}
 .js-site-nav.open .site-nav-item{padding:10px 20px;color:#F0F0F0;text-decoration:none}
 .social-links{display:none}
-.footer-col-3{display:flex}
+.footer-col-3{display:flex; color: white;}
 iframe{max-width:350px;height:auto;margin-left:auto;margin-right:auto}
 .post-grid{grid-template-columns:1fr}
 .post-meta{color: white !important;}
