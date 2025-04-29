@@ -1,8 +1,8 @@
-const { Octokit } = require("@octokit/core");
-const githubToken = process.env.GITHUB_COMMENT_TOKEN;
-const octokit = new Octokit({ auth: githubToken });
-
 exports.handler = async function(event, context) {
+  const { Octokit } = await import("@octokit/core");
+  const githubToken = process.env.GITHUB_COMMENT_TOKEN;
+  const octokit = new Octokit({ auth: githubToken });
+
   console.log("Função receber-comentario acionada!");
 
   if (event.httpMethod !== "POST") {
