@@ -1,26 +1,39 @@
-// netlify/functions/receber-comentario.js
+const { Octokit } = require("@octokit/core");
+const githubToken = process.env.GITHUB_COMMENT_TOKEN;
+const octokit = new Octokit({ auth: githubToken });
+
 exports.handler = async function(event, context) {
   console.log("Função receber-comentario acionada!");
-  // Verificar se a requisição é um POST
+
   if (event.httpMethod !== "POST") {
+    console.log("Método não permitido:", event.httpMethod);
     return {
-      statusCode: 405,
+      statusCode: 405, // Código HTTP 405: Método Não Permitido
       body: "Método não permitido"
     };
   }
-  // --- Código CORRIGIDO para parsear dados form-urlencoded ---
-  const body = event.body; // O corpo da requisição (string URL-encoded)
-  const params = new URLSearchParams(body); // Cria um objeto URLSearchParams a partir da string
-
-  // Converter URLSearchParams para um objeto JavaScript simples para facilitar o uso e logging
+  const body = event.body;
+  const params = new URLSearchParams(body);
   const data = {};
   for (const [key, value] of params) {
     data[key] = value;
   }
-  // --- Fim do Código CORRIGIDO ---
   console.log("Dados recebidos do formulário:", data);
+  try {
+    console.log("Entrando no bloco try para chamar a API");
+    const repoInfo = await octokit.request('GET /repos/{owner}/{repo}', {
+      owner: 'rregio', // <-- SEU NOME DE USUÁRIO AQUI
+      repo: 'perdido-anotante',     // <-- NOME DO SEU REPOSITÓRIO AQUI
+      headers: {
+        'X-GitHub-Api-Version': '2022-11-28' // Versão recomendada da API
+      }
+    });
+    console.log(`Conexão com GitHub API bem sucedida. Repositório: ${repoInfo.data.full_name}`);
+  } catch (error) {
+    console.error("Erro ao interagir com a GitHub API:", error.message);
+  }
   return {
-    statusCode: 200,
+    statusCode: 200, // Código HTTP 200: OK (Sucesso)
     body: "Comentário recebido com sucesso (processamento futuro)"
   };
 };
