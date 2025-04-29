@@ -19,9 +19,6 @@ exports.handler = async function(event, context) {
   }
   // --- Fim do Código CORRIGIDO ---
   console.log("Dados recebidos do formulário:", data);
-
-  // Resposta simples de sucesso por enquanto
-  // Em uma aplicação real, você faria algo com os dados aqui (ex: salvar, enviar email, etc.)
   return {
     statusCode: 200,
     body: "Comentário recebido com sucesso (processamento futuro)"

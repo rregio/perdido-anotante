@@ -24,7 +24,7 @@ layout: default
 
 <section id="comments">
   <h2>Deixe um Comentário</h2>
-  <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber_comentario">
+  <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
     <p><label for="name">Nome:</label><br><input type="text" name="name" id="name" required></p>
