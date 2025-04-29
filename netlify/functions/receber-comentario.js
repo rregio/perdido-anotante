@@ -19,7 +19,7 @@ exports.handler = async function(event, context) {
     data[key] = value;
   }
   console.log("Dados recebidos do formulário:", data);
-  try {
+  console.log("DIAGNÓSTICO: Tentando chamar a GitHub API FORA do try...catch"); // <-- Novo log de diagnóstico
     console.log("Entrando no bloco try para chamar a API");
     const repoInfo = await octokit.request('GET /repos/{owner}/{repo}', {
       owner: 'rregio', // <-- SEU NOME DE USUÁRIO AQUI
@@ -29,9 +29,7 @@ exports.handler = async function(event, context) {
       }
     });
     console.log(`Conexão com GitHub API bem sucedida. Repositório: ${repoInfo.data.full_name}`);
-  } catch (error) {
     console.error("Erro ao interagir com a GitHub API:", error.message);
-  }
   return {
     statusCode: 200, // Código HTTP 200: OK (Sucesso)
     body: "Comentário recebido com sucesso (processamento futuro)"
