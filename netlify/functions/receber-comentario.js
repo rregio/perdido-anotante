@@ -149,7 +149,8 @@ exports.handler = async function(event, context) {
 
     // --- Fim da lógica de criação de Pull Request ---
 
-
+    const redirectUrl = `${data['page-url']}?comment_status=moderation`;
+    console.log(`Tentando redirecionar para: ${redirectUrl}`);
     // --- Retorno para o Netlify Forms (Redirecionamento) ---
     // Retornamos um objeto JSON no body com o campo 'redirect'
     // O Netlify Forms interpretará isso como uma instrução para redirecionar o usuário
