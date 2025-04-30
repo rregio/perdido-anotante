@@ -22,7 +22,6 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-{# --- Código para Mensagem de Moderação --- #}
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
@@ -36,42 +35,36 @@ layout: default
     </script>
   </div>
 {% endif %}
-{# --- Fim do Código para Mensagem de Moderação --- #}
 
 
 <section id="comments">
   <h2>Deixe um Comentário</h2>
 
-  {# --- CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- #}
-  {% assign post_slug = page.url | replace: '.html', '' | remove: '/' %} {# Obtém o slug do post #}
+  {% assign post_slug = page.url | replace: '.html', '' | remove: '/' %}
   {% if site.data.comments[post_slug] %} {# Verifica se existe a pasta de comentários para este slug em _data/comments #}
     <h3>Comentários ({{ site.data.comments[post_slug] | size }})</h3> {# Exibe o número de comentários #}
     {% assign comments = site.data.comments[post_slug] | sort: 'date' %} {# Obtém os comentários e ordena por data #}
 
     <ul class="comment-list">
-      {% for comment in comments %} {# Percorre cada arquivo .json na pasta do slug #}
+      {% for comment in comments %}
         <li class="comment">
           <div class="comment-meta">
             <strong>{{ comment.name | escape }}</strong> em
             <time datetime="{{ comment.date | date_to_xmlschema }}">
-              {{ comment.date | date: site.minima.date_format | default: "%b %-d, %Y %H:%M" }} {# Formata a data #}
+              {{ comment.date | date: site.minima.date_format | default: "%b %-d, %Y %H:%M" }}
             </time>
           </div>
           <div class="comment-body">
-            {{ comment.comment | markdownify }} {# Renderiza o conteúdo do comentário como Markdown #}
+            {{ comment.comment | markdownify }}
           </div>
         </li>
       {% endfor %}
     </ul>
 
   {% else %}
-    <p>Ainda não há comentários para esta postagem.</p> {# Mensagem se não houver comentários #}
+    <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
-  {# --- FIM DO CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- #}
-
-
-  {# Formulário de comentários #}
-  <h2>Deixe um Comentário</h2> {# Título do formulário repetido, pode ajustar se quiser #}
+  <h2>Deixe um Comentário</h2>
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
