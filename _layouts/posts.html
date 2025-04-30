@@ -4,17 +4,8 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p>DEBUG PAGE.URL: {{ page.url | inspect }}</p>
-    <p>DEBUG RELATIVE_URL: {{ page.relative_url | inspect }}</p>
-
-    Tentativa original de cálculo do slug (vamos manter comentada por agora)
-    {% assign post_slug = page.url | replace: '.html', '' | remove: '/' %}
-    <p>DEBUG SLUG ORIGINAL: {{ post_slug | inspect }}</p>
-
-    {% assign post_slug = page.relative_url | replace: '.html', '' | remove: '/' %}
-    <p>DEBUG SLUG ALTERNATIVO: {{ post_slug | inspect }}</p>
-<p class="post-meta">
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: site.minima.date_format | default: "%b %-d, %Y" }}
