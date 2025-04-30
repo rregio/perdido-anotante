@@ -1,0 +1,10 @@
+---
+    name: Rodrigo # Usa nome ou Anonymous, escapa aspas
+    email: rodrigo_1567@hotmail.com # Usa email ou vazio
+    date: 2025-04-30T12:20:32.910Z
+    page_url: https://perdidoanotante.netlify.app/mental/leituras/2025/04/26/Pensamentos-matutinos.html
+    # status: pending # <--- Manteremos isso para moderação depois
+    ---
+  
+    Testando um novo envio de comentário # Conteúdo do comentário separado por '---' para YAML front matter + body
+    
