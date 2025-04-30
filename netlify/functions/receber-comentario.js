@@ -154,14 +154,13 @@ exports.handler = async function(event, context) {
     // --- Retorno para o Netlify Forms (Redirecionamento) ---
     // Retornamos um objeto JSON no body com o campo 'redirect'
     // O Netlify Forms interpretará isso como uma instrução para redirecionar o usuário
-    return {
-      statusCode: 302, // Código HTTP 200: OK (Sucesso)
+    return { // Retorna o objeto de resposta
+      statusCode: 302, // Código HTTP 302: Found (Redirecionamento Temporário) // CORRIGIDO
       headers: {
         // O cabeçalho Location diz ao navegador/Netlify para onde redirecionar
         "Location": redirectUrl // Usa o URL original do post + query param
       },
-      body: body: "Redirecionando você de volta para o post..."
-      // headers: { "Content-Type": "application/json" } // Opcional, Netlify Forms geralmente lida com isso
+      body: "Redirecionando você de volta para o post..." // CORRIGIDO: apenas um `body:`
     };
     // --- Fim do retorno para o Netlify Forms ---
 
