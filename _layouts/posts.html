@@ -22,27 +22,56 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+{# --- Código para Mensagem de Moderação --- #}
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
-    {# Opcional: Remover o parâmetro da URL via JavaScript para limpar #}
     <script>
       if (window.location.search.includes('comment_status=moderation')) {
-        // Cria a nova URL sem o parâmetro de query string
         const url = new URL(window.location.href);
-        url.searchParams.delete('comment_status'); // Remove o parâmetro específico
-
-        // Usa history.replaceState para mudar a URL na barra de endereço sem recarregar a página
-        // Verifica se há outros parâmetros. Se não houver, use pathname puro.
+        url.searchParams.delete('comment_status');
         const newUrl = (url.searchParams.toString() === '') ? window.location.pathname : window.location.pathname + url.search;
         history.replaceState(null, '', newUrl + window.location.hash);
       }
     </script>
   </div>
 {% endif %}
+{# --- Fim do Código para Mensagem de Moderação --- #}
+
 
 <section id="comments">
   <h2>Deixe um Comentário</h2>
+
+  {# --- CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- #}
+  {% assign post_slug = page.url | replace: '.html', '' | remove: '/' %} {# Obtém o slug do post #}
+  {% if site.data.comments[post_slug] %} {# Verifica se existe a pasta de comentários para este slug em _data/comments #}
+    <h3>Comentários ({{ site.data.comments[post_slug] | size }})</h3> {# Exibe o número de comentários #}
+    {% assign comments = site.data.comments[post_slug] | sort: 'date' %} {# Obtém os comentários e ordena por data #}
+
+    <ul class="comment-list">
+      {% for comment in comments %} {# Percorre cada arquivo .json na pasta do slug #}
+        <li class="comment">
+          <div class="comment-meta">
+            <strong>{{ comment.name | escape }}</strong> em
+            <time datetime="{{ comment.date | date_to_xmlschema }}">
+              {{ comment.date | date: site.minima.date_format | default: "%b %-d, %Y %H:%M" }} {# Formata a data #}
+            </time>
+          </div>
+          <div class="comment-body">
+            {{ comment.comment | markdownify }} {# Renderiza o conteúdo do comentário como Markdown #}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+  {% else %}
+    <p>Ainda não há comentários para esta postagem.</p> {# Mensagem se não houver comentários #}
+  {% endif %}
+  {# --- FIM DO CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- #}
+
+
+  {# Formulário de comentários #}
+  <h2>Deixe um Comentário</h2> {# Título do formulário repetido, pode ajustar se quiser #}
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
@@ -51,6 +80,8 @@ layout: default
     <p><label for="comment">Comentário:</label><br><textarea name="comment" id="comment" required></textarea></p>
     <p><button type="submit">Enviar Comentário</button></p>
   </form>
+
+  {# Estilos do formulário de comentários #}
   <style>
     #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
     #comments h2 { margin-bottom: 20px; }
@@ -58,5 +89,12 @@ layout: default
     #comments input[type="text"], #comments input[type="email"], #comments textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; box-sizing: border-box; }
     #comments button[type="submit"] { padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px; }
     #comments button[type="submit"]:hover { background-color: #0056b3; }
+
+    /* Estilos simples para a lista de comentários */
+    .comment-list { list-style: none; padding: 0; }
+    .comment { border: 1px solid #eee; padding: 15px; margin-bottom: 15px; border-radius: 5px; background-color: #f9f9f9; }
+    .comment-meta { font-size: 0.9em; color: #555; margin-bottom: 5px; }
+    .comment-body { margin-top: 10px; }
+    .comment-body p:last-child { margin-bottom: 0; } /* Remove margem inferior do último parágrafo no comentário */
   </style>
 </section>
