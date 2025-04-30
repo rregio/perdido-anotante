@@ -21,14 +21,6 @@ exports.handler = async function(event, context) {
   // ... (código antes do bloco try) ...
 
   try {
-    // >> REMOVA ESTAS LINHAS DE DEFINIÇÃO TEMPORÁRIA ANTERIORES DENTRO DESTE BLOCO TRY <<
-    // const commentFilePath = '_data/comments/test-comment.yml';
-    // const fileContentBase64 = Buffer.from(commentData).toString('base64');
-  
-    // --- Começa a lógica para criar o arquivo de comentário DINÂMICO ---
-  
-    // 1. Formatar os dados do comentário (em YAML)
-    // Melhorando a formatação YAML para Jekyll ler facilmente depois
     const commentDataFormatted = `---
     name: ${data.name ? data.name.replace(/"/g, '\\"') : 'Anonymous'} # Usa nome ou Anonymous, escapa aspas
     email: ${data.email || ''} # Usa email ou vazio
