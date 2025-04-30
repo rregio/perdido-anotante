@@ -1,9 +1,15 @@
 // netlify/functions/receber-comentario.js
 
+<<<<<<< HEAD
+=======
+// << REMOVA QUALQUER LINHA DE IMPORT/TOKEN/OCTOKIT QUE ESTEJA AQUI FORA >>
+
+>>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
 // O handler é a função principal que o Netlify executa
 exports.handler = async function(event, context) {
   console.log("Função receber-comentario acionada!");
 
+<<<<<<< HEAD
   // --- Importação Dinâmica do Octokit, Token e Setup CORRETAMENTE DENTRO do handler ---
   // Precisamos importar aqui porque import() é assíncrono e precisa de await
   // As variáveis de ambiente (process.env) também são melhor acessadas aqui
@@ -21,6 +27,15 @@ exports.handler = async function(event, context) {
     };
   }
 
+=======
+  // --- Importação Dinâmica do Octokit, Token e Setup AGORA CORRETAMENTE DENTRO do handler ---
+  // Precisamos importar aqui porque import() é assíncrono e precisa de await
+  const { Octokit } = await import("@octokit/core");
+
+  // Obtém o token do GitHub DAS VARIÁVEIS DE AMBIENTE DO NETLIFY (sempre dentro do handler)
+  const githubToken = process.env.GITHUB_COMMENT_TOKEN;
+
+>>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
   // Cria instância do Octokit USANDO O TOKEN
   const octokit = new Octokit({ auth: githubToken });
   // --- Fim da importação e setup do Octokit ---
@@ -53,17 +68,27 @@ exports.handler = async function(event, context) {
   try {
     // 1. Formatar os dados do comentário (em JSON)
     const commentDataObject = {
+<<<<<<< HEAD
       name: data.name || 'Anonymous', // Usa nome ou Anonymous
       email: data.email || '',       // Usa email ou vazio
       date: new Date().toISOString(), // Adiciona timestamp de quando o comentário foi processado
       page_url: data['page-url'],    // URL da página de onde veio o comentário
       comment: data.comment || '',   // Conteúdo do comentário
       // status: 'pending' // Podemos adicionar um campo de status se necessário para o Jekyll, mas PR já indica pending
+=======
+      name: data.name || 'Anonymous',
+      email: data.email || '',
+      date: new Date().toISOString(),
+      page_url: data['page-url'],
+      comment: data.comment || '',
+      // status: 'pending'
+>>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
     };
 
     // Converter para string JSON formatada (com indentação para legibilidade)
     const fileContentJson = JSON.stringify(commentDataObject, null, 2);
 
+<<<<<<< HEAD
     // 2. Extrair o slug do post a partir do page-url para usar no caminho da pasta
     // Exemplo: 'https://perdidoanotante.netlify.app/mental/leituras/2025/04/26/Pensamentos-matutinos.html'
     const urlPath = new URL(data['page-url']).pathname; // Obtém a parte do caminho: '/mental/leituras/2025/04/26/Pensamentos-matutinos.html'
@@ -73,14 +98,31 @@ exports.handler = async function(event, context) {
     const timestamp = new Date().toISOString().replace(/[:.-]/g, ''); // Timestamp único para o nome do arquivo
     const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous'; // Nome do autor formatado para URL/slug
     const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`; // Nome único + parte do nome do autor + extensão .json
+=======
+    // 2. Extrair o slug do post
+    const urlPath = new URL(data['page-url']).pathname;
+    const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');
+
+    // 3. Gerar nome de arquivo único
+    const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
+    const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous';
+    const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`;
+>>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
 
     // 4. Definir o caminho COMPLETO do arquivo no repositório (dentro da pasta _data/comments/slug-do-post/)
     const commentFilePath = `_data/comments/${postSlug}/${uniqueFileName}`; // Caminho DINÂMICO com .json
 
+<<<<<<< HEAD
     // 5. Definir o nome da nova branch para o Pull Request (nome único)
     const newBranchName = `netlify-comment-${timestamp}`; // Nome único para a branch baseada no timestamp
 
     // 6. Definir a branch base para o Pull Request (geralmente 'main' ou 'master')
+=======
+    // 5. Definir o nome da nova branch para o Pull Request
+    const newBranchName = `netlify-comment-${timestamp}`;
+
+    // 6. Obter o SHA do último commit da branch base ('main' ou 'master')
+>>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
     const baseBranch = 'main'; // << CONFIRME SE SUA BRANCH PRINCIPAL SE CHAMA 'main' OU 'master' >>
 
     console.log(`Configurando para criar arquivo em: ${commentFilePath} na branch: ${newBranchName}, baseada em: ${baseBranch}`);
