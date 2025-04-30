@@ -158,12 +158,9 @@ exports.handler = async function(event, context) {
       statusCode: 302, // Código HTTP 200: OK (Sucesso)
       headers: {
         // O cabeçalho Location diz ao navegador/Netlify para onde redirecionar
-        "Location": `${data['page-url']}?comment_status=moderation` // Usa o URL original do post + query param
+        "Location": redirectUrl // Usa o URL original do post + query param
       },
-      body: JSON.stringify({
-        message: "Comentário recebido para moderação. Obrigado!", // Mensagem opcional no body
-        redirect: `${data['page-url']}?comment_status=moderation` // URL completa para onde redirecionar
-      })
+      body: body: "Redirecionando você de volta para o post..."
       // headers: { "Content-Type": "application/json" } // Opcional, Netlify Forms geralmente lida com isso
     };
     // --- Fim do retorno para o Netlify Forms ---
