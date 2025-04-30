@@ -20,38 +20,50 @@ exports.handler = async function(event, context) {
   console.log("Dados recebidos do formulário:", data);
   // ... (código antes do bloco try) ...
 
-try {
-  const commentData = `
-    name: ${data.name}
-    email: ${data.email}
-    comment: |
-    ${data.comment}
-      date: ${new Date().toISOString()}
-      page_url: ${data['page-url']}
-      # status: pending  <-- Adicionaremos status 'pending' para moderação depois
-  `;
-  const commentFilePath = '_data/comments/test-comment.yml'; // <-- Caminho TEMPORÁRIO para teste
+  try {
+    // >> REMOVA ESTAS LINHAS DE DEFINIÇÃO TEMPORÁRIA ANTERIORES DENTRO DESTE BLOCO TRY <<
+    // const commentFilePath = '_data/comments/test-comment.yml';
+    // const fileContentBase64 = Buffer.from(commentData).toString('base64');
+  
+    // --- Começa a lógica para criar o arquivo de comentário DINÂMICO ---
+  
+    // 1. Formatar os dados do comentário (em YAML)
+    // Melhorando a formatação YAML para Jekyll ler facilmente depois
+    const commentDataFormatted = `---
+    name: ${data.name ? data.name.replace(/"/g, '\\"') : 'Anonymous'} # Usa nome ou Anonymous, escapa aspas
+    email: ${data.email || ''} # Usa email ou vazio
+    date: ${new Date().toISOString()}
+    page_url: ${data['page-url']}
+    # status: pending # <--- Manteremos isso para moderação depois
+    ---
+  
+    ${data.comment ? data.comment.replace(/---/g, '\\-\\-\\-') : ''} # Conteúdo do comentário separado por '---' para YAML front matter + body
+    `;
+    const urlPath = new URL(data['page-url']).pathname;
+    const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');    const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
+    const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous';
+    const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.yml`;
+    const commentFilePath = `_data/comments/${postSlug}/${uniqueFileName}`;
+    const fileContentBase64 = Buffer.from(commentDataFormatted, 'utf8').toString('base64');
 
-  const fileContentBase64 = Buffer.from(commentData).toString('base64');
-
-  const createFileResponse = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
-    owner: 'rregio', // Seu nome de usuário GitHub
-    repo: 'perdido-anotante', // O nome do seu repositório
-    path: commentFilePath, // O caminho onde o arquivo será criado
-    message: `Novo comentário de ${data.name} no post ${data['post-title']}`, // Mensagem do commit/PR
-    content: fileContentBase64, // O conteúdo do arquivo em Base64
-    branch: 'main',
+    const createFileResponse = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+      owner: 'rregio',
+      repo: 'perdido-anotante',
+      path: commentFilePath,
+      message: `Novo comentário de ${data.name || 'Anonymous'} no post "${data['post-title']}"`,
+      content: fileContentBase64,
+      branch: 'main',
       committer: {
-        name: 'Netlify Comment Bot', // Nome do committer
-        email: 'seu-email-de-deploy-no-netlify@example.com' // Email (pode ser genérico ou associado ao seu deploy)
+        name: 'Netlify Comment Bot',
+        email: 'seu-email-de-deploy-no-netlify@example.com'
       },
       headers: {
         'X-GitHub-Api-Version': '2022-11-28'
       }
     });
-
-    console.log("Arquivo de comentário criado no GitHub:", createFileResponse.data.content.path);
-    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);
+  
+    console.log("Arquivo de comentário DINÂMICO criado no GitHub:", createFileResponse.data.content.path);
+    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);  
   } catch (error) {
     console.error("Erro ao criar arquivo de comentário no GitHub:", error.message);
   }
