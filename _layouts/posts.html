@@ -22,8 +22,6 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-{# --- CÓDIGO CORRIGIDO PARA MENSAGEM DE MODERAÇÃO --- #}
-{# Verifica se o parâmetro 'comment_status=moderation' está na URL #}
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
@@ -42,8 +40,6 @@ layout: default
     </script>
   </div>
 {% endif %}
-{# --- FIM DO CÓDIGO CORRIGIDO PARA MENSAGEM DE MODERAÇÃO --- #}
-
 
 <section id="comments">
   <h2>Deixe um Comentário</h2>
