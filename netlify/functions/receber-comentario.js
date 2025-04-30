@@ -1,15 +1,9 @@
 // netlify/functions/receber-comentario.js
 
-<<<<<<< HEAD
-=======
-// << REMOVA QUALQUER LINHA DE IMPORT/TOKEN/OCTOKIT QUE ESTEJA AQUI FORA >>
-
->>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
 // O handler é a função principal que o Netlify executa
 exports.handler = async function(event, context) {
   console.log("Função receber-comentario acionada!");
 
-<<<<<<< HEAD
   // --- Importação Dinâmica do Octokit, Token e Setup CORRETAMENTE DENTRO do handler ---
   // Precisamos importar aqui porque import() é assíncrono e precisa de await
   // As variáveis de ambiente (process.env) também são melhor acessadas aqui
@@ -27,15 +21,6 @@ exports.handler = async function(event, context) {
     };
   }
 
-=======
-  // --- Importação Dinâmica do Octokit, Token e Setup AGORA CORRETAMENTE DENTRO do handler ---
-  // Precisamos importar aqui porque import() é assíncrono e precisa de await
-  const { Octokit } = await import("@octokit/core");
-
-  // Obtém o token do GitHub DAS VARIÁVEIS DE AMBIENTE DO NETLIFY (sempre dentro do handler)
-  const githubToken = process.env.GITHUB_COMMENT_TOKEN;
-
->>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
   // Cria instância do Octokit USANDO O TOKEN
   const octokit = new Octokit({ auth: githubToken });
   // --- Fim da importação e setup do Octokit ---
@@ -68,27 +53,17 @@ exports.handler = async function(event, context) {
   try {
     // 1. Formatar os dados do comentário (em JSON)
     const commentDataObject = {
-<<<<<<< HEAD
       name: data.name || 'Anonymous', // Usa nome ou Anonymous
       email: data.email || '',       // Usa email ou vazio
       date: new Date().toISOString(), // Adiciona timestamp de quando o comentário foi processado
       page_url: data['page-url'],    // URL da página de onde veio o comentário
       comment: data.comment || '',   // Conteúdo do comentário
-      // status: 'pending' // Podemos adicionar um campo de status se necessário para o Jekyll, mas PR já indica pending
-=======
-      name: data.name || 'Anonymous',
-      email: data.email || '',
-      date: new Date().toISOString(),
-      page_url: data['page-url'],
-      comment: data.comment || '',
-      // status: 'pending'
->>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
+      // status: 'pending' // Podemos adicionar um campo de status se necessário para o Jekyll
     };
 
     // Converter para string JSON formatada (com indentação para legibilidade)
     const fileContentJson = JSON.stringify(commentDataObject, null, 2);
 
-<<<<<<< HEAD
     // 2. Extrair o slug do post a partir do page-url para usar no caminho da pasta
     // Exemplo: 'https://perdidoanotante.netlify.app/mental/leituras/2025/04/26/Pensamentos-matutinos.html'
     const urlPath = new URL(data['page-url']).pathname; // Obtém a parte do caminho: '/mental/leituras/2025/04/26/Pensamentos-matutinos.html'
@@ -98,32 +73,15 @@ exports.handler = async function(event, context) {
     const timestamp = new Date().toISOString().replace(/[:.-]/g, ''); // Timestamp único para o nome do arquivo
     const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous'; // Nome do autor formatado para URL/slug
     const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`; // Nome único + parte do nome do autor + extensão .json
-=======
-    // 2. Extrair o slug do post
-    const urlPath = new URL(data['page-url']).pathname;
-    const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');
-
-    // 3. Gerar nome de arquivo único
-    const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
-    const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous';
-    const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`;
->>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
 
     // 4. Definir o caminho COMPLETO do arquivo no repositório (dentro da pasta _data/comments/slug-do-post/)
     const commentFilePath = `_data/comments/${postSlug}/${uniqueFileName}`; // Caminho DINÂMICO com .json
 
-<<<<<<< HEAD
     // 5. Definir o nome da nova branch para o Pull Request (nome único)
     const newBranchName = `netlify-comment-${timestamp}`; // Nome único para a branch baseada no timestamp
 
     // 6. Definir a branch base para o Pull Request (geralmente 'main' ou 'master')
-=======
-    // 5. Definir o nome da nova branch para o Pull Request
-    const newBranchName = `netlify-comment-${timestamp}`;
-
-    // 6. Obter o SHA do último commit da branch base ('main' ou 'master')
->>>>>>> 329dd42c3f75fc8e4b6d2d92a0ab9eccfbfb1ff4
-    const baseBranch = 'main'; // << CONFIRME SE SUA BRANCH PRINCIPAL SE CHAMA 'main' OU 'master' >>
+    const baseBranch = 'main'; // CONFIRME SE SUA BRANCH PRINCIPAL SE CHAMA 'main' OU 'master'
 
     console.log(`Configurando para criar arquivo em: ${commentFilePath} na branch: ${newBranchName}, baseada em: ${baseBranch}`);
 
@@ -131,8 +89,8 @@ exports.handler = async function(event, context) {
     console.log(`Obtendo SHA do último commit da branch base: ${baseBranch}`);
     // Endpoint: GET /repos/{owner}/{repo}/branches/{branch}
     const { data: baseBranchInfo } = await octokit.request('GET /repos/{owner}/{repo}/branches/{branch}', {
-      owner: 'rregio', // << SEU NOME DE USUÁRIO NO GITHUB >>
-      repo: 'perdido-anotante', // << NOME DO SEU REPOSITÓRIO >>
+      owner: 'rregio', // SEU NOME DE USUÁRIO NO GITHUB
+      repo: 'perdido-anotante', // O nome do seu repositório
       branch: baseBranch,
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
     });
@@ -143,8 +101,8 @@ exports.handler = async function(event, context) {
     // Endpoint: POST /repos/{owner}/{repo}/git/refs
     console.log(`Criando nova branch: ${newBranchName} a partir de ${lastCommitSha}`);
     await octokit.request('POST /repos/{owner}/{repo}/git/refs', {
-      owner: 'rregio', // << SEU NOME DE USUÁRIO NO GITHUB >>
-      repo: 'perdido-anotante', // << NOME DO SEU REPOSITÓRIO >>
+      owner: 'rregio', // SEU NOME DE USUÁRIO NO GITHUB
+      repo: 'perdido-anotante', // O nome do seu repositório
       ref: `refs/heads/${newBranchName}`, // Caminho completo para a ref da nova branch (ex: 'refs/heads/minha-nova-branch')
       sha: lastCommitSha, // O SHA do commit a partir do qual criar a branch
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
@@ -158,12 +116,12 @@ exports.handler = async function(event, context) {
     // Endpoint: PUT /repos/{owner}/{repo}/contents/{path}
     console.log(`Criando arquivo ${commentFilePath} na branch ${newBranchName}`);
     const createFileResponse = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
-      owner: 'rregio', // << SEU NOME DE USUÁRIO NO GITHUB >>
-      repo: 'perdido-anotante', // << NOME DO SEU REPOSITÓRIO >>
+      owner: 'rregio', // SEU NOME DE USUÁRIO NO GITHUB
+      repo: 'perdido-anotante', // O nome do seu repositório
       path: commentFilePath, // O caminho onde o arquivo .json será criado na branch
       message: `Adiciona comentário de ${commentDataObject.name} para moderação`, // Mensagem do commit na nova branch
       content: fileContentBase64, // O conteúdo do arquivo JSON em Base64
-      branch: newBranchName, // << MUITO IMPORTANTE: CRIANDO NA NOVA BRANCH, NÃO NA BASE >>
+      branch: newBranchName, // MUITO IMPORTANTE: CRIANDO NA NOVA BRANCH, NÃO NA BASE
       committer: { // Informações de quem fez o commit (pode ser você ou um nome/email genérico)
         name: 'Netlify Comment Bot', // Nome do committer
         email: 'seu-email-de-deploy-no-netlify@example.com' // Email (use um email genérico ou associado ao seu deploy Netlify)
@@ -179,8 +137,8 @@ exports.handler = async function(event, context) {
     // Endpoint: POST /repos/{owner}/{repo}/pulls
     console.log(`Criando Pull Request de ${newBranchName} para ${baseBranch}`);
     const { data: prResponse } = await octokit.request('POST /repos/{owner}/{repo}/pulls', {
-      owner: 'rregio', // << SEU NOME DE USUÁRIO NO GITHUB >>
-      repo: 'perdido-anotante', // << NOME DO SEU REPOSITÓRIO >>
+      owner: 'rregio', // SEU NOME DE USUÁRIO NO GITHUB
+      repo: 'perdido-anotante', // O nome do seu repositório
       title: `Novo comentário de ${commentDataObject.name} no post: "${data['post-title']}"`, // Título do Pull Request (visível no GitHub)
       head: newBranchName, // A branch de onde o PR vem (a nova branch com o arquivo)
       base: baseBranch, // A branch para onde o PR vai (sua branch principal, ex: 'main')
@@ -188,18 +146,35 @@ exports.handler = async function(event, context) {
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
     });
     console.log(`Pull Request criado com sucesso! PR #: ${prResponse.number}, URL: ${prResponse.html_url}`);
+
+    // --- Fim da lógica de criação de Pull Request ---
+
+
+    // --- Retorno para o Netlify Forms (Redirecionamento) ---
+    // Retornamos um objeto JSON no body com o campo 'redirect'
+    // O Netlify Forms interpretará isso como uma instrução para redirecionar o usuário
     return {
       statusCode: 200, // Código HTTP 200: OK (Sucesso)
       body: JSON.stringify({
         message: "Comentário recebido para moderação. Obrigado!", // Mensagem opcional no body
         redirect: `${data['page-url']}?comment_status=moderation` // URL completa para onde redirecionar
       })
+      // headers: { "Content-Type": "application/json" } // Opcional, Netlify Forms geralmente lida com isso
     };
+    // --- Fim do retorno para o Netlify Forms ---
+
+
   } catch (error) {
-    console.error("Erro no processo de criação de Pull Request no GitHub:", error);
+    // --- Bloco de tratamento de erros ---
+    // Se ocorrer um erro em QUALQUER PASSO da interação com a API ou outro erro não tratado no try
+    console.error("Erro no processo de criação de Pull Request no GitHub:", error); // Logar o objeto de erro completo para debug
+
+    // Retornar um status de erro para o Netlify Forms (mostrando uma mensagem de erro para o usuário)
     return {
-      statusCode: 500,
+      statusCode: 500, // Código HTTP 500: Erro Interno do Servidor
       body: "Ocorreu um erro ao submeter seu comentário. Por favor, tente novamente mais tarde."
+      // Opcional: body: `Erro: ${error.message}` // Incluir detalhes do erro (bom para debug, ruim para usuário final)
     };
+    // --- Fim do tratamento de erros ---
   }
-};
+}; // Certifique-se que a função handler fecha corretamente aqui
