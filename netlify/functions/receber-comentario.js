@@ -1,23 +1,28 @@
 // netlify/functions/receber-comentario.js
 
-// Importa a classe Octokit
-const { Octokit } = await import("@octokit/core"); // Importação dinâmica
-
-// Obtém o token do GitHub
-const githubToken = process.env.GITHUB_COMMENT_TOKEN;
-
-// Cria instância do Octokit
-const octokit = new Octokit({ auth: githubToken });
+// << REMOVA QUALQUER LINHA DE IMPORT/TOKEN/OCTOKIT QUE ESTEJA AQUI FORA >>
 
 // O handler é a função principal que o Netlify executa
 exports.handler = async function(event, context) {
   console.log("Função receber-comentario acionada!");
 
+  // --- Importação Dinâmica do Octokit, Token e Setup AGORA CORRETAMENTE DENTRO do handler ---
+  // Precisamos importar aqui porque import() é assíncrono e precisa de await
+  const { Octokit } = await import("@octokit/core");
+
+  // Obtém o token do GitHub DAS VARIÁVEIS DE AMBIENTE DO NETLIFY (sempre dentro do handler)
+  const githubToken = process.env.GITHUB_COMMENT_TOKEN;
+
+  // Cria instância do Octokit USANDO O TOKEN
+  const octokit = new Octokit({ auth: githubToken });
+  // --- Fim da importação e setup do Octokit ---
+
+
   // Verificar se a requisição é um POST
   if (event.httpMethod !== "POST") {
     console.log("Método não permitido:", event.httpMethod);
     return {
-      statusCode: 405, // Método Não Permitido
+      statusCode: 405, // Código HTTP 405: Método Não Permitido
       body: "Método não permitido"
     };
   }
@@ -42,17 +47,17 @@ exports.handler = async function(event, context) {
       date: new Date().toISOString(),
       page_url: data['page-url'],
       comment: data.comment || '',
-      // status: 'pending' // Adicionaremos status se necessário, mas PR já indica pending
+      // status: 'pending'
     };
 
     // Converter para string JSON formatada
     const fileContentJson = JSON.stringify(commentDataObject, null, 2);
 
-    // 2. Extrair o slug do post para usar no caminho da pasta
+    // 2. Extrair o slug do post
     const urlPath = new URL(data['page-url']).pathname;
     const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');
 
-    // 3. Gerar um nome de arquivo único (timestamp + um pequeno identificador)
+    // 3. Gerar nome de arquivo único
     const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
     const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous';
     const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`;
@@ -61,9 +66,9 @@ exports.handler = async function(event, context) {
     const commentFilePath = `_data/comments/${postSlug}/${uniqueFileName}`;
 
     // 5. Definir o nome da nova branch para o Pull Request
-    const newBranchName = `netlify-comment-${timestamp}`; // Nome único para a branch
+    const newBranchName = `netlify-comment-${timestamp}`;
 
-    // 6. Obter o SHA do último commit da branch base (geralmente 'main' ou 'master')
+    // 6. Obter o SHA do último commit da branch base ('main' ou 'master')
     const baseBranch = 'main'; // << CONFIRME SE SUA BRANCH PRINCIPAL SE CHAMA 'main' OU 'master' >>
     console.log(`Obtendo SHA do último commit da branch base: ${baseBranch}`);
     const { data: baseBranchInfo } = await octokit.request('GET /repos/{owner}/{repo}/branches/{branch}', {
@@ -80,8 +85,8 @@ exports.handler = async function(event, context) {
     await octokit.request('POST /repos/{owner}/{repo}/git/refs', {
       owner: 'rregio',
       repo: 'perdido-anotante',
-      ref: `refs/heads/${newBranchName}`, // Caminho completo para a ref da nova branch
-      sha: lastCommitSha, // O SHA do commit a partir do qual criar a branch
+      ref: `refs/heads/${newBranchName}`,
+      sha: lastCommitSha,
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
     });
     console.log(`Branch ${newBranchName} criada com sucesso.`);
@@ -95,16 +100,15 @@ exports.handler = async function(event, context) {
       owner: 'rregio',
       repo: 'perdido-anotante',
       path: commentFilePath,
-      message: `Adiciona comentário de ${commentDataObject.name} para moderação`, // Mensagem do commit na nova branch
+      message: `Adiciona comentário de ${commentDataObject.name} para moderação`,
       content: fileContentBase64,
-      branch: newBranchName, // << CRIANDO NA NOVA BRANCH, NÃO NA MAIN >>
+      branch: newBranchName, // << CRIANDO NA NOVA BRANCH >>
       committer: {
         name: 'Netlify Comment Bot',
         email: 'seu-email-de-deploy-no-netlify@example.com'
       },
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
     });
-<<<<<<< HEAD
     console.log(`Arquivo ${commentFilePath} criado com sucesso na branch ${newBranchName}.`);
 
     // 10. Criar o Pull Request da nova branch para a branch base
@@ -112,7 +116,7 @@ exports.handler = async function(event, context) {
     const { data: prResponse } = await octokit.request('POST /repos/{owner}/{repo}/pulls', {
       owner: 'rregio',
       repo: 'perdido-anotante',
-      title: `Novo comentário de ${commentDataObject.name} no post: "${data['post-title']}"`, // Título do Pull Request
+      title: `Novo comentário de ${commentDataObject.name} no post: "${data['post-title']}"`,
       head: newBranchName, // A branch de onde o PR vem
       base: baseBranch, // A branch para onde o PR vai (main)
       body: `Comentário submetido por ${commentDataObject.name} (${commentDataObject.email}) em ${commentDataObject.date} no post ${commentDataObject.page_url}.\n\nConteúdo:\n${commentDataObject.comment}`, // Descrição do PR (opcional, mas útil)
@@ -126,11 +130,6 @@ exports.handler = async function(event, context) {
       body: `Comentário recebido. Por favor, aguarde moderação. PR #${prResponse.number}: ${prResponse.html_url}`
     };
 
-=======
-  
-    console.log("Arquivo de comentário DINÂMICO (JSON) criado no GitHub:", createFileResponse.data.content.path);
-    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);
->>>>>>> 1304f07076b96417fd731c82fe0491125ae6e2c6
   } catch (error) {
     // Se ocorrer um erro em QUALQUER PASSO da interação com a API
     console.error("Erro no processo de criação de Pull Request no GitHub:", error); // Logar o objeto de erro completo
@@ -141,8 +140,4 @@ exports.handler = async function(event, context) {
       body: "Ocorreu um erro ao submeter seu comentário. Por favor, tente novamente mais tarde."
     };
   }
-  // --- Fim do bloco de criação de Pull Request ---
-
-  // Esta linha de retorno final não será mais alcançada se o try...catch retornar
-  // return { statusCode: 200, body: "Comentário recebido com sucesso (processamento futuro)" };
-};
+}; // << Certifique-se que a função handler fecha corretamente aqui >>
