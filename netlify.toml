@@ -3,12 +3,5 @@
     command = "bundle exec jekyll build"
     publish = "_site"
 
-[[redirects]]
-  from = "/.netlify/functions/receber-comentario" # O caminho da sua função
-  to = ":page_url?comment_status=moderation" # Redireciona para o page_url original + query param
-  status = 302 # Redirecionamento temporário
-  force = true # Força o redirecionamento mesmo que o caminho exista (não é o caso aqui)
-
-
 [[plugins]]
     package = "@netlify/plugin-functions-install-core"

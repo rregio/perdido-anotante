@@ -22,6 +22,18 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+<div class="comment-moderation-message">
+  <p>Seu comentário foi recebido e será publicado após moderação.</p>
+  {# Opcional: Remover o parâmetro da URL via JavaScript para limpar #}
+  <script>
+    if (window.location.search.includes('comment_status=moderation')) {
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.hash;
+      history.replaceState(null, '', newUrl);
+    }
+  </script>
+</div>
+{% endif %}
+
 <section id="comments">
   <h2>Deixe um Comentário</h2>
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
