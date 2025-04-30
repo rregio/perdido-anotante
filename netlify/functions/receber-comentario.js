@@ -21,28 +21,27 @@ exports.handler = async function(event, context) {
   // ... (código antes do bloco try) ...
 
   try {
-    const commentDataFormatted = `---
-    name: ${data.name ? data.name.replace(/"/g, '\\"') : 'Anonymous'} # Usa nome ou Anonymous, escapa aspas
-    email: ${data.email || ''} # Usa email ou vazio
-    date: ${new Date().toISOString()}
-    page_url: ${data['page-url']}
-    # status: pending # <--- Manteremos isso para moderação depois
-    ---
-  
-    ${data.comment ? data.comment.replace(/---/g, '\\-\\-\\-') : ''} # Conteúdo do comentário separado por '---' para YAML front matter + body
-    `;
+    const commentDataObject = {
+      name: data.name || 'Anonymous', // Usa nome ou Anonymous
+      email: data.email || '',       // Usa email ou vazio
+      date: new Date().toISOString(),
+      page_url: data['page-url'],
+      comment: data.comment || '',   // Conteúdo do comentário
+      // status: 'pending'          // Manteremos isso para moderação depois
+    };
+    const fileContentJson = JSON.stringify(commentDataObject, null, 2);
     const urlPath = new URL(data['page-url']).pathname;
-    const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');    const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
+    const postSlug = urlPath.replace(/\.html$/, '').replace(/^\//, '');
+    const timestamp = new Date().toISOString().replace(/[:.-]/g, '');
     const authorNameSlug = data.name ? data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') : 'anonymous';
-    const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.yml`;
+    const uniqueFileName = `${timestamp}-${authorNameSlug.substring(0, 20)}.json`;
     const commentFilePath = `_data/comments/${postSlug}/${uniqueFileName}`;
-    const fileContentBase64 = Buffer.from(commentDataFormatted, 'utf8').toString('base64');
-
+    const fileContentBase64 = Buffer.from(fileContentJson, 'utf8').toString('base64');
     const createFileResponse = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
-      owner: 'rregio',
+      owner: 'rregio', 
       repo: 'perdido-anotante',
-      path: commentFilePath,
-      message: `Novo comentário de ${data.name || 'Anonymous'} no post "${data['post-title']}"`,
+      path: commentFilePath, 
+      message: `Novo comentário de ${commentDataObject.name} no post "${data['post-title']}"`,
       content: fileContentBase64,
       branch: 'main',
       committer: {
@@ -54,8 +53,8 @@ exports.handler = async function(event, context) {
       }
     });
   
-    console.log("Arquivo de comentário DINÂMICO criado no GitHub:", createFileResponse.data.content.path);
-    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);  
+    console.log("Arquivo de comentário DINÂMICO (JSON) criado no GitHub:", createFileResponse.data.content.path);
+    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);
   } catch (error) {
     console.error("Erro ao criar arquivo de comentário no GitHub:", error.message);
   }
