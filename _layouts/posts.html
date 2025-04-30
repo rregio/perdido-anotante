@@ -4,7 +4,9 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' %}
+    {% comment %} O slug calculado aqui pode ser usado para outros fins no layout,
+                 mas garantiremos o cálculo correto na seção de comentários também. {% endcomment %}
+    {% assign post_slug_header = page.url | remove_first: '/' | replace: '.html', '' %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -23,6 +25,7 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+{% comment %} Código para Mensagem de Moderação {% endcomment %}
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
@@ -36,17 +39,25 @@ layout: default
     </script>
   </div>
 {% endif %}
+{% comment %} Fim do Código para Mensagem de Moderação {% endcomment %}
 
 
 <section id="comments">
-  <h2>Deixe um Comentário</h2>
-
-  {% assign post_slug = page.url | replace: '.html', '' | remove: '/' %}
-  {% if site.data.comments[post_slug] %} {# Verifica se existe a pasta de comentários para este slug em _data/comments #}
-    <h3>Comentários ({{ site.data.comments[post_slug] | size }})</h3> {# Exibe o número de comentários #}
-    {% assign comments = site.data.comments[post_slug] | sort: 'date' %} {# Obtém os comentários e ordena por data #}
+  
+  {% comment %} --- CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- {% endcomment %}
+  {% comment %} Calculamos o slug corretamente aqui para usar na busca pelos dados dos comentários {% endcomment %}
+  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' %} {# <-- CÁLCULO CORRETO DO SLUG AQUI #}
+  
+  {% comment %} Verifica se existe a pasta de comentários para este slug em _data/comments {% endcomment %}
+  {% if site.data.comments[post_slug] %}
+    {% comment %} Exibe o número de comentários (opcional) {% endcomment %}
+    <h3>Comentários ({{ site.data.comments[post_slug] | size }})</h3>
+    
+    {% comment %} Obtém os comentários e ordena por data {% endcomment %}
+    {% assign comments = site.data.comments[post_slug] | sort: 'date' %}
 
     <ul class="comment-list">
+      {% comment %} Percorre cada arquivo .json na pasta do slug {% endcomment %}
       {% for comment in comments %}
         <li class="comment">
           <div class="comment-meta">
@@ -56,16 +67,21 @@ layout: default
             </time>
           </div>
           <div class="comment-body">
-            {{ comment.comment | markdownify }}
+            {{ comment.comment | markdownify }} {% comment %} Renderiza como Markdown {% endcomment %}
           </div>
         </li>
       {% endfor %}
     </ul>
 
   {% else %}
+    {% comment %} Mensagem se não houver comentários {% endcomment %}
     <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
-  <h2>Deixe um Comentário</h2>
+  {% comment %} --- FIM DO CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- {% endcomment %}
+
+
+  {% comment %} Formulário de comentários (removido título duplicado aqui) {% endcomment %}
+  <h2>Deixe um Comentário</h2> {# Título do formulário (agora único) #}
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
@@ -75,6 +91,7 @@ layout: default
     <p><button type="submit">Enviar Comentário</button></p>
   </form>
 
+  {% comment %} Estilos do formulário de comentários {% endcomment %}
   <style>
     #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
     #comments h2 { margin-bottom: 20px; }
