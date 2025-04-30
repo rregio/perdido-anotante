@@ -37,14 +37,10 @@ layout: default
   </div>
 {% endif %}
 <section id="comments">
-  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
-  <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
-  <p>DEBUG SITE.DATA.COMMENTS: {{ site.data.comments | inspect }}</p>
-  
+  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}  
   {% assign comments_for_post = site.data.comments[post_slug] %}
-  
   {% if comments_for_post %}
-    <h3>Comentários ({{ comments_for_post | size }})</h3>
+    <h3>Comentários ({{ comments_for_post | size }})</h3>    
     {% assign comments = comments_for_post | sort: 'date' %}
     <ul class="comment-list">
       {% for comment in comments %}
@@ -56,7 +52,7 @@ layout: default
             </time>
           </div>
           <div class="comment-body">
-            {{ comment.comment | markdownify }}
+            {{ comment.comment | markdownify }} {% comment %} Renderiza como Markdown {% endcomment %}
           </div>
         </li>
       {% endfor %}
