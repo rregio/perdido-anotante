@@ -22,17 +22,28 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<div class="comment-moderation-message">
-  <p>Seu comentário foi recebido e será publicado após moderação.</p>
-  {# Opcional: Remover o parâmetro da URL via JavaScript para limpar #}
-  <script>
-    if (window.location.search.includes('comment_status=moderation')) {
-      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.hash;
-      history.replaceState(null, '', newUrl);
-    }
-  </script>
-</div>
+{# --- CÓDIGO CORRIGIDO PARA MENSAGEM DE MODERAÇÃO --- #}
+{# Verifica se o parâmetro 'comment_status=moderation' está na URL #}
+{% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
+  <div class="comment-moderation-message">
+    <p>Seu comentário foi recebido e será publicado após moderação.</p>
+    {# Opcional: Remover o parâmetro da URL via JavaScript para limpar #}
+    <script>
+      if (window.location.search.includes('comment_status=moderation')) {
+        // Cria a nova URL sem o parâmetro de query string
+        const url = new URL(window.location.href);
+        url.searchParams.delete('comment_status'); // Remove o parâmetro específico
+
+        // Usa history.replaceState para mudar a URL na barra de endereço sem recarregar a página
+        // Verifica se há outros parâmetros. Se não houver, use pathname puro.
+        const newUrl = (url.searchParams.toString() === '') ? window.location.pathname : window.location.pathname + url.search;
+        history.replaceState(null, '', newUrl + window.location.hash);
+      }
+    </script>
+  </div>
 {% endif %}
+{# --- FIM DO CÓDIGO CORRIGIDO PARA MENSAGEM DE MODERAÇÃO --- #}
+
 
 <section id="comments">
   <h2>Deixe um Comentário</h2>
