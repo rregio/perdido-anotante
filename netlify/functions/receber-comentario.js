@@ -104,6 +104,7 @@ exports.handler = async function(event, context) {
       },
       headers: { 'X-GitHub-Api-Version': '2022-11-28' }
     });
+<<<<<<< HEAD
     console.log(`Arquivo ${commentFilePath} criado com sucesso na branch ${newBranchName}.`);
 
     // 10. Criar o Pull Request da nova branch para a branch base
@@ -125,6 +126,11 @@ exports.handler = async function(event, context) {
       body: `Comentário recebido. Por favor, aguarde moderação. PR #${prResponse.number}: ${prResponse.html_url}`
     };
 
+=======
+  
+    console.log("Arquivo de comentário DINÂMICO (JSON) criado no GitHub:", createFileResponse.data.content.path);
+    console.log("URL do commit/PR:", createFileResponse.data.commit.html_url);
+>>>>>>> 1304f07076b96417fd731c82fe0491125ae6e2c6
   } catch (error) {
     // Se ocorrer um erro em QUALQUER PASSO da interação com a API
     console.error("Erro no processo de criação de Pull Request no GitHub:", error); // Logar o objeto de erro completo
