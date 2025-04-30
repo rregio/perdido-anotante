@@ -8,7 +8,7 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: site.minima.date_format | default: "%b %-d, %Y" }}
+        {{ page.date | date: site.minima.date_format | default: "%b %-d, %Y %H:%M" }}
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
@@ -37,10 +37,12 @@ layout: default
   </div>
 {% endif %}
 <section id="comments">
-  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}  
+  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
   {% assign comments_for_post = site.data.comments[post_slug] %}
-  {% if comments_for_post %}
-    <h3>Comentários ({{ comments_for_post | size }})</h3>    
+  {% if comments_for_post and comments_for_post.size > 0 %}
+    <p>DEBUG INTERNO: IF BLOCK EXECUTADO!</p>
+    <h3>Comentários ({{ comments_for_post | size }})</h3>
+    
     {% assign comments = comments_for_post | sort: 'date' %}
     <ul class="comment-list">
       {% for comment in comments %}
@@ -52,7 +54,7 @@ layout: default
             </time>
           </div>
           <div class="comment-body">
-            {{ comment.comment | markdownify }} {% comment %} Renderiza como Markdown {% endcomment %}
+            {{ comment.comment | markdownify }}
           </div>
         </li>
       {% endfor %}
