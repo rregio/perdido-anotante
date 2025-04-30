@@ -15,11 +15,9 @@ layout: default
       {%- endif -%}
     </p>
   </header>
-
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
@@ -38,12 +36,20 @@ layout: default
 {% endif %}
 <section id="comments">
   {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
+  {% comment %} <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
+  {% comment %} <p>DEBUG SITE.DATA.COMMENTS: {{ site.data.comments | inspect }}</p>
+
   {% assign comments_for_post = site.data.comments[post_slug] %}
-  {% if comments_for_post and comments_for_post.size > 0 %}
+  <p>DEBUG COMMENTS_FOR_POST SIZE: {{ comments_for_post | size | inspect }}</p>
+
+  {% if comments_for_post and comments_for_post.size > 0 %} 
+    
     <p>DEBUG INTERNO: IF BLOCK EXECUTADO!</p>
+
     <h3>Comentários ({{ comments_for_post | size }})</h3>
     
     {% assign comments = comments_for_post | sort: 'date' %}
+
     <ul class="comment-list">
       {% for comment in comments %}
         <li class="comment">
@@ -59,6 +65,7 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+
   {% else %}
     <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
@@ -71,6 +78,7 @@ layout: default
     <p><label for="comment">Comentário:</label><br><textarea name="comment" id="comment" required></textarea></p>
     <p><button type="submit">Enviar Comentário</button></p>
   </form>
+
   <style>
     #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
     #comments h2 { margin-bottom: 20px; }
