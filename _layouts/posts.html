@@ -36,13 +36,16 @@ layout: default
     </script>
   </div>
 {% endif %}
-
 <section id="comments">
   {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
   <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
-  {% if site.data.comments[post_slug] %}
-    <h3>Comentários ({{ site.data.comments[post_slug] | size }})</h3>
-    {% assign comments = site.data.comments[post_slug] | sort: 'date' %}
+  <p>DEBUG SITE.DATA.COMMENTS: {{ site.data.comments | inspect }}</p>
+  
+  {% assign comments_for_post = site.data.comments[post_slug] %}
+  
+  {% if comments_for_post %}
+    <h3>Comentários ({{ comments_for_post | size }})</h3>
+    {% assign comments = comments_for_post | sort: 'date' %}
     <ul class="comment-list">
       {% for comment in comments %}
         <li class="comment">
@@ -61,7 +64,7 @@ layout: default
   {% else %}
     <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
-  <h2>Deixe um Comentário</h2>
+  <h2>Deixe um Comentário</h2> {# Título do formulário (agora único) #}
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
@@ -70,7 +73,6 @@ layout: default
     <p><label for="comment">Comentário:</label><br><textarea name="comment" id="comment" required></textarea></p>
     <p><button type="submit">Enviar Comentário</button></p>
   </form>
-
   <style>
     #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
     #comments h2 { margin-bottom: 20px; }
