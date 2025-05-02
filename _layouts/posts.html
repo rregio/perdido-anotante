@@ -4,7 +4,6 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    {% assign post_slug_header = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -22,92 +21,3 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-
-{% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
-  <div class="comment-moderation-message">
-    <p>Seu comentário foi recebido e será publicado após moderação.</p>
-    <script>
-      if (window.location.search.includes('comment_status=moderation')) {
-        const url = new URL(window.location.href);
-        url.searchParams.delete('comment_status');
-        const newUrl = (url.searchParams.toString() === '') ? window.location.pathname : window.location.pathname + url.search;
-        history.replaceState(null, '', newUrl + window.location.hash);
-      }
-    </script>
-  </div>
-{% endif %}
-<section id="comments">
-  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
-  <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
-  <p>DEBUG SITE.DATA (Completo): {{ site.data | inspect }}</p>
-  DEBUG SITE.DATA.COMMENTS EXISTS: {{ site_data_comments_exists | inspect }}</p>
-  DEBUG SITE.DATA.COMMENTS SIZE (Top Level): {{ site_data_comments_size | inspect }}</p>
-  DEBUG SITE.DATA.COMMENTS (Conteúdo): {{ site.data.comments | inspect }}</p>
-  DEBUG COMMENTS_FOR_POST (Objeto do Post): {{ comments_for_post | inspect }}</p>
-  DEBUG COMMENTS_FOR_POST SIZE (Objeto do Post): {{ comments_for_post | size | inspect }}</p>
-  {% assign comments_data_root = site.data.comments %}
-  {% assign slug_components = post_slug | split: '/' %}
-  {% assign comments_for_post = comments_data_root %}
-  {% for component in slug_components %}
-    {% if comments_for_post and comments_for_post[component] %}
-      {% assign comments_for_post = comments_for_post[component] %}
-    {% else %}
-      {% assign comments_for_post = nil %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  <p>DEBUG COMMENTS_FOR_POST APOS NAVEGACAO: {{ comments_for_post | inspect }}</p>
-  {% assign comments_found = false %}
-  {% if comments_for_post %}
-    {% for comment in comments_for_post %}
-      <p>DEBUG INTERNO: LOOP RODOU! Encontrou comentário com chave: {{ comment[0] | inspect }}</p>
-      {% assign comments_found = true %} 
-    {% endfor %}
-  {% endif %}
-  {% if comments_found %}
-    <h3>Comentários ({{ comments_for_post.size | default: comments_for_post | size }})</h3>    
-    {% assign comments = comments_for_post | sort: 'date' %}
-    <ul class="comment-list">
-      {% for comment in comments %}
-        <li class="comment">
-          <div class="comment-meta">
-            <strong>{{ comment[1].name | escape }}</strong> em
-            <time datetime="{{ comment[1].date | date_to_xmlschema }}">
-              {{ comment[1].date | date: site.minima.date_format | default: "%b %-d, %Y %H:%M" }}
-            </time>
-          </div>
-          <div class="comment-body">
-            {{ comment[1].comment | markdownify }}
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-
-  {% else %}
-    <p>Ainda não há comentários para esta postagem.</p>
-  {% endif %}
-  <h2>Deixe um Comentário</h2>
-  <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
-    <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
-    <input type="hidden" name="post-title" value="{{ page.title }}">
-    <p><label for="name">Nome:</label><br><input type="text" name="name" id="name" required></p>
-    <p><label for="email">Email:</label><br><input type="email" name="email" id="email"></p>
-    <p><label for="comment">Comentário:</label><br><textarea name="comment" id="comment" required></textarea></p>
-    <p><button type="submit">Enviar Comentário</button></p>
-  </form>
-  <style>
-    #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
-    #comments h2 { margin-bottom: 20px; }
-    #comments label { display: block; margin-bottom: 5px; font-weight: bold; }
-    #comments input[type="text"], #comments input[type="email"], #comments textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; box-sizing: border-box; }
-    #comments button[type="submit"] { padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px; }
-    #comments button[type="submit"]:hover { background-color: #0056b3; }
-
-    /* Estilos simples para a lista de comentários */
-    .comment-list { list-style: none; padding: 0; }
-    .comment { border: 1px solid #eee; padding: 15px; margin-bottom: 15px; border-radius: 5px; background-color: #f9f9f9; }
-    .comment-meta { font-size: 0.9em; color: #555; margin-bottom: 5px; }
-    .comment-body { margin-top: 10px; }
-    .comment-body p:last-child { margin-bottom: 0; } /* Remove margem inferior do último parágrafo no comentário */
-  </style>
-</section>
