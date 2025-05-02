@@ -26,6 +26,7 @@ layout: default
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
+    {% comment %} Opcional: Remover o parâmetro da URL via JavaScript para limpar {% endcomment %}
     <script>
       if (window.location.search.includes('comment_status=moderation')) {
         const url = new URL(window.location.href);
@@ -42,9 +43,15 @@ layout: default
   {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
   {% assign comments_for_post = site.data.comments[post_slug] %}
   <p>DEBUG COMMENTS_FOR_POST SIZE: {{ comments_for_post | size | inspect }}</p>
-  {% if comments_for_post and comments_for_post.size > 0 %}
-    <p>DEBUG INTERNO: IF BLOCK EXECUTADO!</p>
-    <h3>Comentários ({{ comments_for_post | size }})</h3>
+  {% assign comments_found = false %}
+
+  {% for comment in comments_for_post %}
+    {% comment %} DEBUG INTERNO: Esta linha só aparecerá se o loop rodar pelo menos uma vez! {% endcomment %}
+    <p>DEBUG INTERNO: LOOP RODOU! Encontrou comentário com chave: {{ comment[0] | inspect }}</p>
+    {% assign comments_found = true %}
+  {% endfor %}
+  {% if comments_found %}
+    <h3>Comentários ({{ comments_for_post.size | default: comments_for_post | size }})</h3>
     {% assign comments = comments_for_post | sort: 'date' %}
     <ul class="comment-list">
       {% for comment in comments %}
