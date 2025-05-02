@@ -26,7 +26,6 @@ layout: default
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
-    {% comment %} Opcional: Remover o parâmetro da URL via JavaScript para limpar {% endcomment %}
     <script>
       if (window.location.search.includes('comment_status=moderation')) {
         const url = new URL(window.location.href);
@@ -37,16 +36,30 @@ layout: default
     </script>
   </div>
 {% endif %}
-
-
-<section id="comments">
+<section id="comments">  
   {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
+  <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
+  <p>DEBUG SITE.DATA (Completo): {{ site.data | inspect }}</p>
+  {% assign site_data_comments_exists = false %}
+  {% assign site_data_comments_size = 0 %}
+  {% if site.data.comments %}
+    {% assign site_data_comments_exists = true %}
+    {% if site.data.comments.size %}
+      {% assign site_data_comments_size = site.data.comments.size %}
+    {% endif %}
+  {% endif %}
+  <p>DEBUG SITE.DATA.COMMENTS EXISTS: {{ site_data_comments_exists | inspect }}</p>
+  <p>DEBUG SITE.DATA.COMMENTS SIZE (Top Level): {{ site_data_comments_size | inspect }}</p>
+  {% if site_data_comments_exists %}
+     <p>DEBUG SITE.DATA.COMMENTS (Conteúdo): {{ site.data.comments | inspect }}</p>
+  {% endif %}
   {% assign comments_for_post = site.data.comments[post_slug] %}
-  <p>DEBUG COMMENTS_FOR_POST SIZE: {{ comments_for_post | size | inspect }}</p>
+
+  <p>DEBUG COMMENTS_FOR_POST (Objeto do Post): {{ comments_for_post | inspect }}</p>
+  <p>DEBUG COMMENTS_FOR_POST SIZE (Objeto do Post): {{ comments_for_post | size | inspect }}</p>
   {% assign comments_found = false %}
 
   {% for comment in comments_for_post %}
-    {% comment %} DEBUG INTERNO: Esta linha só aparecerá se o loop rodar pelo menos uma vez! {% endcomment %}
     <p>DEBUG INTERNO: LOOP RODOU! Encontrou comentário com chave: {{ comment[0] | inspect }}</p>
     {% assign comments_found = true %}
   {% endfor %}
@@ -68,6 +81,7 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+
   {% else %}
     <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
