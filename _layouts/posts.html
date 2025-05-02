@@ -4,6 +4,7 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    {% comment %} O slug calculado aqui pode ser usado para outros fins no layout {% endcomment %}
     {% assign post_slug_header = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -15,15 +16,19 @@ layout: default
       {%- endif -%}
     </p>
   </header>
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+{% comment %} Código para Mensagem de Moderação {% endcomment %}
 {% if page.url contains '?comment_status=moderation' or page.url contains '&comment_status=moderation' %}
   <div class="comment-moderation-message">
     <p>Seu comentário foi recebido e será publicado após moderação.</p>
+    {% comment %} Opcional: Remover o parâmetro da URL via JavaScript para limpar {% endcomment %}
     <script>
       if (window.location.search.includes('comment_status=moderation')) {
         const url = new URL(window.location.href);
@@ -34,23 +39,40 @@ layout: default
     </script>
   </div>
 {% endif %}
-<section id="comments">
-  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
-  {% comment %} <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p>
-  {% comment %} <p>DEBUG SITE.DATA.COMMENTS: {{ site.data.comments | inspect }}</p>
+{% comment %} Fim do Código para Mensagem de Moderação {% endcomment %}
 
+
+<section id="comments">
+  
+  {% comment %} --- CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- {% endcomment %}
+  {% comment %} Calculamos o slug corretamente aqui para usar na busca pelos dados dos comentários {% endcomment %}
+  {% assign post_slug = page.url | remove_first: '/' | replace: '.html', '' | strip | downcase %}
+  
+  {% comment %} DEBUG TEMPORÁRIO: Deixamos comentadas as linhas de debug para limpar o HTML {% endcomment %}
+  {% comment %} <p>DEBUG SLUG FINAL REFINADO: {{ post_slug | inspect }}</p> {% endcomment %}
+  {% comment %} <p>DEBUG SITE.DATA.COMMENTS: {{ site.data.comments | inspect }}</p> {% endcomment %}
+  {% comment %} FIM DEBUG TEMPORÁRIO {% endcomment %}
+
+  {% comment %} Tentativa alternativa de acessar os dados dos comentários para este post antes do IF {% endcomment %}
   {% assign comments_for_post = site.data.comments[post_slug] %}
+
+  {% comment %} DEBUG TEMPORÁRIO: Descomente as linhas abaixo para inspecionar o tamanho e o debug interno {% endcomment %}
   <p>DEBUG COMMENTS_FOR_POST SIZE: {{ comments_for_post | size | inspect }}</p>
 
-  {% if comments_for_post and comments_for_post.size > 0 %} 
+  {% comment %} Verifica se existe a pasta de comentários para este slug e se tem pelo menos um comentário. {% endcomment %}
+  {% comment %} Condição revisada para verificar se a variável existe E se tem tamanho maior que zero {% endcomment %}
+  {% if comments_for_post and comments_for_post.size > 0 %} {# <<< NOVA CONDIÇÃO >>> #}
     
-    <p>DEBUG INTERNO: IF BLOCK EXECUTADO!</p>
+    <p>DEBUG INTERNO: IF BLOCK EXECUTADO!</p> {# <<< ESTE DEVE APARECER SE O IF FOR VERDADEIRO >>> #}
 
+    {% comment %} Exibe o número de comentários (opcional) {% endcomment %}
     <h3>Comentários ({{ comments_for_post | size }})</h3>
     
+    {% comment %} Obtém os comentários e ordena por data {% endcomment %}
     {% assign comments = comments_for_post | sort: 'date' %}
 
     <ul class="comment-list">
+      {% comment %} Percorre cada arquivo .json na pasta do slug {% endcomment %}
       {% for comment in comments %}
         <li class="comment">
           <div class="comment-meta">
@@ -60,16 +82,21 @@ layout: default
             </time>
           </div>
           <div class="comment-body">
-            {{ comment.comment | markdownify }}
+            {{ comment.comment | markdownify }} {% comment %} Renderiza como Markdown {% endcomment %}
           </div>
         </li>
       {% endfor %}
     </ul>
 
   {% else %}
+    {% comment %} Mensagem se não houver comentários {% endcomment %}
     <p>Ainda não há comentários para esta postagem.</p>
   {% endif %}
-  <h2>Deixe um Comentário</h2> {# Título do formulário (agora único) #}
+  {% comment %} --- FIM DO CÓDIGO PARA EXIBIR COMENTÁRIOS APROVADOS --- {% endcomment %}
+
+
+  {% comment %} Formulário de comentários {% endcomment %}
+  <h2>Deixe um Comentário</h2>
   <form name="comentario" method="POST" data-netlify="true" action="/.netlify/functions/receber-comentario">
     <input type="hidden" name="page-url" value="{{ page.url | absolute_url }}">
     <input type="hidden" name="post-title" value="{{ page.title }}">
@@ -79,6 +106,7 @@ layout: default
     <p><button type="submit">Enviar Comentário</button></p>
   </form>
 
+  {% comment %} Estilos do formulário de comentários {% endcomment %}
   <style>
     #comments { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
     #comments h2 { margin-bottom: 20px; }
