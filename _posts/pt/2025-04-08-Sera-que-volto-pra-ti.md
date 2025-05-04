@@ -13,7 +13,7 @@ comments: true
 
 Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou no dia 08 de Abril. E começa assim:
 
-<img alt="Indeciso se volto pra TI" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="400" height="400">
+<img loading='lazy' alt="Indeciso se volto pra TI" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="400" height="400">
 
 Ontem dia 03 de Abril pensei em novamente voltar e tentar recolocação na área de TI e passei a tarde toda vendo vídeos relacionados á programação.
 

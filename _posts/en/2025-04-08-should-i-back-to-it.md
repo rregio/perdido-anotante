@@ -13,7 +13,7 @@ comments: true
 
 These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And it starts like this:
 
-<img alt="Should I go back to IT??" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="400" height="400">
+<img loading='lazy' alt="Should I go back to IT??" src="/assets/imagens/sera-que-volto-pra-ti.jpeg" width="400" height="400">
 
 Yesterday, April 3rd, I thought about going back and trying to get a job in IT again, and I spent the whole afternoon watching videos related to programming.
 

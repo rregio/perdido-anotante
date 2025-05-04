@@ -13,7 +13,7 @@ comments: true
 
 Bom dia, e acredito sinceramente que seja um dia bom.
 
-<img alt="Pensamentos matinais, dia bom apesar de tudo" src="{{ '/assets/imagens/pensamentos-matinais-dia-bom.jpg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Pensamentos matinais, dia bom apesar de tudo" src="{{ '/assets/imagens/pensamentos-matinais-dia-bom.jpg' | relative_url }}" width="400" height="400">
 
 Apesar de ontem (dia 25) ter passado o dia em claro, sim, virei a noite. E do dia 24 para o dia 25 (e até um pouco antes) tinha passado um tempo tentando corrigir problemas de desempenho e performance do blog para celulares.
 

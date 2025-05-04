@@ -13,7 +13,7 @@ comments: true
 
 Good morning, and I sincerely believe that it will be a good day.
 
-<img alt="Morning thoughts a good day despite everything"  src="{{ '/assets/imagens/pensamentos-matinais-dia-bom.jpg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Morning thoughts a good day despite everything"  src="{{ '/assets/imagens/pensamentos-matinais-dia-bom.jpg' | relative_url }}" width="400" height="400">
 
 Although yesterday (the 25th) I spent the whole day awake, yes, I stayed up all night. And from the 24th to the 25th (and even a little before) I spent some time trying to fix the blog's performance and performance issues for cell phones.
 

@@ -13,7 +13,7 @@ comments: true
 
 Recentemente vi um vídeo de um cara que pergunta ao ChatGPT justamente essa pergunta "Como ser 1% melhor todos os dias". Eu particularmente uso o Gemini (do google) e nunca tinha parado para pensar ou perguntar isto. Ultimamente venho usando ela mais do que gostaria e sei que isto pode ser um vício.
 
-<img alt="Dificuldades quando criança" src="{{ '/assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Dificuldades quando criança" src="{{ '/assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg' | relative_url }}" width="400" height="400">
 
 E eu não havia perguntado pois todos nós "já sabemos" como fazer isso. E essa resposta em minha mente eram, beber mais água, comer bem (de modo moderado, que não faça mal), exercitar-se mais.  E ele realmente deu estas respostas mas ele foi além disso e me deu alguns insights.
 

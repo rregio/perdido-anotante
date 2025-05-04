@@ -12,7 +12,7 @@ comments: true
 ---
 And this note was a recommendation from the psychologist, where he asked me to do things that I don't normally do... Like cooking, and he gave me some recommendations.
 
-<img alt="Doing different things" src="/assets/imagens/fazendo-coisas-diferentes.jpeg" width="400" height="400">
+<img loading='lazy' alt="Doing different things" src="/assets/imagens/fazendo-coisas-diferentes.jpeg" width="400" height="400">
 
 And yesterday, April 2nd, I did some things that I had never done before... and they were in the kitchen... Very simple things, and it's amazing how simple things motivate us...
 

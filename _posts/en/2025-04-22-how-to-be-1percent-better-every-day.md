@@ -13,7 +13,7 @@ comments: true
 
 Have you ever wondered, "How can I be 1% better every day?" I recently saw a video where someone asked ChatGPT exactly that, and it got me thinking. I primarily use Gemini (Google's AI), and oddly, I had never thought to ask my AI this specific question myself. Lately, I've been using AI more than I'd ideally like, a habit I'm starting to recognize could easily become an addiction.
 
-<img alt="How to be 1% better every days" src="{{ '/assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="How to be 1% better every days" src="{{ '/assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg' | relative_url }}" width="400" height="400">
 
 Perhaps I hadn't asked because, deep down, we all feel like we "already know" the answer. My initial thoughts immediately went to the usual suspects: drink more water, eat healthier (in moderation, of course), exercise more. And while Gemini did include these, it also went further, offering some surprisingly simple yet powerful insights.
 

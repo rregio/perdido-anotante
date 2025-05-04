@@ -13,7 +13,7 @@ comments: true
 
 Yesterday I found myself thinking about what I could do to write more (if possible) and with the book I read (in fact, I'm still reading it) I had an idea and the author said that when he was a child his mother would take him to the mall and there he would do the exercise of sitting and observing (or should I say judging, lol) the people he saw there, and trying to imagine what these people do. And that gave me a little idea...
 
-<img alt="Trying to create an idea from a book" src="{{ '/assets/imagens/uma-grande-ideia.jpeg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Trying to create an idea from a book" src="{{ '/assets/imagens/uma-grande-ideia.jpeg' | relative_url }}" width="400" height="400">
 
 I live in a two-story house, and right below my balcony there is a bus stop and I thought about always doing this, so that I would always have content to write (both on the channel, by the way I owe more videos there, and here on the blog). I checked with my favorite AI ways to do this, and it always has an answer for everything.
 
