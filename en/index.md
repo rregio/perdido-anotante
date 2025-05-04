@@ -27,10 +27,10 @@ In this space, you'll find a bit of everything: from reflections on games, my se
   </div>
 </div>
 
-<ul class="post-list">
-  <div class="post-grid">
-    {% assign english_posts = site.posts | where: "lang", "en" %}
-    {% for post in english_posts %}
+<ul class="post-list post-grid">
+  {% assign english_posts = site.posts | where: "lang", "en" %}
+  {% for post in english_posts %}
+    <li>
       <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
         {% if post.header_image %}
           <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}">
@@ -43,6 +43,6 @@ In this space, you'll find a bit of everything: from reflections on games, my se
           <p class="post-excerpt">{{ post.excerpt }}</p>
         {% endif %}
       </div>
-    {% endfor %}
-  </div>
+    </li>
+  {% endfor %}
 </ul>
