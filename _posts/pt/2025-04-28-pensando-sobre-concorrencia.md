@@ -7,7 +7,8 @@ categories: ["mental", 'leituras']
 lang: pt
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg
 header_image_size: 2048
-excerpt: Pensando sobre o livro que estou lendo, A mágica de pensar grande, e acabei de ler o capítulo 4 e...
+excerpt: Recentemente, comecei a pensar sobre como a concorrência afeta nossas vidas...
+comments: true
 ---
 
 Pensando sobre o livro que estou lendo, A mágica de pensar grande, e acabei de ler o capítulo 4 e ele no final dá uma lista de situações, pensamentos mesquinhos (palavras do autor) e pensamentos grandes. E segue abaixo a um "exemplo" de como é e o trecho que me fez indagar mais sobre.

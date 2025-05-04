@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
 header_image_size: 2048
 excerpt: Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que...
+comments: true
 ---
 
 Um tempinho atrás fiz uma leitura do livro Roube como um artista e aqui vai alguns pontos do que achei do livro.

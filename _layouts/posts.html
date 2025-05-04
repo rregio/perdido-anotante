@@ -21,3 +21,18 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+{% if page.comments %}
+<div class="comments-section">
+  <div id="disqus_thread"></div>
+  <script>
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://perdidoanotante.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Por favor, habilite o JavaScript para ver os <a href="https://disqus.com/?ref_noscript">comentários do Disqus.</a></noscript>
+</div>
+{% endif %}

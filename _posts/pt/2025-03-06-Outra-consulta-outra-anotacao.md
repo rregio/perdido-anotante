@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg
 header_image_size: 2048
 excerpt: Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito p...
+comments: true
 ---
 
 Sobre essa consulta estava pensando se postava sobre ela e a anotação por ser algo muito pessoal... Mas vamos lá...

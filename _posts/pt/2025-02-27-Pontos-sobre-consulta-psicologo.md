@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/dificuldades-da-infancia.jpeg
 header_image_size: 2048
 excerpt: Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que deci..
+comments: true
 ---
 
 Como falei postarei de tudo aqui... e esta foi uma das minhas primeiras anotações desde que decidi anotar tudo.
