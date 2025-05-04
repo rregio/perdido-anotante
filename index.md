@@ -30,21 +30,23 @@ lang: pt
 </div>
 
 <ul class="post-list">
-  <div class="post-grid">
     {% assign portuguese_posts = site.posts | where: "lang", "pt" %}
     {% for post in portuguese_posts %}
-      <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
-        {% if post.header_image %}
-          <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}" width="{{ post.header_image_size }}" height="{{ post.header_image_size }}">
-        {% endif %}
-        <h3 class="post-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h3>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.excerpt %}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {% endif %}
-      </div>
+      <li>
+        <div class="post-grid">
+          <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
+            {% if post.header_image %}
+              <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}" width="{{ post.header_image_size }}" height="{{ post.header_image_size }}">
+            {% endif %}
+            <h3 class="post-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </li>
     {% endfor %}
-  </div>
 </ul>
