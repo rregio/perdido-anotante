@@ -19,7 +19,24 @@ layout: default
     {{ content }}
   </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden>teste</a>
+  <hr>
+  <div class="related-posts">
+    <h3>Posts para você ler também</h3>
+    <ul>
+      {% assign other_posts = site.posts | where: "lang", page.lang | where_exp: "post", "post.url != page.url" %}
+      {% assign random_posts = other_posts | sample: 3 %}
+      {% for post in random_posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span style="color:#aaa;font-size:0.9em;">({{ post.date | date: "%b %-d, %Y" }})</span>
+        </li>
+      {% endfor %}
+      {% if random_posts == empty %}
+        <li><em>Nenhum post encontrado.</em></li>
+      {% endif %}
+    </ul>
+  </div>
 </article>
 
 {% if page.comments %}
