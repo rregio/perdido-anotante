@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg
 header_image_size: 1120
 excerpt: Recentemente vi um vídeo de um cara que pergunta ao ChatGPT justamente essa pergunta "Como ser 1%...
+comments: true
 ---
 
 Recentemente vi um vídeo de um cara que pergunta ao ChatGPT justamente essa pergunta "Como ser 1% melhor todos os dias". Eu particularmente uso o Gemini (do google) e nunca tinha parado para pensar ou perguntar isto. Ultimamente venho usando ela mais do que gostaria e sei que isto pode ser um vício.

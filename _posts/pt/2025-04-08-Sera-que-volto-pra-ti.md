@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
 header_image_size: 2048
 excerpt: Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou...
+comments: true
 ---
 
 Essas anotações foram feitas em duas partes... uma no dia 04 de Abril e outra agora pouco, estou no dia 08 de Abril. E começa assim:

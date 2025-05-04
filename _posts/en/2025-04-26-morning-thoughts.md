@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/pensamentos-matinais-dia-bom.jpg
 header_image_size: 1120
 excerpt: Good morning, and I sincerely believe that it will be a good day. Although yesterday (the 25th) ...
+comments: true
 ---
 
 Good morning, and I sincerely believe that it will be a good day.

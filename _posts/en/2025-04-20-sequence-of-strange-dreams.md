@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/sonho-estranho.jpeg
 header_image_size: 2048
 excerpt: Last night I had a dream that I've actually had a few times recently, and it starts like this...
+comments: true
 ---
 
 Last night, I had a dream – one that's been visiting me quite often lately. It always begins similarly:

@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/uma-grande-ideia.jpeg
 header_image_size: 2048
 excerpt: Yesterday I found myself thinking about what I could do to write more (if possible) and with the ...
+comments: true
 ---
 
 Yesterday I found myself thinking about what I could do to write more (if possible) and with the book I read (in fact, I'm still reading it) I had an idea and the author said that when he was a child his mother would take him to the mall and there he would do the exercise of sitting and observing (or should I say judging, lol) the people he saw there, and trying to imagine what these people do. And that gave me a little idea...

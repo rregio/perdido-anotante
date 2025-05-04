@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/mais-sobre-mim.png
 header_image_size: 2048
 excerpt: Hey guys! To start off, this is my first post here at "Perdido Anotante".
+comments: true
 ---
 
 Hey guys! To start off, this is my first post here at "Perdido Anotante".

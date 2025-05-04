@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg
 header_image_size: 1120
 excerpt: Have you ever wondered, "How can I be 1% better every day?" I recently saw a video where someone ...
+comments: true
 ---
 
 Have you ever wondered, "How can I be 1% better every day?" I recently saw a video where someone asked ChatGPT exactly that, and it got me thinking. I primarily use Gemini (Google's AI), and oddly, I had never thought to ask my AI this specific question myself. Lately, I've been using AI more than I'd ideally like, a habit I'm starting to recognize could easily become an addiction.

@@ -7,7 +7,7 @@ categories: ["mental", 'leituras']
 lang: pt
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg
 header_image_size: 2048
-excerpt: Recentemente, comecei a pensar sobre como a concorrência afeta nossas vidas...
+excerpt: Pensando sobre o livro que estou lendo, A mágica de pensar grande, e acabei de ler o capítulo 4 e...
 comments: true
 ---
 

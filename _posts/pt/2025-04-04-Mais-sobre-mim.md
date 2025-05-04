@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/mais-sobre-mim.png
 header_image_size: 1024
 excerpt: E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
+comments: true
 ---
 
 E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".

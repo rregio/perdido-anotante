@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg
 header_image_size: 2048
 excerpt: E esse é um post falando o porque eu não sigo religião... Na verdade essa anotação foi feita apó...
+comments: true
 ---
 
 E esse é um post falando o porque eu não sigo religião... Na verdade essa anotação foi feita após discutir com minha mãe sobre religião. E eu disse (e acho que realmente foi) quando minha madrinha disse algo parecido com isso "O reino dos céus não aceitam pessoas tímidas" e aí eu fiquei confabulando isto:

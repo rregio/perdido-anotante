@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
 header_image_size: 2048
 excerpt: Recentemente, realizei um pequeno grande sonho de infância; li "Viagem ao Centro da Terra", o clá...
+comments: true
 ---
 
 Recentemente, realizei um pequeno grande sonho de infância: li "Viagem ao Centro da Terra", o clássico de Júlio Verne que eu via ser anunciado na TV Cultura e que, para mim enquanto crescia, parecia algo **intocável (inimaginável, inalcançável)** quando eu era criança.

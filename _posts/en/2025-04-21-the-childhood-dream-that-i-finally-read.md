@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
 header_image_size: 2048
 excerpt: I recently fulfilled a small childhood dream; I read "Journey to the Center of the Earth", the cl...
+comments: true
 ---
 
 I recently ticked off a big item on my childhood dream list: reading "Journey to the Center of the Earth", Jules Verne's classic! Growing up, I'd see it advertised on TV Cultura, and it always seemed like something **untouchable (unimaginable, unattainable)** almost out of reach back then.

@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg
 header_image_size: 2048
 excerpt: I was thinking about whether to post about this consultation and the note because it is something...
+comments: true
 ---
 
 I was thinking about whether to post about this consultation and the note because it is something very personal... But here goes...

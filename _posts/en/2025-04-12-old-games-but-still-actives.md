@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
 header_image_size: 2048
 excerpt: I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note...
+comments: true
 ---
 
 I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note:

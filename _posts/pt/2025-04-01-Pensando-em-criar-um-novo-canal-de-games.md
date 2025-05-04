@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/pensando-em-criar-canal-de-games.jpeg
 header_image_size: 2048
 excerpt: Como falei em algum dos posts anteriores acho que o Mais sobre mim recentemente apaguei um cana...
+comments: true
 ---
 
 Como falei em algum dos posts anteriores acho que o [Mais sobre mim]({{ site.baseurl }}/sobre/2025/04/04/Mais-sobre-mim.html) recentemente apaguei um canal de games do Youtube que tinha pouco mais de 1000 inscritos (cerca de 1025) esse texto abaixo era de um momento bem recente depois que apaguei.

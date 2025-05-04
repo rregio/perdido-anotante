@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/sonho-estranho.jpeg
 header_image_size: 2048
 excerpt: Essa noite tive um sonho que na verdade recentemente já sonhei algumas vezes com isso e ele começ...
+comments: true
 ---
 
 Essa noite tive um sonho que na verdade recentemente já sonhei algumas vezes com isso e ele começa assim:

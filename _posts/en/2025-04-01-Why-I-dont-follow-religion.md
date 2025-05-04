@@ -7,7 +7,8 @@ categories: [religion]
 lang: en
 header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg
 header_image_size: 2048
-excerpt: And this is a post talking about why I don't follow religion... Actually, this note was made afte
+excerpt: And this is a post talking about why I don't follow religion... Actually, this note was made afte...
+comments: true
 ---
 
 And this is a post talking about why I don't follow religion... Actually, this note was made after arguing with my mother about religion. And I said (and I think it really was) when my godmother said something like this "The kingdom of heaven does not accept shy people" and then I started to think this:

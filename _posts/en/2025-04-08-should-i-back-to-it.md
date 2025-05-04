@@ -7,7 +7,8 @@ categories: [professional]
 lang: en
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
 header_image_size: 2048
-excerpt: These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And
+excerpt: These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And...
+comments: true
 ---
 
 These notes were made in two parts... one on April 4th and another just now, I'm on April 8th. And it starts like this:

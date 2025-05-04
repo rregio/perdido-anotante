@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/uma-grande-ideia.jpeg
 header_image_size: 2048
 excerpt: Ontem me peguei pensando no que poderia fazer para escrever mais (se possível) e com o livro que ...
+comments: true
 ---
 Ontem me peguei pensando no que poderia fazer para escrever mais (se possível) e com o livro que li (aliás, estou lendo ainda) tive uma ideia e o autor dizia que quando criança sua mãe o levava ao shopping e lá fazia o exercício de sentar-se e observar (ou seria julgar kkk) as pessoas que por ali viam, e tentavam imaginar o que essas pessoas fazem. E isso me fez ter uma pequena idéia...
 

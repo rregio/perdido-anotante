@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/dificuldades-da-infancia.jpeg
 header_image_size: 2048
 excerpt: As I said, I'll post everything here... and this was one of my first notes since I decided to wri...
+comments: true
 ---
 
 As I said, I'll post everything here... and this was one of my first notes since I decided to write everything down.

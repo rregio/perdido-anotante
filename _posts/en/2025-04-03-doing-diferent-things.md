@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048
 excerpt: And this note was a recommendation from the psychologist, where he asked me to do things that I...
+comments: true
 ---
 And this note was a recommendation from the psychologist, where he asked me to do things that I don't normally do... Like cooking, and he gave me some recommendations.
 

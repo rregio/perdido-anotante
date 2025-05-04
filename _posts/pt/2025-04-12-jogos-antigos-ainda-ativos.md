@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
 header_image_size: 2048
 excerpt: Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação...
+comments: true
 ---
 
 Recentemente vi uma propaganda do jogo Tibia e fiquei pensando, o que me levou a esta anotação:

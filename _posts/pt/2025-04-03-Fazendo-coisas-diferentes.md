@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048
 excerpt: E essa anotação foi uma recomendação do psicólogo, onde ele pediu para eu fazer coisas que norma...
+comments: true
 ---
 E essa anotação foi uma recomendação do psicólogo, onde ele pediu para eu fazer coisas que normalmente não faço... Como cozinhar, e ele me deu algumas recomendações.
 

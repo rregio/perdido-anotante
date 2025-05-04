@@ -8,6 +8,7 @@ lang: pt
 header_image: /assets/imagens/pensamentos-matinais-dia-bom.jpg
 header_image_size: 896
 excerpt: Bom dia, e acredito sinceramente que seja um dia bom. Apesar de ontem (dia 25) ter passado o dia ...
+comments: true
 ---
 
 Bom dia, e acredito sinceramente que seja um dia bom.

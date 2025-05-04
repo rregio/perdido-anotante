@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
 header_image_size: 2048
 excerpt: A while ago I read the book Steal Like an Artist and here are some points of what I thought of th...
+comments: true
 ---
 
 A while ago I read the book Steal Like an Artist and here are some points of what I thought of the book.

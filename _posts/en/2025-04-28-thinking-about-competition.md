@@ -8,6 +8,7 @@ lang: en
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg
 header_image_size: 2048
 excerpt: I'm thinking about the book I'm reading, The Magic of Thinking Big, and I just finished chapter 4...
+comments: true
 ---
 I'm thinking about the book I'm reading, The Magic of Thinking Big, and I just finished chapter 4 and at the end it gives a list of situations, petty thoughts (the author's words) and big thoughts. And below is an "example" of what it's like and the part that made me wonder more about it.
 
