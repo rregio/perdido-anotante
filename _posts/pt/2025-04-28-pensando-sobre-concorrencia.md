@@ -3,7 +3,7 @@ layout: posts
 title: Pensando sobre concorrência
 description: Lendo o livro tenho pensamentos sobre concorrência.
 date: 2025-04-28
-categories: ["mental"]
+categories: ["mental", 'leituras']
 lang: pt
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg
 header_image_size: 2048
