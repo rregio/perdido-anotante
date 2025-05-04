@@ -22,7 +22,7 @@ E ainda ontem (dia 25) criei o primeiro vídeo do canal referente ao blog, isto 
 
 Ainda não estou certo, mas minha mãe disse que minha sobrinha viria passar o dia conosco. E isso sempre me anima demais, e ela disse ainda que teremos ao anoitecer uma reunião sobre os produtos que ela vende, e eu havia dito que queria ajudar ela com isto, e ela queria que eu participasse. Ainda não sei como, mas eu estava querendo a ajudar a vender de forma online, seja aqui neste blog ou quem sabe em outro site. Por falar nisso ela vende perfumes da Moments Paris, então se quiserem ajudar-me ou se não me considera tanto, ajudar a ela (pois ela é a pessoa mais batalhadora que conheço, não tem ninguém por aqui que seja como ela, queria ajudar mais ela mas minha auto confiança não deixa). Falando em auto confiança espero que minha timidez deixe conversar sobre isso com o representante da empresa.
 
-### Leitura ao acordar, seria a reunião um momento para por em prática?
+#### Leitura ao acordar, seria a reunião um momento para por em prática?
 
 E é basicamente isto, já fiz minha leitura, e estou lendo o livro "A mágica de pensar grande" de David J. Schwartz (link para compra de uma versão de bolso no link ao final da página). O que pode ter a ver com este post, poderia acabar este post por aqui, mas vou fazer um pequeno resumo do que li hoje. E o livro encoraja justamente isto, pensar positivamente pela manhã tentando se animar e foi exatamente como comecei o post.
 

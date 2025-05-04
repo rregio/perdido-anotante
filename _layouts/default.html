@@ -55,6 +55,28 @@
       color:#E0E0E0; /* Cor do texto (se não herdar do body) */
       /* Outras propriedades de texto como font-weight, etc. */
     }
+    table {
+      background-color: #333 !important; /* Cor de fundo escura */
+      color: #fff !important; /* Cor do texto clara */
+      width: 100%; /* Opcional: defina a largura da tabela */
+      border-collapse: collapse; /* Colapsar bordas */
+    }
+
+    th, td {
+      padding: 10px; /* Espaçamento interno */
+      text-align: left; /* Alinhar texto à esquerda */
+      border: 1px solid #555 !important; /* Borda sutil */
+    }
+
+    th {
+      background-color: #555 !important; /* Um fundo um pouco mais claro para o cabeçalho */
+      color: #fff !important; /* Cor do texto do cabeçalho */
+    }
+
+    /* Opcional: estilizar linhas alternadas para melhor leitura */
+    tr:nth-child(even) {
+      background-color: #444 !important;
+    }
 
     /* Media Query para o layout responsivo da seção de introdução */
     @media (max-width:768px){
