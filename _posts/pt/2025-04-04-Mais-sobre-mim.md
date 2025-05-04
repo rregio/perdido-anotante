@@ -13,7 +13,7 @@ comments: true
 
 E aí, galera! Pra começar, esse é o meu primeiro post aqui no "Perdido Anotante".
 
-<img alt="Mais sobre mim" src="/assets/imagens/mais-sobre-mim.png" width="400" height="400">
+<img loading='lazy' alt="Mais sobre mim" src="/assets/imagens/mais-sobre-mim.png" width="400" height="400">
 
 Antes de mais nada, queria explicar que esse blog vai ser tipo um caderno de anotações meu, sabe? Peguei um caderninho pra anotar de tudo, e aqui vou passar essas anotações a limpo.
 

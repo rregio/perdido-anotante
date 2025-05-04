@@ -13,7 +13,7 @@ comments: true
 
 A while ago I read the book Steal Like an Artist and here are some points of what I thought of the book.
 
-<img alt="Stealing like an artist" src="/assets/imagens/li-o-livro-roube-como-um-artista.jpeg" width="400" height="400">
+<img loading='lazy' alt="Stealing like an artist" src="/assets/imagens/li-o-livro-roube-como-um-artista.jpeg" width="400" height="400">
 
 The book is good and encourages us to improve our skills and that we should imitate something in order to produce something... When we start programming, for example, we do and try to imitate the code of the best, always reading and updating ourselves. As they say, "Nothing is created, everything is copied" and that makes sense.
 

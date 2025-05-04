@@ -13,7 +13,7 @@ comments: true
 
 I recently saw an advertisement for the game Tibia and it got me thinking, which led to this note:
 
-<img alt="Old games still actives" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="400" height="400">
+<img loading='lazy' alt="Old games still actives" src="/assets/imagens/jogos-antigos-ainda-ativos.jpeg" width="400" height="400">
 
 Ah, Tibia... it's so successful that I can't even imagine why... because the game doesn't seem that cool to me. I don't even know its history, so I don't understand its success.
 

@@ -15,7 +15,7 @@ And this is a post talking about why I don't follow religion... Actually, this n
 
 God decides to end the world now and I and everyone else will go to purgatory. When one of the angels at the gates of heaven asks some people close to me:
 
-<img alt="Why i dont follow religions?" src="/assets/imagens/porque-nao-sigo-religioes.jpeg" width="400" height="400">
+<img loading='lazy' alt="Why i dont follow religions?" src="/assets/imagens/porque-nao-sigo-religioes.jpeg" width="400" height="400">
 
 _What have you done in life?
 

@@ -12,7 +12,7 @@ comments: true
 ---
 Ontem me peguei pensando no que poderia fazer para escrever mais (se possível) e com o livro que li (aliás, estou lendo ainda) tive uma ideia e o autor dizia que quando criança sua mãe o levava ao shopping e lá fazia o exercício de sentar-se e observar (ou seria julgar kkk) as pessoas que por ali viam, e tentavam imaginar o que essas pessoas fazem. E isso me fez ter uma pequena idéia...
 
-<img alt="Tentando criar uma idéia á partir de um livro" src="{{ '/assets/imagens/uma-grande-ideia.jpeg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Tentando criar uma idéia á partir de um livro" src="{{ '/assets/imagens/uma-grande-ideia.jpeg' | relative_url }}" width="400" height="400">
 
 Moro em um sobrado, e logo abaixo da minha varanda possui um ponto de ônibus e eu imaginei em sempre fazer isso, afim de sempre ter conteudo para escrever (tanto no canal, por falar nisso to devendo mais vídeos por lá, quanto aqui no blog). Fui checar com minha IA preferida formas de fazer isso, e ela sempre tem uma resposta para tudo.
 

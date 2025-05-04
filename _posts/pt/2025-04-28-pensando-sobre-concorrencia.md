@@ -13,7 +13,7 @@ comments: true
 
 Pensando sobre o livro que estou lendo, A mágica de pensar grande, e acabei de ler o capítulo 4 e ele no final dá uma lista de situações, pensamentos mesquinhos (palavras do autor) e pensamentos grandes. E segue abaixo a um "exemplo" de como é e o trecho que me fez indagar mais sobre.
 
-<img alt="Pensando sobre concorrência" src="{{ '/assets/imagens/pensando-sobre-concorrencia.jpeg' | relative_url }}" width="400" height="400">
+<img loading='lazy' alt="Pensando sobre concorrência" src="{{ '/assets/imagens/pensando-sobre-concorrencia.jpeg' | relative_url }}" width="400" height="400">
 
 | Situação     | Pensamento mesquinho  | Pensamentos grandes      |
 |---|---|---|

@@ -12,7 +12,7 @@ comments: true
 ---
 E essa anotação foi uma recomendação do psicólogo, onde ele pediu para eu fazer coisas que normalmente não faço... Como cozinhar, e ele me deu algumas recomendações.
 
-<img alt="Fazendo coisas diferentes, na cozinha" src="/assets/imagens/fazendo-coisas-diferentes.jpeg" width="400" height="400">
+<img loading='lazy' alt="Fazendo coisas diferentes, na cozinha" src="/assets/imagens/fazendo-coisas-diferentes.jpeg" width="400" height="400">
 
 E Ontem dia 02 de Abril fiz algumas coisas que nunca havia feito... e foram na cozinha... Coisas muito simples, e é impressionante como coisas simples nos motivam...
 

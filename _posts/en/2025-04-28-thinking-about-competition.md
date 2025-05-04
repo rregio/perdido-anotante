@@ -12,6 +12,8 @@ comments: true
 ---
 I'm thinking about the book I'm reading, The Magic of Thinking Big, and I just finished chapter 4 and at the end it gives a list of situations, petty thoughts (the author's words) and big thoughts. And below is an "example" of what it's like and the part that made me wonder more about it.
 
+<img loading='lazy' alt="Pensando sobre concorrência" src="{{ '/assets/imagens/pensando-sobre-concorrencia.jpeg' | relative_url }}" width="400" height="400">
+
 | Situation | Petty thought | Big thoughts |
 |---|---|---|
 | competition | competing with the average | competing with the big ones |
