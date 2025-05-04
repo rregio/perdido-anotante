@@ -3,7 +3,7 @@
 <head>
   <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
   <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape }}">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6005667592743973" crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6005667592743973" crossorigin></script>
   <meta name="google-site-verification" content="f6uU2cbCrjsnQWgv0eyB9sa3ouIsMaNzd7RlZPB7xqU" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -114,19 +114,18 @@
     loadCSS('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
-  <link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0ITw.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"> <!--{/* Favicon PNG 96x96 */} -->
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg"> <!-- {/* Favicon SVG */} -->
-  <link rel="manifest" href="/site.webmanifest"> <!-- {/* Manifesto do Web App */} -->
-  <link rel="shortcut icon" href="/favicon.ico"> <!-- {/* O favicon clássico (menor) */} -->
+  <link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0ITw.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-  <!-- Meta tags de cor (do seu manifest, mantemos aqui para consistência no head) -->
-  <meta name="msapplication-TileColor" content="#da532c"> <!-- {/* Cor do tile do Windows, se aplicável (do seu manifest) */} -->
-  <meta name="theme-color" content="#ffffff"> <!-- {/* Cor da barra de tema (do seu manifest) */} -->
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
   <body>
@@ -138,8 +137,7 @@
         {{ content }}
         {% if page.lang == 'en' %}
   <p>Back to the posts <a href="{{ site.baseurl }}/en/">here</a></p>
-{% endif %}<!-- Colocar aqui um código para saber se a url tem site.baseurl/en/ -->
-      </div>
+{% endif %}</div>
     </main>
 
     {%- include footer.html -%}
