@@ -27,10 +27,12 @@ In this space, you'll find a bit of everything: from reflections on games, my se
   </div>
 </div>
 
+<input type="text" id="search-input" placeholder="Buscar por título ou resumo..." style="width:100%;padding:10px;margin-bottom:20px;font-size:1.1em;border-radius:5px;border:1px solid #333;background:#222;color:#fff;">
+
 <ul class="post-list post-grid">
   {% assign english_posts = site.posts | where: "lang", "en" %}
   {% for post in english_posts %}
-    <li>
+    <li class="post-item">
       <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }} {% endfor %}">
         {% if post.header_image %}
           <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}">
@@ -46,3 +48,5 @@ In this space, you'll find a bit of everything: from reflections on games, my se
     </li>
   {% endfor %}
 </ul>
+
+<script src="/assets/js/search.js"></script>
