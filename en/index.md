@@ -5,12 +5,14 @@ description: homepage of the blog
 lang: en
 ---
 
-Welcome to **PerdidoAnotante**!
-
-My name is **Rodrigo**, I'm over 40 years old, and honestly, I feel a bit lost. But I've decided to document this journey, writing down everything that happens in my notebooks and sharing it here.
-
-In this space, you'll find a bit of everything: from reflections on games, my search for better mental well-being, to everyday experiences and various thoughts, and my thoughts on the books I've been reading.
-
+<div class="intro-section">
+  <img src="/assets/imagens/logo_site.jpg" alt="Perdido Anotante Logo na Introdução" class="intro-logo-image" width="2048" height="2048">
+  <div class="intro-text-content">
+    <p>Welcome to <b>PerdidoAnotante</b>!</p>
+    <p>My name is <u><b>Rodrigo</b></u>, I'm over 40 years old and, honestly, I feel a little lost. But I decided to document this journey, writing down everything that happens in my notebooks and sharing it here.</p>
+    <p>In this space, you'll find a little bit of everything: from reflections on games, my search for more mental well-being, to everyday experiences and diverse thoughts and my thoughts on books I've been reading.</p>
+  </div>
+</div>
 <h1 class="page-heading">Recently added posts</h1>
 
 <div class="category-list-container">

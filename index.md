@@ -4,6 +4,7 @@ title: Página Inicial
 description: página inicial do blog perdido anotante.
 lang: pt
 ---
+
 <div class="intro-section">
   <img src="/assets/imagens/logo_site.jpg" alt="Perdido Anotante Logo na Introdução" class="intro-logo-image" width="2048" height="2048">
   <div class="intro-text-content">
