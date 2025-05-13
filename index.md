@@ -36,7 +36,7 @@ lang: pt
   {% assign portuguese_posts = site.posts | where: "lang", "pt" %}
   {% for post in portuguese_posts %}
     <li class="post-item">
-      <div class="post-block">
+      <div class="post-block" data-categories="{% for category in post.categories %}{{ category | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}">
         {% if post.header_image %}
           <img src="{{ post.header_image | relative_url }}" alt="{{ post.title | escape }}" width="{{ post.header_image_size }}" height="{{ post.header_image_size }}">
         {% endif %}
@@ -51,5 +51,3 @@ lang: pt
     </li>
   {% endfor %}
 </ul>
-
-<script src="/assets/js/search.js"></script>
