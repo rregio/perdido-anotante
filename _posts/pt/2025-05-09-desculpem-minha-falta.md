@@ -1,36 +1,64 @@
 ---
 layout: posts
-title: Desculpem minha falta!
-description: Resolvi criar esse post apesar de não estar nos meus 75% (comum), e nele temos meus sentimentos atuais, e próximos passos
+title: "Voltando Depois de Um Tempo"
+description: "Compartilho os motivos da minha ausência recente, falo sobre desafios de saúde e financeiros, e apresento meus próximos passos e novos projetos, incluindo o blog Deviagames e uma nova rotina."
 date: 2025-04-29
 categories: ["mental","ausência", "próximos passos"]
 lang: pt
 header_image: /assets/imagens/desconfortavel.jpg
 header_image_size: 896
-excerpt: E aí, como vocês estão? Espero que bem, não digo o mesmo sobre mim... Não sei o quanto escreverei...
+excerpt: "Se você notou a minha ausência por aqui nas últimas semanas (ou mais!), peço desculpas pela falta..."
 comments: true
 ---
-E aí, como vocês estão? Espero que bem, não digo o mesmo sobre mim... Não sei o quanto escreverei aqui (pois esta não é uma anotação do caderno) o fato é que já a algum tempo não consigo ler nada... e escrever menos ainda... devo ter ficado uma semana ou mais (eu acho que ainda mais)... Voltarei em breve (espero). O que aconteceu?? nada de muito extraordinário, só que ultimamente estou sentindo um desconforto.
+E aí perdidos, que bom que te encontrei denovo! Se você notou a minha ausência por aqui nas últimas semanas (ou mais!), peço desculpas pela falta de posts. Confesso que **não tem sido fácil**, e este post é uma forma de compartilhar um pouco do que tem acontecido, os desafios que venho enfrentando e, mais importante, meus planos para retomar as atividades por aqui e em outros projetos.
 
-<img loading='lazy' alt="Sentindo-me desconfortável mesmo em casa" src="{{ '/assets/imagens/desconfortavel.jpg' | relative_url }}" width="400" height="400">
+Não vou mentir: **não estou nos meus melhores dias**, e o simples ato de ler ou escrever tem sido um desafio enorme. Houve um bloqueio grande que durou, eu acho, mais de uma semana. Voltar a criar tem sido uma batalha.
 
-Não vou dar detalhes porque nem eu sei o que tenho, tudo o que sei é que recentemente fui diagnosticado com pedra na vesícula (sei que isso não é grave) mas segundo o google bate um pouco os sintomas (um desconforto na barriga ao lado direito, sem dores ainda), e calma, não pesquisei os sintomas dela de cara, primeiro pesquisei sobre a vesícula e segundo ele ela também fica no lado direito. E depois pesquisei alguns sintomas.
+#### Um tempo de desconforto e desafios pessoais
 
-E nesses dias o incomodo parece estar se intensificando. Vou ao hospital aqui perto amanhã e não quero dar mais trabalho a minha familia (minha mãe). Falando sobre ela, ela me deu um celular novo porque o meu já estava abrindo a boca (descolando a tela, mas funcionando). Queria eu mesmo ter comprado, de alguma forma, atualmente desempregado e sem um real em minhas contas é impossível.
+Nada de extraordinário aconteceu no sentido de um grande evento isolado, mas ultimamente tenho sentido um **desconforto persistente** que tem me afetado.
 
-Até tenho um dinheiro guardado, mas está investido e provavelmente só poderei tirar em setembro. Falei em retornar a ela, mas ela não quis e preferiu que eu reinvestisse e é o que vou fazer (com um pesar no coração). E novamente vou tentar fazer o canal (que já tenho na verdade) nem que eu fique falando nada com uma gameplay horrível estilo Goulart. Só não quero fazer o vídeo com a cara de c# que to tendo recentemente (devido a este incomodo).
+<img loading='lazy' alt="Ilustração de uma pessoa sentada no sofá, parecendo desconfortável, pensativa ou cansada, em um ambiente interno." src="{{ '/assets/imagens/desconfortavel.jpg' | relative_url }}" width="400" height="400">
 
-Também recentemente criei um outro blog, que ainda vou tentar fazer ele, já está online, é o [deviagames](https://deviagames.netlify.app/) onde pretendo falar sobre essas 3 palavras (dev - desenvolvimento, ia - inteligência e games - preciso nem falar né?) estava pensando em fazer esse blog de um trampo (pesquisar um assunto em algum lugar, comentar dando opinião e publicar). Talvez eu volte, até porque o blog já está no ar...
+Essa sensação de desconforto não é algo fácil de descrever em detalhes, até porque eu mesmo não tenho 100% de certeza da causa principal. O que sei é que recentemente fui diagnosticado com **pedra na vesícula**. Sei que geralmente não é algo grave, mas pesquisando um pouco (sim, dei uma "googlada" básica, verificando a localização da vesícula e alguns sintomas), notei que bate com o desconforto que sinto na região direita da barriga – por enquanto, sem dores intensas, felizmente.
 
-E ainda tentei fazer ele com a IDE cursor, aquela do cara que desenvolveu um game do 0 só com a IA e monetizou o jogo todo colocando propagandas, mas não consegui continuar ainda. Mas está na minha lista de afazeres... Também está na minha lista de afazeres também está tentar fazer mais exercícios (nem que seja uma caminhada) quem sabe conciliar tudo isso em uma coisa só. Tentarei fazer uma lista do que quero fazer diariamente:
+Este incômodo tem se intensificado nos últimos dias, e por isso **irei ao hospital aqui perto amanhã** para investigar melhor. Não quero dar mais preocupação para a minha família, especialmente para a minha mãe, que já me ajuda tanto.
 
-* Acordar
-* Cuidados iniciais (lavar o rosto, escovar os dentes, etc.)
-* Ler algo...
-* Exercícios (caminhada inicialmente)
-* Tarefas do blog deviagames (pesquisar, escrever opinando, publicar) e almoçar nesse meio tempo.
-* Tarefinhas de fim de dia (jogar, ler ou escrever pra esse blog)
-* Cuidados finais
-* Dormir
+#### Entre desafios financeiros e o apoio da família
 
-E é isso, se tudo der certo seguirei esse plano diariamente... se eu desistir de algo (como sempre faço) aviso por aqui (ou tento avisar)... E agora irei dormir com cheiro de pizza que meu pessoal aqui em casa está comendo...
+Falando em mãe, ela me deu um celular novo porque o meu antigo já estava pedindo arrego (a tela descolando!). Fiquei muito agradecido, mas confesso que gostaria de ter conseguido comprar por conta própria. Atualmente **desempregado e sem recursos** imediatos nas contas, isso é impossível.
+
+Tenho um dinheiro guardado, sim, mas ele está investido e a previsão de resgate é apenas para setembro. Mencionei para a minha mãe a possibilidade de resgatar uma parte, mas ela preferiu que eu reinvestisse, e assim farei (com um aperto no coração, por não poder contribuir ou ter minha própria independência financeira agora).
+
+#### Novos projetos à vista: youTube, blog deviagames e mais!
+
+Apesar dos pesares, a vontade de criar e produzir não desapareceu. Uma forma de tentar dar a volta por cima é focar em **novos projetos**.
+
+Primeiro, vou tentar reativar o **canal no YouTube** que já tenho. Nem que seja para fazer vídeos mais simples, tipo gameplays comentadas (ou até sem comentar, "estilo Goulart", como brinquei). Só preciso superar essa "cara de poucos amigos" que o desconforto tem me deixado!
+
+Segundo, e este é um **novo blog** que já está online: o [Devia Games](https://deviagames.netlify.app/). A ideia é explorar a interseção entre **Dev (Desenvolvimento), IA (Inteligência Artificial) e Games**. Penso em usá-lo como um tipo de "trampo": pesquisar um assunto nessas áreas, adicionar minha opinião e publicar. O blog já está no ar, então a motivação para fazê-lo acontecer é grande!
+
+Nessa onda de novos projetos, até tentei usar a IDE **Cursor** (aquela que ficou famosa por ajudar a criar um jogo do zero com IA), mas ainda não consegui avançar. Mas está na minha lista de coisas para fazer!
+
+#### Reconstruindo a rotina: Um plano para voltar á ativa
+
+Para conciliar tudo isso – cuidar da saúde, buscar soluções financeiras, tocar os novos projetos e simplesmente sair desse estado de inércia – percebi que preciso de estrutura. Preciso **reconstruir minha rotina**.
+
+Também na minha lista de afazeres está voltar a fazer **exercícios**, nem que seja apenas uma caminhada inicial, como discutimos no post anterior. Quem sabe consigo conciliar tudo isso?
+
+Com base nisso, rascunhei uma **rotina diária** que pretendo seguir:
+
+* Acordar (em um horário razoável)
+* Cuidados iniciais (higiene pessoal, etc.)
+* Ler algo (mesmo que pouco, para destravar)
+* Exercícios (caminhada ou algo leve)
+* Tarefas do blog Deviagames (pesquisar, escrever opiniando, publicar) - incluindo almoço nesse período.
+* Tarefas de fim de dia (jogar, ler algo diferente ou escrever para este blog)
+* Cuidados finais (higiene noturna, preparar para dormir)
+* Dormir (buscando ter uma boa noite de sono)
+
+Este é o plano que pretendo seguir para retomar o ritmo, tanto pessoal quanto nos projetos. Sei que o caminho de volta não será fácil, e a possibilidade de "desistir" assusta, como aconteceu com a rotina de exercícios. Mas a intenção e o desejo de mudar estão aqui.
+
+Manterei vocês atualizados sobre como as coisas estão indo (ou não!). Agradeço a compreensão pela ausência e o carinho de quem acompanha o blog.
+
+Agora, com o cheiro de pizza pairando no ar aqui em casa, é hora de tentar descansar.
