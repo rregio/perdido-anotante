@@ -3,14 +3,17 @@
 <head>
   
 <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM12R0NJLM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZM12R0NJLM');
-  </script>
+  {% if jekyll.environment == "production" or site.url contains "netlify.app" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM12R0NJLM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-ZM12R0NJLM');
+    </script>
+  {% endif %}
   <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
   <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape }}">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6005667592743973" crossorigin></script>
