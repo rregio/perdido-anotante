@@ -3,7 +3,8 @@ layout: posts
 title: Jogos antigos mas ainda ativos
 description: Post onde falo sobre alguns games online antigos mas que ainda estão ativos.
 date: 2025-04-12 16:17:00
-categories: [game,antigos]
+categories: ['game','antigos']
+tags: ['games anos 2000','antigos','tibia','priston tale','Mu online','Counter Striker','The Sims','perdido anotante']
 lang: pt
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
 header_image_size: 2048

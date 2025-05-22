@@ -3,7 +3,8 @@ layout: posts
 title: Li o livro "Roube como um artista"
 description: Post onde falo o que achei do livro que li, livro "Roube como um artista"
 date: 2025-02-27 23:01:00
-categories: [leituras]
+categories: ['livros', 'resenhas-e-resumos', 'Criatividade', 'desenvolvimento-pessoal']
+tags: ['Roube como um Artista', 'Austin Kleon', 'Criatividade', 'Inspiração', 'Imitação', 'Compartilhar Trabalho', 'Timidez', 'Ânimo', 'Bloqueio Criativo', 'Gamer', 'Música', 'Anotações']
 lang: pt
 header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
 header_image_size: 2048

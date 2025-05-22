@@ -3,7 +3,8 @@ layout: posts
 title: Reading and thoughts on the book Steal like an artist
 description: Post where I talk about what I thought of the book I read, the book "Steal Like an Artist"
 date: 2025-02-28 23:01:00
-categories: [readings]
+categories: ['books', 'reviews-and-summaries', 'Creativity', 'personal-development']
+tags: ['Steal Like an Artist', 'Austin Kleon', 'Creativity', 'Inspiration', 'Imitation', 'Sharing Work', 'Shyness', 'Encouragement', 'Creative Block', 'Gamer', 'Music', 'Notes']
 lang: en
 header_image: /assets/imagens/li-o-livro-roube-como-um-artista.jpeg
 header_image_size: 2048

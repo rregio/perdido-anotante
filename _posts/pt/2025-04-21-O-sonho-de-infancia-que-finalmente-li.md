@@ -3,7 +3,8 @@ layout: posts
 title: O livro que é um sonho de infância e que finalmente li
 description: Post onde falo de um livro que sempre quis ler, mas nunca tive oportunidade.
 date: 2025-04-21 10:15
-categories: ['leituras', 'resumo']
+categories: ['leituras', 'resumo','classico','ficao-cientifica']
+tags: ['Viagem ao Centro da Terra', 'Júlio Verne', 'Ficção Científica', 'Aventura', 'Clássico da Literatura', 'Resumo de Livro', 'Sonho de Infância', 'Geladeira Literária', 'Exploração Subterrânea']
 lang: pt
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
 header_image_size: 2048

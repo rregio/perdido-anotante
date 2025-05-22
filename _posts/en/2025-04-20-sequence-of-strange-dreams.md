@@ -3,7 +3,8 @@ layout: posts
 title: The Recurring Dream of Being Naked in Public (Again)
 description: Post where I talk about some dreams I've been having recently.
 date: 2025-04-20 09:33
-categories: ['mental', 'dream']
+categories: ['psicologo', 'sonho']
+tags: ['sonhos estranhos','interpretação de sonhos','sonhos recorrentes','nudez em sonho','memórias da infância', 'inconsciência','perdido anotante']
 lang: en
 header_image: /assets/imagens/sonho-estranho.jpeg
 header_image_size: 2048

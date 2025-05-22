@@ -3,7 +3,8 @@ layout: posts
 title: Dificulties when as a child in a psychologist consulation
 description: Post about my difficulties as a child in consultation with a psychologist
 date: 2025-02-27 23:01:00
-categories: [mental]
+categories: ['reflections', 'childhood', 'mental-health']
+tags: ['Childhood Difficulties', 'Autism', 'Quirks', 'Nocturnal Enuresis', 'Riding a Bike', 'Tying Shoelaces', 'Childhood Memories', 'Attention']
 lang: en
 header_image: /assets/imagens/dificuldades-da-infancia.jpeg
 header_image_size: 2048

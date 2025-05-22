@@ -3,7 +3,8 @@ layout: posts
 title: Outra consulta, outras anotações
 description: Post onde falo sobre outra consulta ao psicólogo. Quis saber sobre ciumes com meu irmão.
 date: 2025-03-06 23:01:00
-categories: [psicologo]
+categories: ['reflexoes', 'relacionamentos', 'familia', 'saude-mental', 'experiencias-pessoais']
+tags: ['Irmão', 'Relacionamento Familiar', 'Ciúmes', 'Inveja', 'Infância', 'Tratamento Diferente', 'Amigos', 'Esportes', 'Crise de Choro', 'Saúde Mental', 'Terapia', 'Sentimentos']
 lang: pt
 header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg
 header_image_size: 2048

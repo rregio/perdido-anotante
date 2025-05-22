@@ -3,7 +3,8 @@ layout: posts
 title: Doing different things
 description: Post where I say that I make a recommendation from my psychologist.
 date: 2025-04-03 10:41:00
-categories: [mental]
+categories: ['mental-health', 'reflections', 'personal-experiences', 'cooking']
+tags: ['Psychologist', 'Therapeutic Recommendation', 'Doing Different Things', 'Cooking', 'Rice and Beans', 'Help from Mom', 'Independence', 'Motivation', 'Lack of Motivation', 'Rice Pudding', 'Habits']
 lang: en
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048
@@ -25,3 +26,5 @@ I don't know if it was worth the experience due to these factors (not being able
 I still wanted to make other things, but the fact that she didn't make it makes it difficult for me to try again... But there are still things I want to make, like rice pudding.
 
 If I make it, I'll post it here, but I don't know if I will. And so we end another note.
+
+PS: Some time later (it's now 22/05/2025) and I haven't done anything different like that anymore. I don't feel motivated to do anything similar.

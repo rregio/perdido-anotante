@@ -3,7 +3,8 @@ layout: posts
 title: More about me
 description: Post where I give more context about myself and my last steps before creating the blog.
 date: 2025-04-04 23:01:00
-categories: [about]
+categories: ['about-me', 'introduction', 'personal-experiences', 'career', 'gaming', 'youtube', 'reflections']
+tags: ['About Me', 'Introduction', 'Personal Blog', 'Life Story', 'Career', 'Drawing', 'Architecture', 'IT', 'Programming', 'Help Desk', 'YouTube', 'Gaming', 'Fortnite', 'Disappointment', 'Restart', 'Lost Note-taker', 'First Post']
 lang: en
 header_image: /assets/imagens/mais-sobre-mim.png
 header_image_size: 2048
