@@ -3,9 +3,9 @@ layout: posts
 title: Start or maintain a routine??
 description: "A personal reflection on the challenge of maintaining new habits, such as exercise and diet, after the initial excitement. I share my experience with walking and try to understand why we give up."
 date: 2025-05-11
-categories: ["habits","routine", "motivation", "personal development"]
+categories: ['habits', 'motivation', 'routine', 'health', 'well-being', 'reflections', 'personal-experiences']
+tags: ['Start Routine', 'Maintain Routine', 'Discipline', 'Motivation', 'New Habit', 'Daily Routine', 'Physical Health', 'Mental Health', 'Exercises', 'Diet', 'Weight Loss', 'Social Support', 'Flexibility', 'Enjoyment in Activities']
 lang: en
-ags: ["fitness", "health", "exercises", "diet", "pandemic"]
 header_image: /assets/imagens/comecar-ou-manter-uma-rotina.jpg
 header_image_size: 2048
 excerpt: "Starting something new is always full of energy and anticipation. Whether it’s a diet, an exercis..."

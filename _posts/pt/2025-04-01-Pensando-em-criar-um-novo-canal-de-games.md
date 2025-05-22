@@ -3,7 +3,8 @@ layout: posts
 title: Pensando em criar um novo canal de games
 description: Post onde falo que estava pensando em criar um novo canal de games no Youtube.
 date: 2025-04-01 13:02:00
-categories: [game]
+categories: ['youtube', 'gaming', 'reflexoes', 'projetos-pessoais', 'mundo-gamer']
+tags: ['Canal de Games', 'YouTube', 'Criação de Conteúdo', 'Comunidade Gamer', 'Competitividade', 'Ideias para Canal', 'Game in Game', 'Free Games On', 'Minecraft', 'Fortnite', 'Pressão da Comunidade', 'Desistência', 'Jogar por Prazer']
 lang: pt
 header_image: /assets/imagens/pensando-em-criar-canal-de-games.jpeg
 header_image_size: 2048

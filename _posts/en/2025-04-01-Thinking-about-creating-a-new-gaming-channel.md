@@ -3,7 +3,8 @@ layout: posts
 title: Thinking about creating a new gaming channel
 description: Post where I say that I was thinking about creating a new gaming channel on YouTube.
 date: 2025-04-01 13:02:00 
-categories: ["gaming"]
+categories: ['youtube', 'gaming', 'reflections', 'personal-projects', 'gamer-world']
+tags: ['Game Channel', 'YouTube', 'Content Creation', 'Gamer Community', 'Competitiveness', 'Channel Ideas', 'Game in Game', 'Free Games On', 'Minecraft', 'Fortnite', 'Community Pressure', 'Giving Up', 'Playing for Fun']
 lang: en
 header_image: /assets/imagens/pensando-em-criar-canal-de-games.jpeg
 header_image_size: 2048

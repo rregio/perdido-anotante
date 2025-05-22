@@ -3,7 +3,8 @@ layout: posts
 title: Tentando criar uma ideia á partir de um livro.
 description: Um post onde venho pensando sobre ideias.
 date: 2025-04-27
-categories: ["mental"]
+categories: ['escrita', 'criatividade', 'observacao', 'desenvolvimento-pessoal', 'reflexoes', 'cotidiano']
+tags: ['Ideias para Escrever', 'Observação de Pessoas', 'Ponto de Ônibus', 'Cotidiano Anotado', 'A Mágica de Pensar Grande', 'Gemini', 'Inspiração', 'Execução', 'Ânimo']
 lang: pt
 header_image: /assets/imagens/uma-grande-ideia.jpeg
 header_image_size: 2048

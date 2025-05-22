@@ -3,7 +3,8 @@ layout: posts
 title: Should I go back to IT??
 description: Post where I wonder if I should go back to IT.
 date: 2025-04-08 17:24:00
-categories: [professional]
+categories: ['career', 'IT', 'reflections', 'mental-health', 'personal-projects']
+tags: ['Back to IT', 'IT Career', 'Programming', 'Fear of Failure', 'Insecurity', 'Discouragement', 'Employment', 'Remuneration', 'Feeling of Uselessness', 'Blog']
 lang: en
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg
 header_image_size: 2048

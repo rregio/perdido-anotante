@@ -3,7 +3,8 @@ layout: posts
 title: Long walk at dawn
 description: I decided to take a walk with my notebook, the longest I could that day.
 date: 2025-04-29
-categories: ["walking", 'memories']
+categories: ['walks', 'reflections', 'memories', 'barueri', 'everyday life']
+tags: ['Walk', 'Barueri', 'Memories', 'Father', 'Nostalgia', 'Observation', 'Market', 'Emergency Room', 'Rua da Prata', 'Municipal Library', 'SENAI', 'Save Time', 'Time', 'Feeling of Loss']
 lang: en
 header_image: /assets/imagens/caminhada-longa-ao-amanhecer.jpeg
 header_image_size: 2048

@@ -3,7 +3,8 @@ layout: posts
 title: Fazendo coisas diferentes
 description: Post onde falo que faço uma recomendação do meu psicólogo.
 date: 2025-04-03 10:41:00
-categories: [psicologo]
+categories: ['saude-mental', 'reflexoes', 'experiencias-pessoais', 'culinaria']
+tags: ['Psicólogo', 'Recomendação Terapêutica', 'Fazer Coisas Diferentes', 'Cozinhar', 'Arroz e Feijão', 'Ajuda da Mãe', 'Independência', 'Motivação', 'Falta de Motivação', 'Arroz Doce', 'Hábitos']
 lang: pt
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048
@@ -25,3 +26,5 @@ Não sei se valeu a experiencia devido a esses fatores (não ter conseguido me l
 Ainda queria fazer outras coisas mas o fato de ela não sair me dificulta a tentar novamente... Mas ainda há coisas que quero fazer como um arroz doce.
 
 Se eu fizer posto aqui, mas não sei se farei. E assim terminamos mais uma anotação.
+
+PS: Algum tempo depois (agora é 22/05/2025 e) não fiz mais nada de diferente assim. Não me sinto motivado a fazer algo parecido.

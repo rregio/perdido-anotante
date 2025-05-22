@@ -3,9 +3,9 @@ layout: posts
 title: Morning walk, to Tierra del Fuego
 description: "From the tranquility of the roadside to the hustle and bustle of the city center and the curiosity of a new park, follow this walk full of observations and future plans."
 date: 2025-05-19 07:30
-categories: ["walks", "Urban-Exploration", "Personal-Stories"]
+categories: ["walks", "urban-exploration", "personal-stories"]
+tags: ["Walk", "Exploration", "City", "Memories", "Daily Life", "Tierra del Fuego", "Anhanguera Museum", "Olinda", "Reflections", "lostnote"]
 lang: en
-tags: ["walk", "exploration", "city", "memories", "everyday life", "Tierra do Fogo", "Anhanguera Museum", "Olinda","reflections", "lostnotetaker"]
 header_image: /assets/imagens/mais-uma-caminhada-longa.png
 header_image_size: 1080
 excerpt: "Right after the previous notes (at dawn) I decided to go for a walk, I just had my coffee..."

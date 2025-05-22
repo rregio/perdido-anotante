@@ -3,9 +3,9 @@ layout: posts
 title: Caminhada pela manhã, de casa á terra do fogo
 description: "Da tranquilidade da beira da estrada ao burburinho do centro e à curiosidade de um novo parque, acompanhe essa caminhada cheia de observações e planos futuros."
 date: 2025-05-19 07:30
-categories: ["caminhadas", "Exploracao-Urbana", "Relatos-Pessoais"]
+categories: ["caminhadas", "exploracao-urbana", "relatos-pessoais"]
 lang: pt
-tags: ["caminhada", "exploração", "cidade", "lembranças", "cotidiano", "Terra do Fogo", "museu do Anhanguera", "Olinda","reflexões", "perdidoanotante"]
+tags: ["Caminhada", "Exploração", "Cidade", "Lembranças", "Cotidiano", "Terra do Fogo", "Múseu do Anhanguera", "Olinda","Reflexões", "perdidoanotante"]
 header_image: /assets/imagens/mais-uma-caminhada-longa.png
 header_image_size: 1080
 excerpt: "Logo após as anotações anteriores (de madrugada) resolvi fazer uma caminhada, só tomei meu cafézi..."
