@@ -3,9 +3,9 @@ layout: posts
 title: Começar ou manter uma rotina??
 description: "Reflexão pessoal sobre o desafio de manter novos hábitos, como exercícios e dieta, após a empolgação inicial. Compartilho minha experiência com a caminhada e busco entender por que desistimos."
 date: 2025-05-11
-categories: ['habitos', 'motivacao', 'rotina', 'saude', 'bem-estar', 'reflexoes', 'experiencias-pessoais']
+categories: ['Vida E Reflexões']
+tags: ['Começar Rotina', 'Manter Rotina', 'Disciplina', 'Motivação', 'Hábito Novo', 'Rotina Diária', 'Saúde Física', 'Saúde Mental', 'Exercícios', 'Dieta', 'Perda de Peso', 'Apoio Social', 'Flexibilidade', 'Prazer nas Atividades', 'motivacao', 'rotina', 'experiencias-pessoais']
 lang: pt
-tags: ['Começar Rotina', 'Manter Rotina', 'Disciplina', 'Motivação', 'Hábito Novo', 'Rotina Diária', 'Saúde Física', 'Saúde Mental', 'Exercícios', 'Dieta', 'Perda de Peso', 'Apoio Social', 'Flexibilidade', 'Prazer nas Atividades']
 header_image: /assets/imagens/comecar-ou-manter-uma-rotina.jpg
 header_image_size: 2048
 excerpt: "Iniciar algo novo é sempre carregado de energia e expectativa. Seja uma dieta, uma rotina de exer..."

@@ -3,8 +3,8 @@ layout: posts
 title: Pensamentos matutinos - Dia bom, apesar de tudo
 description: Post onde falo meus pensamentos pela manhã após fazer algumas tarefas.
 date: 2025-04-26 04:46:00
-categories: ['blog', 'desenvolvimento-pessoal', 'reflexoes', 'videos', 'empreendedorismo', 'Leituras']
-tags: ['Blog', 'Performance do Blog', 'Google Lighthouse', 'Vídeo', 'Canal do Blog', 'Primeiro Vídeo', 'Mãe', 'Moments Paris', 'Vendas Online', 'A Mágica de Pensar Grande', 'David J. Schwartz', 'Confiança', 'Pensamento Positivo', 'Dia Bom']
+categories: ['Carreira E Desenvolvimento']
+tags: ['Blog', 'Performance do Blog', 'Google Lighthouse', 'Vídeo', 'Canal do Blog', 'Primeiro Vídeo', 'Mãe', 'Moments Paris', 'Vendas Online', 'A Mágica de Pensar Grande', 'David J. Schwartz', 'Confiança', 'Pensamento Positivo', 'Dia Bom', 'blog', 'desenvolvimento-pessoal', 'empreendedorismo']
 lang: pt
 header_image: /assets/imagens/pensamentos-matinais-dia-bom.jpg
 header_image_size: 896

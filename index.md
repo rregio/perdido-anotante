@@ -21,16 +21,54 @@ lang: pt
 <div class="category-list-container">
   <strong>Categorias:</strong>
   <div class="category-list">
-    <a href="#" data-category="all" class="active">Todas</a>
+    <a href="#" data-category="all" class="active category-button">Todas</a>
+    {% assign portuguese_categories = '' | split: ',' %}
     {% for category in site.categories %}
       {% assign posts_in_pt = category.last | where: "lang", "pt" %}
       {% if posts_in_pt.size > 0 and category.first != nil %}
-        {% unless forloop.first %}, {% endunless %}
-        <a href="#" data-category="{{ category.first | slugify }}">{{ category.first }}</a>
+        {% assign portuguese_categories = portuguese_categories | push: category.first %}
       {% endif %}
+    {% endfor %}
+
+    {% for category_name in portuguese_categories %}
+      <a href="#" data-category="{{ category_name | slugify }}" class="category-button">{{ category_name }}</a>
     {% endfor %}
   </div>
 </div>
+
+<style>
+/* Adicione este CSS ao seu arquivo CSS principal (ex: style.css) ou na própria página se for temporário */
+.category-list .category-button {
+  display: inline-block; /* Faz com que os links fiquem lado a lado */
+  padding: 5px 10px; /* Espaçamento interno */
+  margin: 3px; /* Espaçamento entre os botões */
+  border: 1px solid #555; /* Borda leve */
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #333; /* Fundo escuro */
+  color: #eee; /* Cor do texto claro */
+  text-decoration: none; /* Sem sublinhado */
+  font-size: 0.9em; /* Tamanho da fonte um pouco menor */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+}
+
+.category-list .category-button:hover {
+  background-color: #555; /* Mudar cor no hover */
+  color: #fff;
+}
+
+.category-list .category-button.active {
+  background-color: #007bff; /* Cor para a categoria ativa */
+  border-color: #007bff;
+  color: #fff;
+}
+
+.category-list {
+    display: flex; /* Usa flexbox para melhor controle */
+    flex-wrap: wrap; /* Quebra em múltiplas linhas se não couber */
+    gap: 5px; /* Espaço entre os itens flex */
+    margin-top: 5px; /* Espaço acima da lista de botões */
+}
+</style>
 
 <ul class="post-list post-grid">
   {% assign portuguese_posts = site.posts | where: "lang", "pt" %}

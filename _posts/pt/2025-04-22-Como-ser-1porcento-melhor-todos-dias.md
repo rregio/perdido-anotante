@@ -3,8 +3,8 @@ layout: posts
 title: Como ser 1% melhor todos os dias??
 description: Post onde falo de um vídeo que vi e tentei fazer igual.
 date: 2025-04-22 04:46:00
-categories: ['desenvolvimento-pessoal','ia','reflexoes']
-tags: ['Gemini', 'Inteligência Artificial', 'Desenvolvimento Pessoal', 'Melhoria Contínua', 'Hábitos', 'Consistência', 'Pequenos Hábitos', 'Autoconhecimento']
+categories: ['Carreira E Desenvolvimento', 'Vida E Reflexões']
+tags: ['Gemini', 'Inteligência Artificial', 'Desenvolvimento Pessoal', 'Melhoria Contínua', 'Hábitos', 'Consistência', 'Pequenos Hábitos', 'Autoconhecimento', 'desenvolvimento-pessoal', 'ia', 'reflexoes']
 lang: pt
 header_image: /assets/imagens/como-ser-1porcento-melhor-todos-dias.jpg
 header_image_size: 1120

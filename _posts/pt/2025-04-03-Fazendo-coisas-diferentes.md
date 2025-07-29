@@ -3,8 +3,8 @@ layout: posts
 title: Fazendo coisas diferentes
 description: Post onde falo que faço uma recomendação do meu psicólogo.
 date: 2025-04-03 10:41:00
-categories: ['saude-mental', 'reflexoes', 'experiencias-pessoais', 'culinaria']
-tags: ['Psicólogo', 'Recomendação Terapêutica', 'Fazer Coisas Diferentes', 'Cozinhar', 'Arroz e Feijão', 'Ajuda da Mãe', 'Independência', 'Motivação', 'Falta de Motivação', 'Arroz Doce', 'Hábitos']
+categories: ['Vida E Reflexões', 'Cultura E Lazer']
+tags: ['Psicólogo', 'Recomendação Terapêutica', 'Fazer Coisas Diferentes', 'Cozinhar', 'Arroz e Feijão', 'Ajuda da Mãe', 'Independência', 'Motivação', 'Falta de Motivação', 'Arroz Doce', 'Hábitos', 'saude-mental', 'reflexoes', 'culinaria']
 lang: pt
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048

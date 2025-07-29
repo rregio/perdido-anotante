@@ -3,8 +3,8 @@ layout: posts
 title: Mais sobre mim
 description: Post onde dou um contexto maior sobre mim e meus ultimos passos antes de criar o blog.
 date: 2025-04-04 23:01:00
-categories: ['sobre-mim', 'introducao', 'experiencias-pessoais', 'carreira', 'gaming', 'youtube', 'reflexoes']
-tags: ['Sobre Mim', 'Introdução', 'Blog Pessoal', 'História de Vida', 'Carreira', 'Desenho', 'Arquitetura', 'TI', 'Programação', 'Help Desk', 'YouTube', 'Gaming', 'Fortnite', 'Desilusão', 'Recomeço', 'Perdido Anotante', 'Primeiro Post']
+categories: ['Vida E Reflexões', 'Carreira E Desenvolvimento']
+tags: ['Sobre Mim', 'Introdução', 'Blog Pessoal', 'História de Vida', 'Carreira', 'Desenho', 'Arquitetura', 'TI', 'Programação', 'Help Desk', 'YouTube', 'Gaming', 'Fortnite', 'Desilusão', 'Recomeço', 'Perdido Anotante', 'Primeiro Post', 'sobre-mim', 'introducao', 'carreira'] # As antigas categorias adicionadas como tags
 lang: pt
 header_image: /assets/imagens/mais-sobre-mim.png
 header_image_size: 1024

@@ -3,8 +3,8 @@ layout: posts
 title: Pensando sobre concorrência
 description: Lendo o livro tenho pensamentos sobre concorrência.
 date: 2025-04-28
-categories: ['desenvolvimento-pessoal', 'leituras', 'reflexoes', 'cotidiano', 'escrita']
-tags: ['A Mágica de Pensar Grande', 'David J. Schwartz', 'Pensamento Grande', 'Pensamento Mesquinho', 'Concorrência', 'Desenvolvimento Pessoal', 'Auto Confiança', 'TI', 'Projetos Pessoais', 'Cotidiano Anotado e Inventado', 'Observação de Pessoas', 'Ponto de Ônibus', 'Imaginação']
+categories: ['Cultura E Lazer', 'Carreira E Desenvolvimento', 'Vida E Reflexões']
+tags: ['A Mágica de Pensar Grande', 'David J. Schwartz', 'Pensamento Grande', 'Pensamento Mesquinho', 'Concorrência', 'Desenvolvimento Pessoal', 'Auto Confiança', 'TI', 'Projetos Pessoais', 'Cotidiano Anotado e Inventado', 'Observação de Pessoas', 'Ponto de Ônibus', 'Imaginação', 'leituras', 'cotidiano', 'concorrência']
 lang: pt
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg
 header_image_size: 2048

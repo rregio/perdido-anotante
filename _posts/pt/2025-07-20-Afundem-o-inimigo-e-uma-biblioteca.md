@@ -4,8 +4,8 @@ title: A geladeira, uma nova biblioteca e uma aventura em alto mar!
 description: Descobri uma nova biblioteca e me joguei em uma aventura pirata com a resenha do livro "Afundem o Inimigo!", um dos livros da série "Piratas ao Ataque!".
 date: 2025/07/20 12:00
 lang: pt
-categories: [livros,resenhas-e-resumos,resumo,ficção-histórica, leituras,infanto-juvenil,piratas]
-tags: [piratas,Capitão Mongard, Afundem o inimigo,resenha, livro infantil, ficção histórica, geladeira literária, biblioteca]
+categories: ['Cultura E Lazer']
+tags: ['piratas', 'Capitão Mongard', 'Afundem o inimigo', 'resenha', 'livro-infantil', 'ficcao-historica', 'geladeira-literaria', 'biblioteca', 'resenhas-e-resumos', 'ficcao-historica-categoria', 'piratas-categoria']
 header_image: /assets/imagens/a-geladeira-uma-nova-biblioteca-aventura-pirata.jpg
 header_image_size: 896
 excerpt: Fala meus perdidos, na ultima vez que fui a geladeira literária não encontrei muitas obras mas encontrei uma nova biblioteca...
