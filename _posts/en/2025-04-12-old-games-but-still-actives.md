@@ -3,8 +3,8 @@ layout: posts
 title: Old games but still actives
 description: Post where I talk about some old online games that are still active.
 date: 2025-04-12 16:17:00
-categories: ['game','antigos']
-tags: ['games anos 2000','antigos','tibia','priston tale','Mu online','Counter Striker','The Sims','perdido anotante']
+categories: ['Culture and Leisure']
+tags: ['2000s games','old','tibia','priston tale','Mu online','Counter Striker','The Sims','lost note-taker', 'game', 'assets']
 lang: en
 header_image: /assets/imagens/jogos-antigos-ainda-ativos.jpeg
 header_image_size: 2048

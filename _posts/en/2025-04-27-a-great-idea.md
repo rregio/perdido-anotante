@@ -3,8 +3,8 @@ layout: posts
 title: Trying to create an idea from a book
 description: A post where I've been thinking about ideas.
 date: 2025-04-27
-categories: ['writing', 'creativity', 'observation', 'personal-development', 'reflections', 'everyday']
-tags: ['Writing Ideas', 'People Watching', 'Bus Stop', 'Everyday Journaling', 'The Magic of Thinking Big', 'Gemini', 'Inspiration', 'Execution', 'Courage']
+categories: ['Creativity', 'Life and Reflections']
+tags: ['Writing Ideas', 'People Watching', 'Bus Stop', 'Everyday Journaling', 'The Magic of Thinking Big', 'Gemini', 'Inspiration', 'Execution', 'Courage', 'writing', 'creativity', 'everyday life']
 lang: en
 header_image: /assets/imagens/uma-grande-ideia.jpeg
 header_image_size: 2048
