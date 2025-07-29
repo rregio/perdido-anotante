@@ -4,8 +4,8 @@ title: I read 'Too many clones' by Marcelo Leite
 description: I read the book Clones demais by Marcelo Leite, a book that deals with cloning, identical twins, and a mysterious disease.
 date: 2025/05/31 11:11
 lang: en
-categories: ['books','reviews-and-summaries','readings','childrens and young people','science-fiction','brazilian-literature']
-tags: ["cloning","marcelo leite","childrens and young adult book","science fiction","medical ethics","identical twins","literary refrigerator"]
+categories: ['Culture and Leisure']
+tags: ['cloning','marcelo leite','children's-and-young-adult-book','science-fiction','medical-ethics','identical-twins','literary-fridge','reviews','summaries','children's-and-young-adult-book','brazilian-literature']
 header_image: /assets/imagens/clones-demais.jpg
 header_image_size: 896
 excerpt: Today I finished reading 'Clones Demais', by Marcelo Leite. This is another children's book that ...

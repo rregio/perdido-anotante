@@ -3,8 +3,8 @@ layout: posts
 title: Sorry about my absence!
 description: Resolvi criar esse post apesar de não estar nos meus 75% (comum)
 date: 2025-04-29
-categories: ['personal-rants', 'health', 'personal-projects', 'routine', 'personal-development']
-tags: ['Absence of Blog', 'Personal Challenges', 'Creative Block', 'Gallstones', 'Health', 'Unemployment', 'YouTube', 'I Should Play Games', 'New Blog', 'Development', 'AI', 'Games', 'IDE Cursor', 'Routine', 'Exercises', 'Walking', 'Sleep']
+categories: ['Life and Reflections', 'Career and Development', 'Culture and Leisure']
+tags: ['Absence of Blog', 'Personal Challenges', 'Creative Block', 'Gallstones', 'Health', 'Unemployment', 'YouTube', 'Deva Games', 'New Blog', 'Development', 'AI', 'Games', 'IDE Cursor', 'Routine', 'Exercises', 'Walking', 'Sleep', 'personal rants', 'health', 'routine']
 lang: en
 header_image: /assets/imagens/desconfortavel.jpg
 header_image_size: 896

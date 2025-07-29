@@ -3,8 +3,8 @@ layout: posts
 title: My few relationships
 description: "My thoughts and memories right after masturbating."
 date: 2025-05-19 04:36
-categories: ["Personal Stories", "Rants", "Experiences"]
-tags: ["relationships", "opposite sex", "friendship", "self-esteem", "childhood", "adolescence", "first contacts", "reflections", "perdidoanotante"]
+categories: ['Life and Reflections']
+tags: ["relationships", "opposite sex", "friendship", "self-esteem", "childhood", "adolescence", "first contacts", "reflections", "lost note", "personal stories", "rants", "experiences"]
 lang: en
 header_image: /assets/imagens/poucos-relacionamentos.jpg
 header_image_size: 896

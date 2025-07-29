@@ -3,8 +3,8 @@ layout: posts
 title: My Childhood Dream Book
 description: Post where I talk about a book I always wanted to read, but never had the chance.
 date: 2025-04-21 10:15
-categories: ['readings', 'summary','classic','science-fiction']
-tags: ['Journey to the Center of the Earth', 'Jules Verne', 'Science Fiction', 'Adventure', 'Literary Classic', 'Book Summary', 'Childhood Dream', 'Literary Refrigerator', 'Underground Exploration']
+categories: ['Culture and Leisure']
+tags: ['Journey to the Center of the Earth', 'Jules Verne', 'Science Fiction', 'Adventure', 'Literary Classic', 'Book Summary', 'Childhood Dream', 'Literary Refrigerator', 'Underground Exploration', 'summary', 'classic', 'science-fiction']
 lang: en
 header_image: /assets/imagens/viagem-ao-centro-da-terra.jpeg
 header_image_size: 2048
