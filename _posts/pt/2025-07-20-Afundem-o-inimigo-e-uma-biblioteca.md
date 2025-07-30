@@ -20,6 +20,8 @@ Fala, meus perdidos!
 
 Na última vez que fui à "geladeira literária", não encontrei muitas obras por lá. Para ser sincero, só havia um livro que eu não acho que leria se tivesse mais opções (mas falarei dele no próximo post!). Infelizmente, acredito que a "geladeira" será removida, pois, no dia 29/07, ela estava com bem poucos livros. Como estava realmente abandonada no parque, talvez a remoção seja o melhor. Mas o livro tema deste post eu encontrei em uma biblioteca que não conhecia ainda, e o melhor: bem perto de onde eu pegava os livros da "geladeira"!
 
+E hoje vamos falar do livro 'Afundem o inimigo!' da sére 'Piratas ao ataque' do autor Sebastiano Ruiz Mignone.
+
 
 ### Embarcando com o Capitão Mongard
 
