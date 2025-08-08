@@ -5,7 +5,7 @@ description: "I read a book from the famous Vaga-lume series, 'In the Vampire's 
 date: 2025-05-22 00:22
 lang: en
 categories: ['Culture and Leisure', 'Life and Reflections']
-tags: ['In the Vampire's Sight', 'Lopes dos Santos', 'Vagalume Series', 'Brazilian Literature', 'Children's and Young Adult Book', 'Book Review', 'Mystery', 'Suspense', 'Nostalgia', 'Childhood', 'Adolescence', 'Literary Refrigerator', 'Unexpected Ending', 'reviews', 'summaries', 'children's and young adult', 'nostalgia']
+tags: ['In the Vampires Sight', 'Lopes dos Santos', 'Vagalume Series', 'Brazilian Literature', 'Childrens and Young Adult Book', 'Book Review', 'Mystery', 'Suspense', 'Nostalgia', 'Childhood', 'Adolescence', 'Literary Refrigerator', 'Unexpected Ending', 'reviews', 'summaries', 'childrens and young adult', 'nostalgia']
 header_image: /assets/imagens/na-mira-do-vampiro.jpg
 header_image_size: 896
 excerpt: "I recently had the pleasure of revisiting the famous **Vaga-lume series**, an old collection of b..."

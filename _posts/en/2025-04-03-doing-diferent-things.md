@@ -4,7 +4,7 @@ title: Doing different things
 description: Post where I say that I make a recommendation from my psychologist.
 date: 2025-04-03 10:41:00
 categories: ['Life and Reflections', 'Culture and Leisure']
-tags: ['Psychologist', 'Therapeutic Recommendation', 'Doing Different Things', 'Cooking', 'Rice and Beans', 'Mother's Help', 'Independence', 'Motivation', 'Lack of Motivation', 'Rice Pudding', 'Habits', 'mental health', 'reflections', 'culinary']
+tags: ['Psychologist', 'Therapeutic Recommendation', 'Doing Different Things', 'Cooking', 'Rice and Beans', 'Mothers Help', 'Independence', 'Motivation', 'Lack of Motivation', 'Rice Pudding', 'Habits', 'mental health', 'reflections', 'culinary']
 lang: en
 header_image: /assets/imagens/fazendo-coisas-diferentes.jpeg
 header_image_size: 2048
