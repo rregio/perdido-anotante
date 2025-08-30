@@ -3,7 +3,7 @@ layout: posts
 title: Caminhada longa ao amanhecer
 description: Resolvi fazer uma caminhada com meu caderno, a mais longa que eu pudesse naquele dia.
 date: 2025-04-29
-categories: ['Vida E Reflexões']
+categories: ['Vida-e-Reflexões']
 tags: ['Caminhada', 'Barueri', 'Memórias', 'Pai', 'Nostalgia', 'Observação', 'Mercado', 'Pronto Socorro', 'Rua da Prata', 'Biblioteca Municipal', 'SENAI', 'Ganha Tempo', 'Tempo', 'Sentimento de Perda', 'caminhadas', 'reflexoes', 'cotidiano']
 lang: pt
 header_image: /assets/imagens/caminhada-longa-ao-amanhecer.jpeg

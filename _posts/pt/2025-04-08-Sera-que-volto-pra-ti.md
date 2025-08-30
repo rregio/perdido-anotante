@@ -3,7 +3,7 @@ layout: posts
 title: Será que volto pra TI??
 description: Post onde me pergunto se deveria voltar pra TI.
 date: 2025-04-08 17:24:00
-categories: ['Carreira E Desenvolvimento', 'Vida E Reflexões']
+categories: ['Carreira-e-Desenvolvimento', 'Vida-e-Reflexões']
 tags: ['Voltar para TI', 'Carreira em TI', 'Programação', 'Medo do Fracasso', 'Insegurança', 'Desânimo', 'Emprego', 'Remuneração', 'Sentimento de Inutilidade', 'Blog', 'carreira', 'TI', 'reflexoes']
 lang: pt
 header_image: /assets/imagens/sera-que-volto-pra-ti.jpeg

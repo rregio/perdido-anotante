@@ -3,7 +3,7 @@ layout: posts
 title: "Voltando Depois de Um Tempo"
 description: "Compartilho os motivos da minha ausência recente, falo sobre desafios de saúde e financeiros, e apresento meus próximos passos e novos projetos, incluindo o blog Deviagames e uma nova rotina."
 date: 2025-04-29
-categories: ['Vida E Reflexões', 'Carreira E Desenvolvimento', 'Cultura E Lazer']
+categories: ['Vida-e-Reflexões', 'Carreira-e-Desenvolvimento', 'Cultura-e-Lazer']
 tags: ['Ausência do Blog', 'Desafios Pessoais', 'Bloqueio Criativo', 'Pedra na Vesícula', 'Saúde', 'Desemprego', 'YouTube', 'Devia Games', 'Novo Blog', 'Desenvolvimento', 'IA', 'Games', 'Cursor IDE', 'Rotina', 'Exercícios', 'Caminhada', 'Sono', 'desabafos-pessoais', 'saude', 'rotina']
 lang: pt
 header_image: /assets/imagens/desconfortavel.jpg

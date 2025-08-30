@@ -3,7 +3,7 @@ layout: posts
 title: Porque eu não sigo religião?
 description: Post onde falo o porque não sigo nenhuma religião.
 date: 2025-04-01 13:03:00
-categories: ['Vida E Reflexões']
+categories: ['Vida-e-Reflexões']
 tags: ['Religião', 'Críticas à Religião', 'Hipocrisia', 'Pecado', 'Arrependimento', 'Timidez', 'Justiça', 'Moralidade', 'Céu', 'Purgatório', 'Caso Richthofen', 'Violência Escolar', 'religiao', 'reflexoes', 'criticas-sociais']
 lang: pt
 header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg

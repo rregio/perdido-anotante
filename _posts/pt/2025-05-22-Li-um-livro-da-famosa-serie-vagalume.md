@@ -4,7 +4,7 @@ title: Li um livro da famosa série vagalume!
 description: "Li um livro da famosa série Vaga-lume, o 'Na mira do vampiro'"
 date: 2025-05-22 00:22:00
 lang: pt
-categories: ['Cultura E Lazer', 'Vida E Reflexões']
+categories: ['Cultura-e-Lazer', 'Vida-e-Reflexões']
 tags: ['Na Mira do Vampiro', 'Lopes dos Santos', 'Série Vaga-lume', 'Literatura Brasileira', 'Livro Infantojuvenil', 'Resenha de Livro', 'Mistério', 'Suspense', 'Nostalgia', 'Infância', 'Adolescência', 'Geladeira Literária', 'Final Inesperado', 'resenhas', 'resumos', 'infantojuvenil', 'nostalgia']
 header_image: /assets/imagens/na-mira-do-vampiro.jpg
 header_image_size: 896

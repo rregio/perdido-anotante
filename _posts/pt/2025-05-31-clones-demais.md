@@ -4,7 +4,7 @@ title: Li 'Clones demais' de Marcelo Leite
 description: Li o livro Clones demais de Marcelo Leite, um livro que trata de clonagem, gêmeos univitelino, e uma doença misteriosa.
 date: 2025/05/31 11:11
 lang: pt
-categories: ['Cultura E Lazer']
+categories: ['Cultura-e-Lazer']
 tags: ['clonagem','marcelo leite','livro-infantojuvenil','ficcao-cientifica','etica-medica','gemeos-univitelinos','geladeira-literaria','resenhas','resumos','infanto-juvenil','literatura-brasileira']
 header_image: /assets/imagens/clones-demais.jpg
 header_image_size: 896

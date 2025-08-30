@@ -3,7 +3,7 @@ layout: posts
 title: Dificuldades quando criança em consulta com psicólogo
 description: Post sobre minhas dificuldades quando criança em consulta com psicólogo
 date: 2025-02-27 23:01:00
-categories: [Vida E Reflexões]
+categories: [Vida-e-Reflexões]
 tags: ['Dificuldades na Infância', 'Autismo', 'Manias', 'Enurese Noturna', 'Andar de Bicicleta', 'Amarrar Cadarço', 'Memórias da Infância', 'Atenção']
 lang: pt
 header_image: /assets/imagens/dificuldades-da-infancia.jpeg

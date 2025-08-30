@@ -3,7 +3,7 @@ layout: posts
 title: Meus poucos relacionamentos
 description: "Meus pensamentos e lembranças logo após se masturbar."
 date: 2025-05-19 04:36
-categories: ['Vida E Reflexões']
+categories: ['Vida-e-Reflexões']
 tags: ["relacionamentos", "sexo oposto", "amizade", "autoestima", "infância", "adolescência", "primeiros contatos", "reflexões", "perdidoanotante", "relatos-pessoais", "desabafos", "experiencias"]
 lang: pt
 header_image: /assets/imagens/poucos-relacionamentos.jpg

@@ -3,7 +3,7 @@ layout: posts
 title: Uma sequencia de sonhos estranhos
 description: Post onde falo sobre alguns sonhos que estou tendo recentemente.
 date: 2025-04-20 09:33
-categories: ['Vida E Reflexões']
+categories: ['Vida-e-Reflexões']
 tags: ['sonhos estranhos','interpretação de sonhos','sonhos recorrentes','nudez em sonho','memórias da infância', 'inconsciência','perdido anotante', 'psicologo', 'sonho', 'bar']
 lang: pt
 header_image: /assets/imagens/sonho-estranho.jpeg

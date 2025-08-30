@@ -4,7 +4,7 @@ title: Resenha de Maggie e a Guerra do Chocolate — ou como ser a melhor amiga 
 description: A resenha de um dos livros mais importante que li recentemente, sobre como ser o melhor amigo mesmo em tempos dificeis.
 date: 2025/07/25 12:00
 lang: pt
-categories: ['Cultura E Lazer']
+categories: ['Cultura-e-Lazer']
 tags: ['resenha','livro','Maggie e a Guerra do Chocolate','leitura','literatura infantil','história infantil','amizade','Segunda Guerra Mundial','guerra do chocolate','Canadá','indicação de leitura','recomendação de livro','reflexão literária','infância','blog literário','perdidos na leitura']
 header_image: /assets/imagens/maggie2.png
 header_image_size: 512
