@@ -4,7 +4,7 @@ title: I read a book from the famous Firefly series!
 description: "I read a book from the famous Vaga-lume series, 'In the Vampire's Sight'"
 date: 2025-05-22 00:22
 lang: en
-categories: ['Culture and Leisure', 'Life and Reflections']
+categories: ['Culture-and-Leisure', 'Life-and-Reflections']
 tags: ['In the Vampires Sight', 'Lopes dos Santos', 'Vagalume Series', 'Brazilian Literature', 'Childrens and Young Adult Book', 'Book Review', 'Mystery', 'Suspense', 'Nostalgia', 'Childhood', 'Adolescence', 'Literary Refrigerator', 'Unexpected Ending', 'reviews', 'summaries', 'childrens and young adult', 'nostalgia']
 header_image: /assets/imagens/na-mira-do-vampiro.jpg
 header_image_size: 896

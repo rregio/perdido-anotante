@@ -3,7 +3,7 @@ layout: posts
 title: The Recurring Dream of Being Naked in Public (Again)
 description: Post where I talk about some dreams I've been having recently.
 date: 2025-04-20 09:33
-categories: ['Life and Reflections']
+categories: ['Life-and-Reflections']
 tags: ['strange dreams','dream interpretation','recurring dreams','nudity in dreams','childhood memories','unconsciousness','lost note-taker','psychologist','dream','bar']
 lang: en
 header_image: /assets/imagens/sonho-estranho.jpeg

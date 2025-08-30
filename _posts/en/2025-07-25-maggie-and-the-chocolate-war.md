@@ -4,7 +4,7 @@ title: Review of Maggie and the Chocolate War — or how to be the world's best 
 description: A review of one of the most important books I've read recently, about how to be a best friend even in difficult times.
 date: 2025/07/25 12:00
 lang: en
-categories: ['Culture and Leisure']
+categories: ['Culture-and-Leisure']
 tags: ['review','book','Maggie and the Chocolate War','reading','childrens literature','childrens story','friendship','World War II','chocolate war','Canada','reading suggestion','book recommendation','literary reflection','childhood','literary blog','lost in reading']
 header_image: /assets/imagens/maggie2.png
 header_image_size: 512

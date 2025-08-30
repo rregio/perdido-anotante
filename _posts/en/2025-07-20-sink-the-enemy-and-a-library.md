@@ -4,7 +4,7 @@ title: The refrigerator, a new library and an adventure on the high seas!
 description: I discovered a new library and threw myself into a piate adventure with the review of \'Sink The Enemy!\', one of the books in the \'Pirates Attack\' series.
 date: 2025/07/20 12:00
 lang: en
-categories: ['Culture and Leisure']
+categories: ['Culture-and-Leisure']
 tags: ['pirates','Captain Mongard','Sink the Enemy','review','children book','historical fiction','literary fridge','library', 'reviews-and-summaries','historical-fiction-category','pirates-category']
 header_image: /assets/imagens/a-geladeira-uma-nova-biblioteca-aventura-pirata.jpg
 header_image_size: 896

@@ -3,7 +3,7 @@ layout: posts
 title: Another consultation, other notes
 description: Post where I talk about another consultation with a psychologist. I wanted to know about jealousy with my brother.
 date: 2025-03-06 23:01:00
-categories: ['Life and Reflections']
+categories: ['Life-and-Reflections']
 tags: ['Brother', 'Family Relationships', 'Jealousy', 'Envy', 'Childhood', 'Different Treatment', 'Friends', 'Sports', 'Crying Spell', 'Mental Health', 'Therapy', 'Feelings', 'Reflections', 'Relationships', 'Family']
 lang: en
 header_image: /assets/imagens/outra-consulta-outras-anotacoes.jpeg

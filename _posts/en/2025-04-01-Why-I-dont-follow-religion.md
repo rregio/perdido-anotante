@@ -3,7 +3,7 @@ layout: posts
 title: Why I don't follow religion?
 description: Post where I talk about why I don't follow any religion.
 date: 2025-04-01 13:03:00
-categories: ['Life and Reflections']
+categories: ['Life-and-Reflections']
 tags: ['Religion', 'Criticism of Religion', 'Hypocrisy', 'Sin', 'Repentance', 'Shyness', 'Justice', 'Morality', 'Heaven', 'Purgatory', 'Richthofen Case', 'School Violence', 'religion', 'reflections', 'social-criticism']
 lang: en
 header_image: /assets/imagens/porque-nao-sigo-religioes.jpeg

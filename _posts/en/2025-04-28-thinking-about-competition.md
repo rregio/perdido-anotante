@@ -3,7 +3,7 @@ layout: posts
 title: Thinking about competition
 description: Reading the book I have thoughts about competition.
 date: 2025-04-28
-categories: ['Culture and Leisure', 'Career and Development', 'Life and Reflections']
+categories: ['Culture-and-Leisure', 'Career-and-Development', 'Life-and-Reflections']
 tags: ['The Magic of Thinking Big', 'David J. Schwartz', 'Thinking Big', 'Thinking Small', 'Competition', 'Personal Development', 'Self-Confidence', 'IT', 'Personal Projects', 'Noted and Invented Daily Life', 'People Watching', 'Bus Stop', 'Imagination', 'readings', 'everyday life', 'competition']
 lang: en
 header_image: /assets/imagens/pensando-sobre-concorrencia.jpeg

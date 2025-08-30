@@ -3,7 +3,7 @@ layout: posts
 title: Morning thoughts - A good day despite everything
 description: Post where I talk about my thoughts in the morning after doing some tasks.
 date: 2025-04-22 04:46:00
-categories: ['Career and Development']
+categories: ['Career-and-Development']
 tags: ['Blog', 'Blog Performance', 'Google Lighthouse', 'Video', 'Blog Channel', 'First Video', 'Mom', 'Moments Paris', 'Online Sales', 'The Magic of Thinking Big', 'David J. Schwartz', 'Confidence', 'Positive Thinking', 'Good Day', 'blog', 'personal-development', 'entrepreneurship']
 lang: en
 header_image: /assets/imagens/pensamentos-matinais-dia-bom.jpg
