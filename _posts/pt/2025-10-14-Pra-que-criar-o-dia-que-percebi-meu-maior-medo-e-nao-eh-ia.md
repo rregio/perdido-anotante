@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "IA Escreve Melhor? Por Que Continuar Criando Quando Me Sinto Inútil"
+title: "Ferramentas Fazem Isso Melhor!! Por Que Continuar Criando Quando Me Sinto Inútil"
 description: "Reflexões íntimas sobre o medo de ser inútil na era das ferramentas que 'entregam' tudo pronto. A comparação com a IA e a busca por nosso valor no processo criativo."
 date: 2025-10-17 08:30:00 # Data atualizada para o insight final (dia 17)
 lang: pt
