@@ -8,7 +8,7 @@ categories: [Vida-e-Reflexões]
 tags: [autoestima,relação familiar,feedback,psicologia,crescimento Pessoal,Cotidiano,Lavar Louça,Pensamentos Intrusivos,Memórias,vida real,tédio,reflexão,autoconhecimento,ociosidade,saúde mental]
 header_image: /assets/imagens/lavando-loucas.png
 header_image_size: 2048
-excerpt: "Hoje fiquei sem super estimulos por uma hora, e vou tentar fazer mais isso. E esse foi o resultado disso..."
+excerpt: "Hoje fiquei sem telas por uma hora, e vou tentar fazer mais isso. E esse foi o resultado disso..."
 comments: true
 ---
 
