@@ -5,7 +5,7 @@ description: "Hoje fiquei sem super estimulos por uma hora, e vou tentar fazer m
 date: 2025-12-15 23:30:00
 lang: pt
 categories: [Vida-e-Reflexões]
-tags: []
+tags: [autoestima,relação familiar,feedback,psicologia,crescimento Pessoal,Cotidiano,Lavar Louça,Pensamentos Intrusivos,Memórias,vida real,tédio,reflexão,autoconhecimento,ociosidade,saúde mental]
 header_image: /assets/imagens/pensando-sobre-ferramentas.png
 header_image_size: 2048
 excerpt: "Hoje fiquei sem super estimulos por uma hora, e vou tentar fazer mais isso. E esse foi o resultado disso..."
