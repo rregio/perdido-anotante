@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Fiquei sem telas por uma hora  - Dia 1"
-description: "Hoje fiquei sem super estimulos por uma hora, e vou tentar fazer mais isso. E esse foi o resultado disso..."
+description: "Hoje fiquei sem telas por uma hora, e vou tentar fazer mais isso. E esse foi o resultado disso..."
 date: 2025-12-15 23:30:00
 lang: pt
 categories: [Vida-e-Reflexões]
