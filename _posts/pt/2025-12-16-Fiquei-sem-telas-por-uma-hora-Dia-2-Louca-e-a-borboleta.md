@@ -5,7 +5,7 @@ description: "Novamente fiquei sem telas por uma hora, mas hoje foi diferente, t
 date: 2025-12-16 9:15:00
 lang: pt
 categories: [Cotidiano]
-tags: []
+tags: [detox digital, lavando louça, rotina, borboleta, gatos, animais de estimação, crônica, vida real, paciência, natureza]
 header_image: /assets/imagens/borboleta-invasora.png
 header_image_size: 2048
 excerpt: "Hoje fiquei sem telas por uma hora denovo, e hoje foi um pouco diferente. Tive um invasor, ou melhor invasora, e tentei a libertar da minha casa... Consegui??"
