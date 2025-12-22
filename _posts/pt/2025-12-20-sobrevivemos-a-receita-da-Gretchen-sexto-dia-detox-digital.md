@@ -1,8 +1,8 @@
 ---
 layout: posts
-title: "Fizemos a Receita da Gretchen e sobrevivemos: Detox Digital - Dia 6"
+title: "Fizemos a Receita da Gretchen e sobrevivemos ao Dia 6"
 description: "Sexto dia da desintoxicação digital com a família da minha sobrinha e a receita da Gretchen."
-date: 2025-12-19 12:00:00
+date: 2025-12-20 20:00:00
 lang: pt
 categories: [Cotidiano]
 tags: [Detox Digital, Cotidiano, Família, Receita da Gretchen, Reflexões, Morceguinha, Saúde Mental, Vida Simples]
