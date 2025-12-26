@@ -8,7 +8,7 @@ categories: [Vida-e-Reflexões]
 tags: [detox digital, simplicidade, memórias de infância, O Príncipe e o Pobre, reflexão, nostalgia, previsão, destino, superação]
 header_image: /assets/imagens/ponte-relatada-no-livro-imaginada-por-mim.jpeg
 header_image_size: 2048
-excerpt: "Estou aqui em mais um dia desse pequeno "detox digital" (que é ficar ao menos uma hora sem telas) e nesse dia depois de um dia maravilhoso no chafariz do parque da juventude..."
+excerpt: "Estou aqui em mais um dia desse pequeno 'detox digital' (que é ficar ao menos uma hora sem telas) e nesse dia depois de um dia maravilhoso no chafariz do parque da juventude..."
 comments: true
 ---
 Fala meus perdidos preferidos, estou aqui em mais um dia desse pequeno "detox digital" (que é ficar ao menos uma hora sem telas) e nesse dia depois de um dia maravilhoso no chafariz do parque da juventude, me sinto mais animado pra fazer as coisas, então meu dia foi "cheio" de coisas pra fazer (ao menos pra mim foi cheio, pode ser que pra outras pessoas não tenha sido kkkk)...
