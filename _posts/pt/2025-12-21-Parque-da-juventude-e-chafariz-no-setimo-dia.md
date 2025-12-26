@@ -4,7 +4,7 @@ title: "Parque da Juventude e chafariz no dia 7 do detox digital"
 description: "Sétimo dia da desintoxicação digital, e teve rolezinho no parque com banho de chafariz, com a minha outra sobrinha (Sophia)"
 date: 2025-12-21 21:00:00
 lang: pt
-categories: [Cultura-e-lazer]
+categories: [Cultura-e-Lazer]
 tags: [Detox Digital, Parque da Juventude, Família, Chafariz, Lazer, Saúde Mental, Vida Simples, Sophia, Recuperação, Vlog de Domingo]
 header_image: /assets/imagens/chafariz-parque-da-juventude.jpg
 header_image_size: 2048
