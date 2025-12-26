@@ -15,7 +15,7 @@ comments: true
 Fala meus perdidos, e hoje é o sétimo dia escrevendo e publicando diariamente fazendo um detox digital de ao menos uma hora sem telas.
 Faço essa anotação já na segunda feira pois no domingo (dia em que era pra ter publicado isso) fiquei cansado demais pra algumas coisas (como o caderno, blog e canais).
 
-<img loading='lazy' alt="Minha foto no parque tentando mostrar um pouco o chafariz!" src="/assets/imagens/chafariz-parque-da-juventude.jpg" width="400" height="400">
+<img loading='lazy' alt="Minha foto no parque tentando mostrar um pouco o chafariz!" src="/assets/imagens/chafariz-parque-da-juventude.jpeg" width="400" height="400">
 
 Pra começar acordei já muito tarde... era umas 11 horas da manhã, então foi aquela rotina de sempre, fui postar no blog o que fiz no sexto dia (o da receita da gretchen) e só restou tempo pra almoçar... o que já era umas 13 horas e enquanto isso minha mãe falava o que ia fazer no dia... que era basicamente levar minha sobrinha no **Parque da Juventude** e ela ficou falando da atração principal (pode não ser pra outras pessoas, mas foi pra mim kkkk) do parque que era um **chafariz** onde todos podiam brincar com água. E eu pensei... ***onde tem água eu tô dentro*** e antes de ir peguei uma camisa de proteção contra raios UV. E depois disso fomos pegar a bonita em sua casa.
 
