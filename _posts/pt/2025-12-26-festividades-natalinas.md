@@ -14,7 +14,7 @@ comments: true
 
 Salve caderno / blog do perdido. Hoje dia 26 pós as festividades da Dona Natalina (uma clara zoeira do meme) e eu não havia escrito nada desde o dia 22 e vou fazer um breve resumo do que me aconteceu.
 
-<img loading='lazy' alt="Foto do desenho que fiz imaginando a ponte relatada no livro, ao final do post. O livro dizia que a ponte meio que tinha uma cidade nela onde pessoas nasciam, cresciam e morriam naquele lugar!" src="/assets/imagens/festividades-natalinas.png" width="400" height="400">
+<img loading='lazy' alt="Representação do calor de Natal: entre telhas de amianto e a busca por um ventilador no coração da cidade." src="/assets/imagens/festividades-natalinas.png" width="400" height="400">
 
 Dia 23 à noite fiz uma live de Green Hell (tentando refazer ou gerar outro video altamente pesquisável, esse game me rendeu um short que teve mais de 5000 views só pelas pesquisas realizadas no youtube) isso pro meu canal, o naoehpro, segue video que falo!(https://youtube.com/@naoehpro)[https://youtube.com/shorts/eJhIbRgdxvI] e fiz uns dois outros shorts da live no dia 24. Depois disso lavei algumas louças do almoço e quis ir ao parque da juventude, e até fomos com minha mãe. E ela queria me levar porque o parque poderia estar fechado, e realmente estava, então fomos de carro. Se eu tivesse ido á pé eu estaria lascado pois o dia estava quente demais (ah que novidade do verão brasileiro).
 
