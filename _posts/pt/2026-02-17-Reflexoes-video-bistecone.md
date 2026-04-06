@@ -6,7 +6,7 @@ date: 2026-02-17 21:00:00
 lang: pt
 categories: [Vida-e-Reflexões]
 tags: ["liberdade", "experiências de vida", "autonomia", "maturidade", "Peruibe"]
-header_image: /assets/imagens/reflexoes-videeo-bistecone.png
+header_image: /assets/imagens/reflexoes-video-bistecone.png
 header_image_size: 2048
 excerpt: "Esse texto é foi escrito após ter visto um video do criador Bistecone e ele fala sobre experiê..."
 comments: true
